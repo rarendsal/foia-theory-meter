@@ -33,7 +33,24 @@ never touches `/search/`. The default delay is now 10 s.
 The full library doesn't fit in a reasonable polite crawl, so the scraper **prioritises document pages** (title,
 metadata, on-page body text) over listings and PDFs. The site's banner reports the actual coverage %.
 
-## Run it
+## Sources (use these: cia.gov blocks scripts)
+cia.gov now 302-redirects every automated request to its homepage. The same records are mirrored with
+public APIs, which `scraper/sources.py` imports into the same `state.db` (de-duplicated by CIA-RDP number):
+- **Internet Archive** `ciareadingroom`: ~1.01M docs, a full mirror of the reading room, OCR text included.
+  Plus `cia-collection` (CREST, ~275k), `stargatefiles`, `ufo-files`, `nwcda`, VENONA, NSA Friedman, OSS,
+  Helms, Weisberg JFK, Lazar FBI FOIA, State Dept FOIA.
+- **DocumentCloud**: journalists' and MuckRock FOIA uploads, full text.
+
+```bash
+cd site/scraper
+python3 sources.py ia-topics                      # best first step: every topic alias, docs + text
+python3 sources.py documentcloud --per-query 50
+python3 sources.py ia-bulk --max-requests 2000    # walk the whole ~1M-doc mirror (resumable)
+python3 sources.py status
+python3 build_index.py
+```
+
+## Run it (direct cia.gov scrape, currently blocked)
 ```bash
 cd site/scraper
 python3 scrape.py --estimate                      # robots.txt check + size/time estimate

@@ -3,7 +3,7 @@
    python3 build_index.py            # real scraped data
    python3 build_index.py --demo     # synthetic placeholder docs (UI testing only)"""
 import json, os, re, sqlite3, sys, time
-from site.scraper.topics import load_topics, build_db
+from topics import load_topics, build_db
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, "..", "data", "corpus.json")

@@ -103,15 +103,20 @@ class Crawler:
             s.last = time.time(); s.reqs += 1
             try:
                 req = urllib.request.Request(url, headers={"User-Agent": UA})
-                with urllib.request.urlopen(req, timeout=60) as r: body = r.read()
-                if b"<title>Access Denied</title>" in body[:300]:
-                    s.blocked = getattr(s, "blocked", 0) + 1
+                with urllib.request.urlopen(req, timeout=60) as r: body = r.read(); final = r.geturl()
+                # The bot filter now 302s every non-home URL back to /readingroom. urllib follows
+                # that silently, so treat "asked for X, landed on the homepage" as a block.
+                redirected_home = final.rstrip("/") in (ROOT.rstrip("/"), BASE + "/readingroom/home") \
+                    and url.rstrip("/") != final.rstrip("/")
+                if redirected_home or b"<title>Access Denied</title>" in body[:300]:
+                    s.blocked = getattr(s, "blocked", 0) + 1; s.was_blocked = True
                     if s.blocked >= 5: raise StopIteration("5 Access Denied responses - site is blocking this client; stopping politely")
-                    print("Access Denied:", url); return None
+                    print("Blocked (redirected to homepage)" if redirected_home else "Access Denied:", url)
+                    return None
                 break
             except urllib.error.HTTPError as e:
                 if e.code in (429, 503): time.sleep(30 * (attempt + 1)); continue
-                if e.code in (302, 403): s.blocked = getattr(s, "blocked", 0) + 1
+                if e.code in (302, 403): s.blocked = getattr(s, "blocked", 0) + 1; s.was_blocked = True
                 if getattr(s, "blocked", 0) >= 5: raise StopIteration("5 Access Denied responses - site is blocking this client; stopping politely")
                 print("HTTP", e.code, url); return None
             except StopIteration:
@@ -148,7 +153,10 @@ class Crawler:
                     row = s.db.execute("select url,kind from frontier where done=0 and kind='pdf' limit 1").fetchone()
                 if not row: print("frontier empty – done"); break
                 url, kind = row
+                s.was_blocked = False
                 body = s.get(url)
+                if s.was_blocked:  # leave it queued for a rerun from a network that isn't blocked
+                    s.db.execute("update frontier set prio=prio+10 where url=?", (url,)); continue
                 s.db.execute("update frontier set done=1 where url=?", (url,))
                 if body is None: continue
                 if kind == "pdf": s.pdf(url, body)
