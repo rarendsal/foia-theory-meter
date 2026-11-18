@@ -1,1 +1,4 @@
 site/scraper/*.db
+site/data/
+site-data.zip
+__pycache__/

@@ -1,0 +1,54 @@
+# Publishes the /site folder to GitHub Pages.
+# The search index is too big for git, so it lives as site-data.zip on the "index" GitHub Release
+# and is unpacked into site/data during the deploy. The scraper folder is never published.
+name: Deploy site to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+    paths: ["site/**", ".github/workflows/pages.yml"]
+  release:
+    types: [published]
+  workflow_dispatch: # "Run workflow" button on the Actions tab (use after uploading a new site-data.zip)
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Copy public files only (skip the scraper)
+        run: |
+          mkdir _public
+          rsync -a --exclude 'scraper/' --exclude 'data/' site/ _public/
+          touch _public/.nojekyll
+
+      - name: Download the search index from the "index" release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release download index --repo "${{ github.repository }}" --pattern site-data.zip --dir /tmp
+          mkdir -p _public/data
+          unzip -q /tmp/site-data.zip -d _public/data
+          echo "Index files: $(find _public/data -type f | wc -l)"
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _public
+
+      - id: deployment
+        uses: actions/deploy-pages@v4

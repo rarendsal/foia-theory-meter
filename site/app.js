@@ -1,4 +1,6 @@
 // Client-side BM25 + topic/alias database + evidence heuristic. No server, no API calls, $0 per query.
+// The index is split into small static files (built by scraper/build_index.py -> scraper/shard.py):
+// the page loads meta.json + len.json up front, then fetches only the postings and documents a query needs.
 const STOP = new Set("a an the of to in on and or is was were be been are that this it its by for with as at from did do does have has had they their them he she his her not but if so than then there these those who whom which what when where why how all any can could would should will into about cia agency us".split(" "));
 const fold = s => (s || "").normalize("NFKD").replace(/[\u0300-\u036f]/g, "");
 const tok = s => (fold(s).toLowerCase().match(/[a-z0-9]+/g) || []).filter(w => w.length > 1 && !STOP.has(w)).map(stem);
@@ -7,7 +9,42 @@ function stem(w){ return w.replace(/(ies)$/,"y").replace(/(ing|ed|es|s)$/,"").sl
 const CONFIRM = /\b(confirm\w*|approv\w*|authori[sz]\w*|fund\w*|conduct\w*|implement\w*|operation\w*|program\w*|establish\w*|admit\w*|acknowledg\w*|carried out|succeed\w*|verified)\b/gi;
 const DENY = /\b(no evidence|unfounded|baseless|false|hoax|disinformation|propaganda|fabricat\w*|rumou?r\w*|den(y|ied|ies)|inconclusive|unsubstantiated|no indication|not true|terminated|myth|speculat\w*)\b/gi;
 
-let D = [], META = {}, T = {}, idx = null;
+let META = {}, T = {}, idx = null;
+
+// ---- sharded index access ---------------------------------------------------
+const cache = new Map();
+const getJSON = path => {
+  if (!cache.has(path)) cache.set(path, fetch("data/" + path).then(r => {
+    if (!r.ok) throw new Error(`${r.status} loading data/${path}`); return r.json(); }));
+  return cache.get(path);
+};
+// FNV-1a 32-bit, identical to term_shard() in scraper/shard.py
+function termShard(term){
+  let h = 0x811c9dc5;
+  for (let i = 0; i < term.length; i++) h = Math.imul(h ^ term.charCodeAt(i), 0x01000193) >>> 0;
+  return h % idx.termShards;
+}
+// -> {term: Map(docId -> tf)}
+async function postings(terms){
+  const out = {};
+  await Promise.all(terms.map(async w => {
+    const flat = (await getJSON(`p/${termShard(w)}.json`))[w] || [];
+    const m = new Map(); let id = 0;
+    for (let k = 0; k < flat.length; k += 2) { id += flat[k]; m.set(id, flat[k + 1]); }
+    out[w] = m;
+  }));
+  return out;
+}
+const topicDocs = async tid => { const t = T[tid]; if (!t.set) t.set = new Set(await getJSON(`t/${tid}.json`)); return t.set; };
+// -> Map(docId -> doc record)
+async function getDocs(ids){
+  const out = new Map(), per = idx.docShard;
+  await Promise.all([...new Set(ids.map(i => Math.floor(i / per)))].map(async s => {
+    const rows = await getJSON(`d/${s}.json`);
+    rows.forEach((d, j) => { d.id = s * per + j; d.k = d.k || []; out.set(d.id, d); });
+  }));
+  return out;
+}
 
 // Same rule as scraper/topics.py: tokens joined by [space/-/slash/nothing], optional plural s,
 // ALL-CAPS aliases case-sensitive in documents. User questions are always matched case-insensitively.
@@ -19,17 +56,12 @@ function aliasRx(alias, forQuery){
 }
 
 async function load(){
-  const r = await fetch("data/corpus.json"); const j = await r.json();
-  D = j.docs; META = j.meta; T = j.topics || {};
+  const [j, len] = await Promise.all([getJSON("meta.json"), getJSON("len.json")]);
+  META = j.meta; T = j.topics || {};
   for (const [id, t] of Object.entries(T)) { t.id = id;
     t.rxDoc = t.aliases.map(a => aliasRx(a, false)); t.rxQ = [...t.aliases, ...(t.qaliases || [])].map(a => aliasRx(a, true)); }
-  const N = D.length, df = {}, tf = [], len = [];
-  D.forEach(d => { d.k = d.k || []; const t = tok(d.t + " " + d.t + " " + d.x); const m = {};
-    t.forEach(w => m[w] = (m[w]||0)+1); tf.push(m); len.push(t.length);
-    Object.keys(m).forEach(w => df[w] = (df[w]||0)+1); });
-  const avg = len.reduce((a,b)=>a+b,0)/Math.max(N,1);
-  idx = {N, df, tf, len, avg};
-  const b = document.getElementById("banner");
+  idx = {N: len.length, len, avg: META.index.avg_len, termShards: META.index.term_shards, docShard: META.index.doc_shard};
+  const N = idx.N, b = document.getElementById("banner");
   if (META.demo) b.innerHTML = "⚠️ <b>DEMO MODE:</b> the corpus loaded is " + N + " synthetic placeholder documents, <b>not</b> real CIA records. Run the scraper (see README) to use real data.";
   else b.innerHTML = `Coverage: ${N.toLocaleString()} documents scraped (~${META.coverage_pct}% of an estimated ${META.est_total.toLocaleString()}). ${META.with_text.toLocaleString()} have extractable text. Missing documents can't count as evidence either way.`;
   document.getElementById("cov").textContent = `Index built ${META.built}. ${N} docs, ${META.tagged ?? 0} tagged with ${Object.keys(T).length} topics.`;
@@ -50,19 +82,23 @@ function queryTopics(raw){
 const mentions = (text, tid) => T[tid].rxDoc.some(rx => { rx.lastIndex = 0; return rx.test(fold(text)); });
 
 // Tokens of q a document covers: literal words + words explained by a topic the doc is tagged with.
-function docCover(i, q, qt){
-  const m = idx.tf[i], got = new Set(q.filter(w => m[w]));
-  qt.forEach(t => { if (D[i].k.includes(t.id)) t.toks.forEach(w => got.add(w)); });
+// P = postings for the query terms, TS = {topicId: Set(docIds)}
+function docCover(i, q, qt, P, TS){
+  const got = new Set(q.filter(w => P[w].has(i)));
+  qt.forEach(t => { if (TS[t.id].has(i)) t.toks.forEach(w => got.add(w)); });
   return got;
 }
 
-function rank(q, qt){
-  const {N, df, tf, len, avg} = idx, k1 = 1.4, b = .75;
-  const idf = w => Math.log(1 + (N - (df[w]||0) + .5)/((df[w]||0) + .5));
-  return tf.map((m,i) => { let s = 0;
-      q.forEach(w => { const f = m[w]; if (f) s += idf(w)*f*(k1+1)/(f + k1*(1-b+b*len[i]/avg)); });
-      qt.forEach(t => { if (D[i].k.includes(t.id)) s += 2.5; });     // alias match = strong relevance signal
-      return {i, s, hit: docCover(i, q, qt).size}; })
+function rank(q, qt, P, TS){
+  const {N, len, avg} = idx, k1 = 1.4, b = .75;
+  const idf = w => Math.log(1 + (N - P[w].size + .5)/(P[w].size + .5));
+  const cand = new Set();
+  q.forEach(w => P[w].forEach((_, i) => cand.add(i)));
+  qt.forEach(t => TS[t.id].forEach(i => cand.add(i)));
+  return [...cand].sort((a, b) => a - b).map(i => { let s = 0;
+      q.forEach(w => { const f = P[w].get(i); if (f) s += idf(w)*f*(k1+1)/(f + k1*(1-b+b*len[i]/avg)); });
+      qt.forEach(t => { if (TS[t.id].has(i)) s += 2.5; });     // alias match = strong relevance signal
+      return {i, s, hit: docCover(i, q, qt, P, TS).size}; })
     .filter(r => r.s > 0).sort((a,b) => b.s - a.s);
 }
 
@@ -75,11 +111,14 @@ function sentences(d, q, qt = []){
   return (d.x.match(/[^.!?]+[.!?]?/g) || []).filter(s => sentCover(s, q, qt).size);
 }
 
-function judge(raw){
+async function judge(raw){
   const q = [...new Set(tok(raw))], qt = queryTopics(raw);
-  if (!q.length) return {score: 0, q, qt, hits: [], why: "No searchable words."};
-  const res = rank(q, qt), top = res.slice(0, 5);
-  const covered = q.filter(w => top.some(r => docCover(r.i, q, qt).has(w))).length / q.length;
+  if (!q.length) return {score: 0, q, qt, hits: [], docs: new Map(), why: "No searchable words."};
+  const TS = {};
+  const [P] = await Promise.all([postings(q), ...qt.map(async t => { TS[t.id] = await topicDocs(t.id); })]);
+  const res = rank(q, qt, P, TS), top = res.slice(0, 5);
+  const docs = await getDocs(top.map(r => r.i));
+  const covered = q.filter(w => top.some(r => docCover(r.i, q, qt, P, TS).has(w))).length / q.length;
   const best = top.length ? Math.max(...top.map(r => r.hit)) / q.length : 0;
   const vol = Math.min(1, res.filter(r => r.hit / q.length >= .5).length / 8);
   // PAPER TRAIL: do the files discuss this topic at all? (aliases count)
@@ -87,7 +126,7 @@ function judge(raw){
   // CLAIM: only sentences containing most of the claim's words (aliases count) are evidence for the claim.
   let c = 0, n = 0, strong = 0;
   const need = Math.max(1, Math.ceil(q.length * .6));
-  top.forEach(r => sentences(D[r.i], q, qt).forEach(s => {
+  top.forEach(r => sentences(docs.get(r.i), q, qt).forEach(s => {
     if (sentCover(s, q, qt).size < need) return;
     strong++; c += (s.match(CONFIRM)||[]).length; n += (s.match(DENY)||[]).length; }));
   const stance = (c + n) ? (c - n) / (c + n) : 0;
@@ -96,14 +135,14 @@ function judge(raw){
   if (!strong || c === 0) score = Math.min(score, 45);
   if (n >= c && strong) score = Math.min(score, 30);
   score = Math.max(0, Math.min(100, Math.round(score)));
-  return {score, topic, strong, q, qt, hits: top, covered, best, stance, c, n};
+  return {score, topic, strong, q, qt, hits: top, docs, covered, best, stance, c, n};
 }
 
 function verdictText(r, raw){
   const s = r.score;
   const lab = s < 20 ? "Tinfoil hat! 🛸" : s < 40 ? "Mostly tinfoil." : s < 60 ? "Hmm… there's a paper trail on the topic."
             : s < 80 ? "The files talk about this a lot." : "Proven-ish! 📁 (by our very silly standards)";
-  if (!r.hits.length) return `<b>${lab}</b> Nothing in the ${D.length.toLocaleString()} scraped documents matches “${esc(raw)}”. That may just mean we haven't scraped it.`;
+  if (!r.hits.length) return `<b>${lab}</b> Nothing in the ${idx.N.toLocaleString()} scraped documents matches “${esc(raw)}”. That may just mean we haven't scraped it.`;
   return `<b>${lab}</b> Claim support ${s}/100 · Paper trail ${r.topic}/100.<br>
    ${r.topic >= 50 && s < 50 ? "The files clearly discuss this <i>topic</i>, but that doesn't mean they back the <i>claim</i>. " : ""}
    ${r.hits.length} matching document(s); ${r.strong} sentence(s) contain most of your claim's words, and they leaned ${r.stance > .2 ? "confirmatory" : r.stance < -.2 ? "skeptical/denying" : "neutral"} (${r.c} confirm-ish vs ${r.n} deny-ish cues).`;
@@ -132,32 +171,40 @@ function renderChips(){
   const ids = Object.keys(T).sort((a,b) => T[b].n - T[a].n || T[a].name.localeCompare(T[b].name));
   document.getElementById("chips").innerHTML = ids.map(id => chip(id, ` <small>${T[id].n}</small>`)).join("");
 }
-function topicCard(id){
+function topicCard(id, docs){
   const t = T[id], yrs = t.years ? ` · ${t.years[0]}–${t.years[1]}` : "";
   const related = [...new Set([...t.see_also, ...t.co.map(c => c[0])])];
   return `<div class="tcard"><h3>📂 ${esc(t.name)}</h3><p>${esc(t.desc)}</p>
     <p><b>${t.n}</b> scraped document(s) mention this${yrs}.</p>
     <p class="aka"><b>Also searched as:</b> ${t.aliases.map(esc).join(" · ")}</p>
     ${related.length ? `<p><b>Related:</b> ${related.map(r => chip(r)).join(" ")}</p>` : ""}
-    ${t.top.length ? `<details><summary>Top documents</summary><ol>${t.top.map(i => docLi(D[i])).join("")}</ol></details>` : ""}</div>`;
+    ${t.top.length ? `<details><summary>Top documents</summary><ol>${t.top.map(i => docLi(docs.get(i))).join("")}</ol></details>` : ""}</div>`;
 }
-function showTopics(ids){
+async function showTopics(ids){
   const el = document.getElementById("tpanel");
-  el.innerHTML = ids.map(topicCard).join(""); el.hidden = !ids.length;
+  const docs = await getDocs(ids.flatMap(id => T[id].top));
+  el.innerHTML = ids.map(id => topicCard(id, docs)).join(""); el.hidden = !ids.length;
 }
-document.addEventListener("click", e => {
+document.addEventListener("click", async e => {
   const b = e.target.closest(".chip"); if (!b) return;
-  showTopics([b.dataset.topic]); document.getElementById("tpanel").scrollIntoView({behavior: "smooth"});
+  await showTopics([b.dataset.topic]); document.getElementById("tpanel").scrollIntoView({behavior: "smooth"});
 });
 
-document.getElementById("f").addEventListener("submit", e => {
+document.getElementById("f").addEventListener("submit", async e => {
   e.preventDefault(); const raw = document.getElementById("q").value.trim(); if (!idx) return;
-  const r = judge(raw);
-  document.getElementById("out").hidden = false;
-  requestAnimationFrame(() => document.getElementById("needle").style.transform = `rotate(${-90 + r.score*1.8}deg)`);
-  document.getElementById("verdict").innerHTML = verdictText(r, raw) +
-    (r.qt.length ? `<br><small>Recognized topic(s): ${r.qt.map(t => chip(t.id)).join(" ")}, so aliases and code names were searched too.</small>` : "");
-  document.getElementById("hits").innerHTML = r.hits.map(h => docLi(D[h.i], r.q, r.qt)).join("");
-  showTopics(r.qt.map(t => t.id));
+  const btn = e.target.querySelector("button"), v = document.getElementById("verdict");
+  btn.disabled = true; btn.textContent = "Checking the files…";
+  try {
+    const r = await judge(raw);
+    document.getElementById("out").hidden = false;
+    requestAnimationFrame(() => document.getElementById("needle").style.transform = `rotate(${-90 + r.score*1.8}deg)`);
+    v.innerHTML = verdictText(r, raw) +
+      (r.qt.length ? `<br><small>Recognized topic(s): ${r.qt.map(t => chip(t.id)).join(" ")}, so aliases and code names were searched too.</small>` : "");
+    document.getElementById("hits").innerHTML = r.hits.map(h => docLi(r.docs.get(h.i), r.q, r.qt)).join("");
+    await showTopics(r.qt.map(t => t.id));
+  } catch (err) {
+    document.getElementById("out").hidden = false;
+    v.textContent = "Couldn't load part of the index (" + err.message + "). Try again in a moment.";
+  } finally { btn.disabled = false; btn.textContent = "Check the files"; }
 });
-load();
+load().catch(err => { document.getElementById("banner").textContent = "Couldn't load the index: " + err.message; });

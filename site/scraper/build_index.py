@@ -1,12 +1,15 @@
 #!/usr/bin/env python3
-"""Export scraped docs (state.db) -> site/data/corpus.json for in-browser BM25.
+"""Export scraped docs (state.db) -> a split search index in site/data/ (see shard.py), plus site-data.zip
+   at the repo root for uploading to the "index" GitHub Release that the Pages workflow deploys from.
    python3 build_index.py            # real scraped data
    python3 build_index.py --demo     # synthetic placeholder docs (UI testing only)"""
-import json, os, re, sqlite3, sys, time
+import json, os, re, sqlite3, sys, time, zipfile
 from topics import load_topics, build_db
+from shard import write_index
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-OUT = os.path.join(HERE, "..", "data", "corpus.json")
+OUT = os.path.join(HERE, "..", "data")
+ZIP = os.path.join(HERE, "..", "..", "site-data.zip")
 EST_TOTAL = 930000  # approx. public size of the reading room (documents)
 MAX_CHARS = 3000    # text kept per doc to keep the static JSON small
 
@@ -50,10 +53,17 @@ def main():
             "with_text": sum(1 for d in docs if len(d["x"]) > 50),
             "coverage_pct": round(100 * len(docs) / EST_TOTAL, 4),
             "built": time.strftime("%Y-%m-%d %H:%M UTC", time.gmtime())}
-    os.makedirs(os.path.dirname(OUT), exist_ok=True)
+    os.makedirs(OUT, exist_ok=True)
     meta["tagged"] = len(doc_topics)
-    json.dump({"meta": meta, "topics": topics, "docs": docs}, open(OUT, "w"), separators=(",", ":"))
+    meta = write_index(docs, topics, meta, OUT)
+    with zipfile.ZipFile(ZIP, "w", zipfile.ZIP_DEFLATED, compresslevel=9) as z:
+        for root, _, files in os.walk(OUT):
+            for f in files:
+                full = os.path.join(root, f)
+                z.write(full, os.path.relpath(full, OUT))
     print(json.dumps(meta))
+    print(f"Wrote {os.path.abspath(ZIP)} ({os.path.getsize(ZIP) / 1e6:.1f} MB). Upload it with:\n"
+          f"  gh release upload index site-data.zip --clobber   (then: gh workflow run pages.yml)")
 
 
 if __name__ == "__main__":
