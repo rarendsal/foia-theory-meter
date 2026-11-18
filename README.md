@@ -6,14 +6,47 @@ Type "Is it true that ____?" The page searches a scraped copy of the **CIA FOIA 
 > **Disclaimer:** the meter is entertainment, **not a fact-check**. It uses keyword retrieval plus a crude
 > word-cue heuristic over a partial corpus.
 
-## Current status (be honest)
-**0 real documents scraped.** `data/corpus.json` holds 8 synthetic DEMO docs, and the site shows a DEMO banner.
-- First sandbox: no network access at all.
-- With the VM network opened, robots.txt and the reading-room homepage loaded (HTTP 200). But the
-  sitemap, `/historical-collections` and `/collection/*` pages all returned **"Access Denied"** (Akamai bot
-  blocking of datacenter IPs). The user's own agent saw the same from its cloud server. We did **not** try to
-  get around the block (no browser impersonation, no proxies). In total we made about 8 requests, all ≥10 s apart.
-- So run the scraper from a residential/home connection. It stops by itself after 5 "Access Denied" responses.
+## Current status
+About **112,600 documents** (~12% of the reading room), imported from public mirrors (see Sources), because
+cia.gov blocks scripts. The site is live on GitHub Pages and the banner shows the current coverage.
+
+## Keeping it updated
+`update.ps1` (repo root) runs the whole cycle. Every step resumes where the last run stopped:
+1. `sources.py ia-topics` and `documentcloud`: search for every topic alias. Aliases already searched are skipped,
+   so anything new you add to `topics.json` gets fetched on the next run.
+2. `sources.py ia-bulk`: walks the full ~1M-document reading-room mirror, about 140k documents per 3,000 requests.
+3. `build_index.py`: rebuilds the split index in `site/data/` and `site-data.zip`.
+4. `phrases.py`: writes alias and topic suggestions to `site/scraper/phrase_candidates.csv`.
+5. Uploads `site-data.zip` to the `index` release and redeploys the site (needs `gh auth login`).
+   It refuses to publish if the index passes 900 MB, because GitHub Pages sites are limited to 1 GB.
+
+```powershell
+.\update.ps1                  # full cycle
+.\update.ps1 -NoPublish       # collect and rebuild only
+.\update.ps1 -BulkRequests 6000
+```
+To run it nightly, see "Schedule it" below.
+
+### Adding topics
+1. Open `site/scraper/phrase_candidates.csv`.
+   - `alias -> stargate`: the phrase mostly appears in files already tagged with that topic (e.g. SCANATE).
+     Add it to that topic's `aliases` in `topics.json`.
+   - `new topic?`: a recurring code name with no topic yet. Look it up, and if it's interesting add a topic:
+     ```json
+     "argo": {"name": "ARGO / Iran hostage exfiltration", "desc": "CIA operation that got six US diplomats out of Iran in 1980.",
+              "aliases": ["ARGO", "Canadian caper"], "query_aliases": ["Argo movie"], "see_also": ["iran_contra"]}
+     ```
+   ALL-CAPS aliases match documents case-sensitively; `query_aliases` only match questions.
+2. Run `update.ps1`. It searches the new aliases, retags every document, and republishes.
+
+### Schedule it (Windows Task Scheduler)
+```powershell
+$a = New-ScheduledTaskAction -Execute "powershell.exe" -Argument "-NoProfile -ExecutionPolicy Bypass -File `"$PWD\update.ps1`""
+$t = New-ScheduledTaskTrigger -Daily -At 2am
+$s = New-ScheduledTaskSettingsSet -StartWhenAvailable -ExecutionTimeLimit (New-TimeSpan -Hours 4)
+Register-ScheduledTask -TaskName "FOIA Theory Meter update" -Action $a -Trigger $t -Settings $s
+```
+Run it from the repo folder. Output goes to `update.log`.
 
 ## What robots.txt says (checked live)
 `User-agent: *` → Disallow `/readingroom/search/`, `/readingroom/advanced-search-view/`, `/readingroom/request/`,
@@ -57,7 +90,7 @@ python3 scrape.py --estimate                      # robots.txt check + size/time
 python3 scrape.py --max-requests 5000 --max-hours 6   # resumable; Ctrl-C and rerun any time
 python3 scrape.py --pdfs --max-mb 2000            # optional: fetch PDFs, extract text (needs pdftotext)
 python3 phrases.py                                # optional: suggest new key phrases/code names
-python3 build_index.py                            # writes site/data/corpus.json (no --demo!)
+python3 build_index.py                            # writes the split index to site/data/ (no --demo!)
 cd .. && python3 -m http.server 8000         # open http://localhost:8000
 ```
 The site is fully static: deploy the `site/` folder to GitHub Pages, Netlify, or similar for free.
@@ -77,23 +110,26 @@ STARGATE/psychoenergetics, MKULTRA, **PAPERCLIP** and **Redstone Arsenal** (cros
 - **`query_aliases`** only recognize a topic in a *question* ("Kennedy", "chemtrails", "psychic spies"). They're too broad to tag documents.
 - `build_index.py` writes **`scraper/topics.db`** (SQLite) with the tables `topics`, `aliases`, `see_also`, and
   `doc_topics(doc_id, doc_url, topic, hits, year, sample)`. It's the reusable base for later features. The site gets
-  a compact copy inside `data/corpus.json` (per-topic doc counts, year range, top docs, co-occurring topics).
-- **`scraper/phrases.py`** finds new candidates: ALL-CAPS code-name runs plus distinctive 2–3-word phrases not
-  yet covered by any alias → `phrase_candidates.csv`. Review it and promote good ones into `topics.json`. Run it after real scraping (on demo data it only finds demo boilerplate).
+  a compact copy inside `data/meta.json` (per-topic doc counts, year range, top docs, co-occurring topics).
+- **`scraper/phrases.py`** finds code names and phrases no alias covers yet, and labels each one
+  `alias -> <topic>` or `new topic?` in `phrase_candidates.csv` (see "Adding topics" above). It filters out
+  ordinary words (`common_words.txt`), letterhead, and collection boilerplate, and uses under 1 GB of RAM at any corpus size.
 - On the site: a "Browse topics" list, topic cards (description, aliases, related topics, top docs), and
   alias matches highlighted in blue. An alias match counts as covering the topic's words in both scores.
   It doesn't change the rule that a *sentence* must confirm the claim before the needle passes 45.
 
 ## How the meter works
-1. **BM25** runs in the browser over title and text. The title is weighted ×2, and each doc's text is capped at 3,000 chars to keep the JSON small.
+1. **BM25** runs in the browser over title and text (title weighted ×2, text capped at 3,000 chars per doc). The index is split
+   into small files (`scraper/shard.py`): the page loads ~0.4 MB up front and ~1–2 MB per search.
 2. Two separate numbers, because "the program existed" ≠ "the wild version is true":
    - **Paper trail** (shown as a number): how much the top documents cover your keywords. Example: the CIA did fund psychic
      "remote viewing" research, so that topic has a big paper trail.
-   - **Claim support** (drives the needle): looks only at sentences containing ≥60% of your claim's words, and
-     compares "confirm" cues (approved, funded, conducted…) with "deny" cues (no evidence, hoax, inconclusive…).
-     The needle is **capped at 45** unless such a sentence actually confirms the claim, and **capped at 30** when deny cues win.
-     So "psychics produced useful intelligence" or "Hitler survived" can't reach "Proven!" just because a file mentions them.
+   - **Claim support** (drives the needle): looks only at sentences (and titles) that state the claim: most of its words,
+     including its distinctive words ("faked" in "the moon landing was faked"). Synonyms count ("people" = subjects/patients).
+     If the question names the CIA, the sentence or its document's title must too. It then weighs "confirm" cues
+     (approved, funded, conducted…) against "deny" cues (no evidence, inconclusive…) and hedges (alleged, conspiracy
+     theorists, movie, questions). The needle is **capped at 30** when no sentence states the claim and **at 25** when denials win.
 3. 0–20 Tinfoil hat, …, 80–100 "Proven-ish".
 
 Known limits: the scoring is keyword-based, so negation and sarcasm aren't understood. CREST OCR text is noisy. Many records
-are PDF-only. For corpora over ~50k docs, shard `corpus.json` or switch to a prebuilt inverted index (e.g. lunr/minisearch).
+are PDF-only, and documents imported in bulk carry only the archive's description text.

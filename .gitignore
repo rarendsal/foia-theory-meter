@@ -2,3 +2,5 @@ site/scraper/*.db
 site/data/
 site-data.zip
 __pycache__/
+update.log
+site/scraper/phrase_candidates.csv
