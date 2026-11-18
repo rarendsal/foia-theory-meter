@@ -1,6 +1,15 @@
 {
  "_help": "Each topic: name, short description, aliases, see_also. ALL-CAPS aliases match case-sensitively (code names like CHAOS, CORONA); others match case-insensitively. Spaces/hyphens/slashes inside an alias match any of space, hyphen, slash or nothing, and a trailing plural 's' is optional, so 'psycho energetic' also matches 'psychoenergetics'. Edit freely, then rerun build_index.py. Optional 'query_aliases' are used ONLY to recognize the topic in a user's question (too broad for tagging documents, e.g. 'Kennedy').",
  "topics": {
+  "BLUEBEAM": {
+   "name": "Project BLUEBEAM",
+   "desc": "Conspiracy theory about NASA and the UN faking a second coming, or alien invasion, or both.",
+   "aliases": [
+    "BLUEBEAM",
+    "Project Blue Beam"
+   ],
+   "see_also": []
+  },
   "jfk": {
    "name": "Kennedy assassination",
    "desc": "Assassination of President John F. Kennedy (Dallas, 1963) and its investigations.",
