@@ -6,8 +6,34 @@ const fold = s => (s || "").normalize("NFKD").replace(/[\u0300-\u036f]/g, "");
 const tok = s => (fold(s).toLowerCase().match(/[a-z0-9]+/g) || []).filter(w => w.length > 1 && !STOP.has(w)).map(stem);
 function stem(w){ return w.replace(/(ies)$/,"y").replace(/(ing|ed|es|s)$/,"").slice(0,12) || w; }
 
-const CONFIRM = /\b(confirm\w*|approv\w*|authori[sz]\w*|fund\w*|conduct\w*|implement\w*|operation\w*|program\w*|establish\w*|admit\w*|acknowledg\w*|carried out|succeed\w*|verified)\b/gi;
-const DENY = /\b(no evidence|unfounded|baseless|false|hoax|disinformation|propaganda|fabricat\w*|rumou?r\w*|den(y|ied|ies)|inconclusive|unsubstantiated|no indication|not true|terminated|myth|speculat\w*)\b/gi;
+// Evidence cues, counted only in sentences that state most of the claim.
+// "program"/"operation" were dropped: they name things (the Apollo program) rather than confirm them.
+const CONFIRM = /\b(confirm\w*|approv\w*|authori[sz]\w*|fund\w*|conduct\w*|implement\w*|establish\w*|admit\w*|acknowledg\w*|carried out|succeed\w*|verified|documented|revealed)\b/gi;
+const DENY = /\b(no evidence|unfounded|baseless|false|disinformation|propaganda|rumou?r\w*|den(y|ied|ies)|inconclusive|unsubstantiated|no indication|not true|myth|debunk\w*|never happened)\b/gi;
+// Reported beliefs and fiction: the sentence repeats the claim without backing it. Counts half against.
+const HEDGE = /\b(conspiracy theor\w*|theorists?|believ\w*|think|thinks|claim\w*|alleg\w*|supposed\w*|speculat\w*|movie|film|fiction\w*|novel|documentary|tabloid)\b/gi;
+
+// Words that mean the same thing in a claim and in the files ("people" vs "subjects"). Stemmed forms (see stem()).
+const SYN = {};
+[["people","person","human","subject","patient","individual","volunteer","prisoner","citizen","civilian"],
+ ["test","experiment","trial","dos","dose","administer"],
+ ["kill","killed","murder","assassinat","assassinatio","assassin"],
+ ["spy","spi","surveil","surveillance","monitor","wiretap","eavesdropp","infiltrat","spying"],
+ ["protester","protest","demonstrator","activist","dissident","radical","antiwar"],
+ ["fak","fake","hoax","fabricat","staged","forgery"],
+ ["alien","extraterrest","ufo","saucer"],
+ ["brainwash","mind","control"],
+ ["studi","study","research","investigat","evaluat","examin","analyz","analysi"],
+ ["scientist","engineer","specialist","expert","researcher","technician"],
+ ["government","federal","administration","army","military"],
+ ["america","american","united"],
+ ["brought","bring","recruit","import","smuggl","transferr"]].forEach(g => g.forEach(w => SYN[w] = g[0]));
+const canon = w => SYN[w] || w;
+// Question filler that isn't part of the claim itself ("did the CIA *really* ...").
+const FILLER = new Set("really actually truly secretly ever true real just also still even once".split(" ").map(stem));
+// "cia"/"agency" are stop words for search (nearly every file says them), but when the question names the CIA
+// as the actor, a supporting sentence (or its document's title) must too. Otherwise "the CIA killed JFK" is judged as just "killed JFK".
+const ACTOR = /\b(cia|c\.\s?i\.\s?a|agency|central intelligence)\b/i;
 
 let META = {}, T = {}, idx = null;
 
@@ -103,7 +129,8 @@ function rank(q, qt, P, TS){
 }
 
 function sentCover(s, q, qt){
-  const got = new Set(tok(s).filter(w => q.includes(w)));
+  const qc = new Set(q.map(canon)), got = new Set();
+  tok(s).forEach(w => { const c = canon(w); if (qc.has(c)) q.forEach(x => { if (canon(x) === c) got.add(x); }); });
   qt.forEach(t => { if (mentions(s, t.id)) t.toks.forEach(w => got.add(w)); });
   return got;
 }
@@ -123,19 +150,39 @@ async function judge(raw){
   const vol = Math.min(1, res.filter(r => r.hit / q.length >= .5).length / 8);
   // PAPER TRAIL: do the files discuss this topic at all? (aliases count)
   const topic = top.length ? Math.round(100 * (.4*covered + .4*best + .2*vol)) : 0;
-  // CLAIM: only sentences containing most of the claim's words (aliases count) are evidence for the claim.
+  // CLAIM: a sentence (titles count) is evidence only if it covers most of the question AND the claim's own words,
+  // i.e. the words not already explained by a recognized topic ("faked" in "the moon landing was faked").
+  const topicToks = new Set(qt.flatMap(t => [...t.toks])), claim = q.filter(w => !topicToks.has(w) && !FILLER.has(w));
+  const need = Math.max(1, Math.ceil(q.length * .6)), actor = ACTOR.test(raw);
+  // Rare claim words carry the claim ("bodies" in "Area 51 has alien bodies"); words in >3% of files don't count.
+  const cw = Object.fromEntries(claim.map(w => [w, P[w].size / idx.N > .03 ? 0 : Math.log(idx.N / (P[w].size + 1))]));
+  const claimTotal = claim.reduce((a, w) => a + cw[w], 0);
+  const claimOk = got => !claimTotal || claim.reduce((a, w) => a + (got.has(w) ? cw[w] : 0), 0) >= .6 * claimTotal;
   let c = 0, n = 0, strong = 0;
-  const need = Math.max(1, Math.ceil(q.length * .6));
-  top.forEach(r => sentences(docs.get(r.i), q, qt).forEach(s => {
-    if (sentCover(s, q, qt).size < need) return;
-    strong++; c += (s.match(CONFIRM)||[]).length; n += (s.match(DENY)||[]).length; }));
-  const stance = (c + n) ? (c - n) / (c + n) : 0;
-  let score = top.length ? .35*topic + 65*Math.min(1, strong/3)*(stance+1)/2 : 3;
-  // "Program existed" != "wild version is true": without a confirming full-claim sentence, cap the needle.
-  if (!strong || c === 0) score = Math.min(score, 45);
-  if (n >= c && strong) score = Math.min(score, 30);
+  const seen = new Set();   // the same clipping is often scanned several times: count each sentence once
+  top.forEach(r => { const d = docs.get(r.i), titleActor = ACTOR.test(d.t);
+    const docTopicToks = qt.filter(t => d.k.includes(t.id)).flatMap(t => [...t.toks]);
+    [d.t, ...sentences(d, q, qt)].forEach((s, j) => {
+      const got = sentCover(s, q, qt);
+      docTopicToks.forEach(w => got.add(w));       // the whole document is about the topic
+      if (got.size < need || !claimOk(got)) return;
+      if (actor && !titleActor && !ACTOR.test(s)) return;
+      const key = s.toLowerCase().replace(/[^a-z]/g, "").slice(0, 40);
+      if (seen.has(key)) return; seen.add(key);
+      strong++;
+      const cc = (s.match(CONFIRM)||[]).length, dn = (s.match(DENY)||[]).length;
+      const hd = (s.match(HEDGE)||[]).length + (/\?\s*$/.test(s) ? 1 : 0);   // a question isn't an assertion
+      c += cc; n += dn + hd / 2;
+      if (!cc && !dn && !hd) c += j === 0 ? .5 : .25;   // plain statement of the claim: weak support (title > body)
+    }); });
+  // Smoothed stance: one stray "confirmed" can't max the needle; it takes several cues to get near +/-1.
+  const stance = (c - n) / (c + n + 2), weight = Math.min(1, strong / 3);
+  const base = .3 * topic;                                   // paper trail alone: at most 30
+  let score = !top.length ? 3 : stance >= 0 ? base + 70 * weight * stance : base * (1 + stance * weight);
+  if (!strong) score = Math.min(score, 30);                  // files discuss the topic but never state the claim
+  if (strong && n >= c) score = Math.min(score, 25);
   score = Math.max(0, Math.min(100, Math.round(score)));
-  return {score, topic, strong, q, qt, hits: top, docs, covered, best, stance, c, n};
+  return {score, topic, strong, q, qt, hits: top, docs, covered, best, stance, c: +c.toFixed(1), n: +n.toFixed(1)};
 }
 
 function verdictText(r, raw){
