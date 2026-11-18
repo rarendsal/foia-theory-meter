@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>How crazy is your conspiracy theory?</title>
+<link rel="stylesheet" href="style.css">
+</head><body>
+<main>
+  <h1>How crazy is your conspiracy theory?</h1>
+  <p class="sub">Checked against declassified documents from the CIA FOIA Electronic Reading Room.</p>
+  <div id="banner" class="banner"></div>
+  <form id="f">
+    <label>Is it true that <input id="q" autocomplete="off" placeholder="the CIA tested LSD on people" required>?</label>
+    <button>Check the files</button>
+  </form>
+  <details class="browse"><summary>Browse topics &amp; code names</summary><div id="chips"></div></details>
+  <section id="out" hidden>
+    <svg viewBox="0 0 300 170" class="gauge" aria-hidden="true">
+      <defs><linearGradient id="g"><stop offset="0" stop-color="#c0392b"/><stop offset=".5" stop-color="#f1c40f"/><stop offset="1" stop-color="#27ae60"/></linearGradient></defs>
+      <path d="M30 150 A120 120 0 0 1 270 150" fill="none" stroke="url(#g)" stroke-width="26"/>
+      <g id="needle" style="transform-origin:150px 150px;transform:rotate(-90deg)">
+        <line x1="150" y1="150" x2="150" y2="45" stroke="#222" stroke-width="5" stroke-linecap="round"/>
+      </g><circle cx="150" cy="150" r="9" fill="#222"/>
+    </svg>
+    <div class="labels"><span>🛸 Tinfoil hat!</span><span>📁 Proven!</span></div>
+    <p id="verdict" class="verdict" role="status"></p>
+    <ol id="hits"></ol>
+  </section>
+  <section id="tpanel" hidden></section>
+  <footer>
+    <p><b>Disclaimer:</b> this meter is <b>entertainment, not a fact-check</b>. It uses keyword matching (BM25) and a
+    crude word-cue heuristic over a <i>partial</i> scrape. A document mentioning your topic is not proof, and the absence of a
+    document is not disproof. Read the cited originals yourself.</p>
+    <p id="cov"></p>
+  </footer>
+</main>
+<script src="app.js"></script>
+</body></html>
