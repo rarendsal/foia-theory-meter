@@ -1,0 +1,25 @@
+body{font-family:Georgia,serif;background:#f4efe1;color:#222;margin:0}
+main{max-width:760px;margin:auto;padding:2rem 1rem}
+h1{font-family:"Courier New",monospace;letter-spacing:.03em;margin-bottom:.2rem}
+.sub{margin-top:0;color:#555}
+.banner{background:#fff3cd;border:1px dashed #b8860b;padding:.6rem;margin:1rem 0;font-size:.9rem}
+.banner:empty{display:none}
+form label{font-size:1.3rem;display:block;margin:1rem 0}
+#q{font:inherit;width:60%;border:0;border-bottom:2px solid #222;background:transparent;padding:.2rem}
+button{font:inherit;padding:.5rem 1.2rem;background:#222;color:#f4efe1;border:0;cursor:pointer}
+.gauge{width:100%;max-width:380px;display:block;margin:1.5rem auto 0}
+#needle{transition:transform 1.2s cubic-bezier(.3,1.6,.5,1)}
+.labels{display:flex;justify-content:space-between;max-width:380px;margin:auto;font-weight:bold}
+.verdict{font-size:1.15rem;background:#fff;padding:1rem;border-left:5px solid #222}
+ol li{margin-bottom:1rem;background:#fff;padding:.6rem}
+li small{color:#666}
+mark{background:#ffe066}
+footer{margin-top:2rem;font-size:.85rem;color:#444;border-top:1px solid #aaa}
+.browse{margin:1rem 0}
+.chip{font:inherit;font-size:.85rem;background:#fff;color:#222;border:1px solid #222;border-radius:1rem;padding:.15rem .6rem;margin:.15rem;cursor:pointer}
+.chip small{color:#888}
+.tcard{background:#fff;border-left:5px solid #8b5a2b;padding:.6rem 1rem;margin:1rem 0}
+.tcard h3{margin:.2rem 0;font-family:"Courier New",monospace}
+.aka{font-size:.85rem;color:#444}
+.tag{background:#eee;padding:0 .3rem;border-radius:.3rem;font-size:.75rem}
+mark.alias{background:#cfe8ff}

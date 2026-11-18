@@ -1,0 +1,517 @@
+{
+ "_help": "Each topic: name, short description, aliases, see_also. ALL-CAPS aliases match case-sensitively (code names like CHAOS, CORONA); others match case-insensitively. Spaces/hyphens/slashes inside an alias match any of space, hyphen, slash or nothing, and a trailing plural 's' is optional, so 'psycho energetic' also matches 'psychoenergetics'. Edit freely, then rerun build_index.py. Optional 'query_aliases' are used ONLY to recognize the topic in a user's question (too broad for tagging documents, e.g. 'Kennedy').",
+ "topics": {
+  "jfk": {
+   "name": "Kennedy assassination",
+   "desc": "Assassination of President John F. Kennedy (Dallas, 1963) and its investigations.",
+   "aliases": [
+    "Kennedy assassination",
+    "assassination of President Kennedy",
+    "JFK",
+    "Lee Harvey Oswald",
+    "Oswald",
+    "Warren Commission",
+    "HSCA",
+    "House Select Committee on Assassinations",
+    "Dealey Plaza",
+    "Jack Ruby",
+    "grassy knoll"
+   ],
+   "see_also": [
+    "mongoose",
+    "bay_of_pigs"
+   ],
+   "query_aliases": [
+    "Kennedy",
+    "President Kennedy",
+    "JFK killed",
+    "shot Kennedy",
+    "killed Kennedy",
+    "magic bullet"
+   ]
+  },
+  "stargate": {
+   "name": "STARGATE / remote viewing",
+   "desc": "Government-funded psychic 'remote viewing' and psychoenergetics research, 1970s–1995.",
+   "aliases": [
+    "STARGATE",
+    "STAR GATE",
+    "remote viewing",
+    "remote viewer",
+    "GRILL FLAME",
+    "CENTER LANE",
+    "SUN STREAK",
+    "GONDOLA WISH",
+    "psycho energetic",
+    "psychoenergetics",
+    "psychotronic",
+    "parapsychology",
+    "parapsychological",
+    "extrasensory perception",
+    "ESP",
+    "psychokinesis",
+    "Ingo Swann",
+    "Russell Targ",
+    "Harold Puthoff",
+    "Uri Geller",
+    "psychic"
+   ],
+   "see_also": [
+    "mkultra"
+   ],
+   "query_aliases": [
+    "psychic spies",
+    "psychic spying",
+    "psychic spy",
+    "mind reading",
+    "telepathy",
+    "clairvoyance"
+   ]
+  },
+  "ufo": {
+   "name": "UFOs",
+   "desc": "Unidentified flying objects and official studies of sightings.",
+   "aliases": [
+    "UFO",
+    "unidentified flying object",
+    "flying saucer",
+    "UAP",
+    "unidentified aerial phenomena",
+    "Project Blue Book",
+    "Robertson Panel",
+    "extraterrestrial"
+   ],
+   "see_also": [
+    "recon_aircraft"
+   ],
+   "query_aliases": [
+    "aliens",
+    "alien spacecraft",
+    "flying saucers",
+    "little green men"
+   ]
+  },
+  "recon_aircraft": {
+   "name": "U-2 / OXCART / Area 51",
+   "desc": "Secret high-altitude reconnaissance aircraft programs (often behind UFO reports).",
+   "aliases": [
+    "U 2",
+    "OXCART",
+    "A 12",
+    "AQUATONE",
+    "IDEALIST",
+    "Area 51",
+    "Groom Lake",
+    "SR 71"
+   ],
+   "see_also": [
+    "ufo",
+    "corona"
+   ],
+   "query_aliases": [
+    "spy plane",
+    "spy planes"
+   ]
+  },
+  "corona": {
+   "name": "CORONA spy satellites",
+   "desc": "Early photo-reconnaissance satellite program.",
+   "aliases": [
+    "CORONA",
+    "KEYHOLE",
+    "KH 4",
+    "Discoverer satellite"
+   ],
+   "see_also": [
+    "recon_aircraft"
+   ]
+  },
+  "mkultra": {
+   "name": "MKULTRA / mind control",
+   "desc": "CIA behavior-modification and drug research programs (1950s–1970s).",
+   "aliases": [
+    "MKULTRA",
+    "MK ULTRA",
+    "MKSEARCH",
+    "MKNAOMI",
+    "MKDELTA",
+    "ARTICHOKE",
+    "BLUEBIRD",
+    "LSD",
+    "lysergic acid",
+    "Sidney Gottlieb",
+    "behavior modification",
+    "behavioral modification",
+    "mind control",
+    "brainwashing",
+    "truth drug",
+    "unwitting subjects"
+   ],
+   "see_also": [
+    "stargate"
+   ],
+   "query_aliases": [
+    "mind control",
+    "acid",
+    "psychedelics"
+   ]
+  },
+  "paperclip": {
+   "name": "Operation PAPERCLIP",
+   "desc": "Post-WWII program bringing German scientists and engineers to the U.S.",
+   "aliases": [
+    "PAPERCLIP",
+    "Operation Paperclip",
+    "Project Paperclip",
+    "OVERCAST",
+    "JIOA",
+    "Joint Intelligence Objectives Agency",
+    "Wernher von Braun",
+    "von Braun",
+    "German scientists",
+    "Peenemunde",
+    "Peenemünde",
+    "V 2 rocket",
+    "Arthur Rudolph",
+    "Hubertus Strughold",
+    "Nazi scientists"
+   ],
+   "see_also": [
+    "redstone"
+   ],
+   "query_aliases": [
+    "Nazis",
+    "Nazi rocket scientists",
+    "German rocket scientists"
+   ]
+  },
+  "redstone": {
+   "name": "Redstone Arsenal",
+   "desc": "U.S. Army post at Huntsville, Alabama; home of von Braun's rocket team and the Army missile program.",
+   "aliases": [
+    "Redstone Arsenal",
+    "Huntsville",
+    "Army Ballistic Missile Agency",
+    "ABMA",
+    "Redstone missile",
+    "Redstone rocket",
+    "Jupiter missile",
+    "Marshall Space Flight Center",
+    "Army Missile Command",
+    "MICOM",
+    "Redstone"
+   ],
+   "see_also": [
+    "paperclip"
+   ]
+  },
+  "bay_of_pigs": {
+   "name": "Bay of Pigs",
+   "desc": "Failed 1961 CIA-backed invasion of Cuba.",
+   "aliases": [
+    "Bay of Pigs",
+    "ZAPATA",
+    "Brigade 2506",
+    "JMATE"
+   ],
+   "see_also": [
+    "mongoose",
+    "jfk"
+   ]
+  },
+  "mongoose": {
+   "name": "Operation MONGOOSE / plots against Castro",
+   "desc": "Covert action against Cuba and assassination plots against Fidel Castro.",
+   "aliases": [
+    "MONGOOSE",
+    "Operation Mongoose",
+    "ZRRIFLE",
+    "ZR RIFLE",
+    "AMLASH",
+    "Castro assassination",
+    "assassinate Castro"
+   ],
+   "see_also": [
+    "bay_of_pigs",
+    "jfk"
+   ]
+  },
+  "cuban_missile": {
+   "name": "Cuban Missile Crisis",
+   "desc": "1962 confrontation over Soviet missiles in Cuba.",
+   "aliases": [
+    "Cuban missile crisis",
+    "missiles in Cuba",
+    "offensive weapons in Cuba"
+   ],
+   "see_also": [
+    "mongoose"
+   ]
+  },
+  "chaos": {
+   "name": "Operation CHAOS",
+   "desc": "CIA domestic surveillance of antiwar and dissident groups.",
+   "aliases": [
+    "MHCHAOS",
+    "CHAOS",
+    "Operation Chaos"
+   ],
+   "see_also": [
+    "family_jewels"
+   ]
+  },
+  "mockingbird": {
+   "name": "MOCKINGBIRD / CIA and the press",
+   "desc": "1963 wiretap of journalists; later used loosely for CIA media influence.",
+   "aliases": [
+    "MOCKINGBIRD",
+    "Project Mockingbird",
+    "Operation Mockingbird"
+   ],
+   "see_also": [
+    "family_jewels"
+   ],
+   "query_aliases": [
+    "CIA controls the media",
+    "CIA journalists"
+   ]
+  },
+  "family_jewels": {
+   "name": "Family Jewels / Church Committee",
+   "desc": "1973 internal list of questionable CIA activities and the 1975 congressional investigations.",
+   "aliases": [
+    "Family Jewels",
+    "Church Committee",
+    "Pike Committee",
+    "Rockefeller Commission"
+   ],
+   "see_also": [
+    "chaos",
+    "mkultra"
+   ]
+  },
+  "ajax": {
+   "name": "1953 Iran coup",
+   "desc": "Overthrow of Iranian Prime Minister Mossadegh.",
+   "aliases": [
+    "TPAJAX",
+    "AJAX",
+    "Mossadegh",
+    "Mosaddegh",
+    "Mossadeq"
+   ],
+   "see_also": [
+    "pbsuccess"
+   ]
+  },
+  "pbsuccess": {
+   "name": "1954 Guatemala coup",
+   "desc": "Overthrow of Guatemalan President Arbenz.",
+   "aliases": [
+    "PBSUCCESS",
+    "PBFORTUNE",
+    "Arbenz"
+   ],
+   "see_also": [
+    "ajax"
+   ]
+  },
+  "azorian": {
+   "name": "Project AZORIAN / Glomar",
+   "desc": "1974 secret attempt to raise a sunken Soviet submarine.",
+   "aliases": [
+    "AZORIAN",
+    "Glomar Explorer",
+    "Hughes Glomar",
+    "JENNIFER"
+   ],
+   "see_also": []
+  },
+  "animals": {
+   "name": "Animal Partners",
+   "desc": "Use of animals (cats, birds, dolphins) in intelligence operations.",
+   "aliases": [
+    "Acoustic Kitty",
+    "dolphins",
+    "pigeons",
+    "ravens",
+    "trained animals",
+    "TAKEAWAY"
+   ],
+   "see_also": [
+    "aquiline"
+   ]
+  },
+  "aquiline": {
+   "name": "AQUILINE bird drone",
+   "desc": "1960s bird-shaped reconnaissance drone.",
+   "aliases": [
+    "AQUILINE"
+   ],
+   "see_also": [
+    "animals"
+   ]
+  },
+  "gladio": {
+   "name": "Gladio / stay-behind networks",
+   "desc": "Cold War stay-behind resistance networks in Europe.",
+   "aliases": [
+    "Gladio",
+    "stay behind network",
+    "stay behind"
+   ],
+   "see_also": []
+  },
+  "iran_contra": {
+   "name": "Iran–Contra",
+   "desc": "1980s arms-for-hostages and Contra funding affair.",
+   "aliases": [
+    "Iran Contra",
+    "Contras",
+    "Oliver North",
+    "arms for hostages"
+   ],
+   "see_also": [
+    "drugs"
+   ]
+  },
+  "drugs": {
+   "name": "CIA and drug trafficking allegations",
+   "desc": "Allegations of CIA links to drug trafficking (Air America, Contra cocaine).",
+   "aliases": [
+    "Air America",
+    "drug trafficking",
+    "cocaine",
+    "heroin",
+    "narcotics trafficking"
+   ],
+   "see_also": [
+    "iran_contra"
+   ]
+  },
+  "hitler": {
+   "name": "Hitler survival reports",
+   "desc": "Postwar reports and rumors that Hitler survived.",
+   "aliases": [
+    "Adolf Hitler",
+    "Hitler",
+    "Phillip Citroen",
+    "CITROEN"
+   ],
+   "see_also": [
+    "paperclip"
+   ],
+   "query_aliases": [
+    "Hitler survived",
+    "Hitler escaped",
+    "Hitler alive"
+   ]
+  },
+  "watergate": {
+   "name": "Watergate",
+   "desc": "1972 break-in and resulting scandal.",
+   "aliases": [
+    "Watergate",
+    "Howard Hunt",
+    "E Howard Hunt",
+    "James McCord",
+    "plumbers"
+   ],
+   "see_also": [
+    "family_jewels"
+   ]
+  },
+  "weather": {
+   "name": "Weather modification",
+   "desc": "Cloud seeding and weather-control research.",
+   "aliases": [
+    "weather modification",
+    "cloud seeding",
+    "weather control",
+    "rainmaking",
+    "POPEYE"
+   ],
+   "see_also": [],
+   "query_aliases": [
+    "chemtrails",
+    "control the weather"
+   ]
+  },
+  "bio_chem": {
+   "name": "Biological & chemical weapons",
+   "desc": "Biological/chemical warfare programs and allegations.",
+   "aliases": [
+    "biological warfare",
+    "biological weapons",
+    "germ warfare",
+    "chemical warfare",
+    "nerve agent",
+    "anthrax",
+    "Fort Detrick"
+   ],
+   "see_also": [
+    "mkultra"
+   ]
+  },
+  "nuclear_soviet": {
+   "name": "Soviet nuclear & missile programs",
+   "desc": "Intelligence on Soviet nuclear weapons and missiles.",
+   "aliases": [
+    "Soviet nuclear",
+    "atomic bomb",
+    "ICBM",
+    "Semipalatinsk",
+    "Kapustin Yar",
+    "Tyuratam",
+    "Baikonur"
+   ],
+   "see_also": [
+    "corona",
+    "redstone"
+   ]
+  },
+  "space_race": {
+   "name": "Space race",
+   "desc": "Soviet and U.S. space programs, Sputnik, Apollo.",
+   "aliases": [
+    "Sputnik",
+    "Apollo",
+    "moon landing",
+    "lunar landing",
+    "cosmonaut",
+    "astronaut",
+    "Gagarin"
+   ],
+   "see_also": [
+    "redstone",
+    "paperclip"
+   ],
+   "query_aliases": [
+    "moon landing faked",
+    "fake moon landing"
+   ]
+  },
+  "vietnam": {
+   "name": "Vietnam / Phoenix Program",
+   "desc": "Vietnam War intelligence, including the Phoenix Program.",
+   "aliases": [
+    "Phoenix Program",
+    "PHUNG HOANG",
+    "Viet Cong",
+    "Gulf of Tonkin",
+    "Tet offensive"
+   ],
+   "see_also": []
+  },
+  "glomar_response": {
+   "name": "\"Neither confirm nor deny\"",
+   "desc": "The Glomar response used in FOIA replies.",
+   "aliases": [
+    "neither confirm nor deny"
+   ],
+   "see_also": [
+    "azorian"
+   ]
+  }
+ }
+}
