@@ -11,7 +11,7 @@ Two detectors (both free, local, no model download):
 Review the CSV, then copy good ones into topics.json as aliases or new topics.
 """
 import collections, csv, json, math, os, re, sqlite3, sys
-from topics import load_topics, compile_topics, tag, fold
+from site.scraper.topics import load_topics, compile_topics, tag, fold
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 STOP = set("""a an the of to in on and or is was were be been are that this it its by for with as at from not but
