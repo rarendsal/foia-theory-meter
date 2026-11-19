@@ -41,7 +41,7 @@ def main():
             docs.append({"id": i, "t": t, "u": "#demo", "d": "", "c": "DEMO", "x": x})
     else:
         db = sqlite3.connect(os.path.join(HERE, "state.db"))
-        for i, (u, t, f, x, pdf) in enumerate(db.execute("select url,title,fields,text,pdf from docs")):
+        for i, (u, t, f, x, pdf) in enumerate(db.execute("select url,title,fields,text,pdf from docs order by rowid")):
             f = json.loads(f or "{}")
             x = re.sub(r"\s+", " ", x or "").strip()[:MAX_CHARS]
             docs.append({"id": i, "t": t, "u": u, "pdf": pdf, "col": f.get("Collection", ""),

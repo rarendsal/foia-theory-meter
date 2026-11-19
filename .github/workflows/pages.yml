@@ -1,6 +1,8 @@
 # Publishes the /site folder to GitHub Pages.
-# The search index is too big for git, so it lives as site-data.zip on the "index" GitHub Release
-# and is unpacked into site/data during the deploy. The scraper folder is never published.
+# The search index is too big for git. If the DATA_URL repo variable is set (the public URL of the Cloudflare R2
+# bucket that update.yml publishes to), the page reads the index from there and only the HTML/JS is deployed.
+# Otherwise the index comes from site-data.zip on the "index" GitHub Release and is unpacked into site/data.
+# The scraper folder is never published.
 name: Deploy site to GitHub Pages
 
 on:
@@ -35,7 +37,14 @@ jobs:
           rsync -a --exclude 'scraper/' --exclude 'data/' site/ _public/
           touch _public/.nojekyll
 
+      - name: Point the page at the R2 index
+        if: ${{ vars.DATA_URL != '' }}
+        run: |
+          echo 'window.FOIA_DATA = "${{ vars.DATA_URL }}";' > _public/config.js
+          echo "Index URL: ${{ vars.DATA_URL }}"
+
       - name: Download the search index from the "index" release
+        if: ${{ vars.DATA_URL == '' }}
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
