@@ -3,14 +3,17 @@
 
 Layout under site/data/:
   meta.json          coverage stats, topic list, index settings          (loaded on page open)
-  len.json           token count per document (needed for BM25 scoring)   (loaded on page open)
-  p/<n>.json         inverted index shard: term -> [docDelta, tf, docDelta, tf, ...]
-  d/<n>.json         document records, DOC_SHARD docs per file            (fetched for the top hits only)
-  t/<topic>.json     ids of documents tagged with a topic
+  len.json.gz        token count per document (needed for BM25 scoring)   (loaded on page open)
+  p/<n>.json.gz      inverted index shard: term -> [docDelta, tf, docDelta, tf, ...]
+  d/<n>.json.gz      document records, DOC_SHARD docs per file            (fetched for the top hits only)
+  t/<topic>.json.gz  ids of documents tagged with a topic
+
+Everything except meta.json is gzipped on disk (about 2.7x smaller) and unzipped in the browser
+(DecompressionStream), so the index fits static hosts with size caps and costs less to store.
 
 The tokenizer and the term->shard hash below MUST stay identical to tok()/stem()/termShard() in site/app.js.
 """
-import json, os, re, shutil, unicodedata
+import gzip, json, os, re, shutil, unicodedata
 
 TERM_SHARDS = 512
 DOC_SHARD = 100
@@ -47,8 +50,11 @@ def term_shard(term):
 
 
 def _dump(obj, path):
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(obj, f, separators=(",", ":"), ensure_ascii=False)
+    data = json.dumps(obj, separators=(",", ":"), ensure_ascii=False).encode("utf-8")
+    if path.endswith(".gz"):
+        data = gzip.compress(data, 9, mtime=0)   # mtime=0: unchanged shards stay byte-identical between builds
+    with open(path, "wb") as f:
+        f.write(data)
 
 
 def write_index(docs, topics, meta, outdir):
@@ -56,8 +62,8 @@ def write_index(docs, topics, meta, outdir):
     for sub in ("p", "d", "t"):
         shutil.rmtree(os.path.join(outdir, sub), ignore_errors=True)
         os.makedirs(os.path.join(outdir, sub))
-    old = os.path.join(outdir, "corpus.json")
-    if os.path.exists(old): os.remove(old)
+    for old in ("corpus.json", "len.json"):          # left over from older index formats
+        if os.path.exists(os.path.join(outdir, old)): os.remove(os.path.join(outdir, old))
 
     shards = [dict() for _ in range(TERM_SHARDS)]   # term -> [lastId, flat list]
     lens, topic_docs = [], {tid: [] for tid in topics}
@@ -73,14 +79,15 @@ def write_index(docs, topics, meta, outdir):
             if tid in topic_docs: topic_docs[tid].append(d["id"])
 
     for i, sh in enumerate(shards):
-        _dump({w: e[1] for w, e in sh.items()}, os.path.join(outdir, "p", f"{i}.json"))
+        _dump({w: e[1] for w, e in sh.items()}, os.path.join(outdir, "p", f"{i}.json.gz"))
     for s in range(0, len(docs), DOC_SHARD):
         _dump([{k: d.get(k, "") for k in ("t", "u", "pdf", "d", "c", "x", "k")} for d in docs[s:s + DOC_SHARD]],
-              os.path.join(outdir, "d", f"{s // DOC_SHARD}.json"))
+              os.path.join(outdir, "d", f"{s // DOC_SHARD}.json.gz"))
     for tid, ids in topic_docs.items():
-        _dump(ids, os.path.join(outdir, "t", f"{tid}.json"))
-    _dump(lens, os.path.join(outdir, "len.json"))
+        _dump(ids, os.path.join(outdir, "t", f"{tid}.json.gz"))
+    _dump(lens, os.path.join(outdir, "len.json.gz"))
     meta = dict(meta, index={"term_shards": TERM_SHARDS, "doc_shard": DOC_SHARD,
-                             "avg_len": sum(lens) / max(len(lens), 1), "vocab": sum(len(s) for s in shards)})
+                             "avg_len": sum(lens) / max(len(lens), 1), "vocab": sum(len(s) for s in shards),
+                             "ext": ".json.gz"})
     _dump({"meta": meta, "topics": topics}, os.path.join(outdir, "meta.json"))
     return meta

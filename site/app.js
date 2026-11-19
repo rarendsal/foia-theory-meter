@@ -1,6 +1,8 @@
 // Client-side BM25 + topic/alias database + evidence heuristic. No server, no API calls, $0 per query.
 // The index is split into small static files (built by scraper/build_index.py -> scraper/shard.py):
-// the page loads meta.json + len.json up front, then fetches only the postings and documents a query needs.
+// the page loads meta.json + len up front, then fetches only the postings and documents a query needs.
+// Shards are gzipped on disk and unzipped here. config.js says where the index lives (default ./data/; the
+// deploy points it at a Cloudflare R2 bucket, where latest.json names the current build's folder).
 const STOP = new Set("a an the of to in on and or is was were be been are that this it its by for with as at from did do does have has had they their them he she his her not but if so than then there these those who whom which what when where why how all any can could would should will into about cia agency us".split(" "));
 const fold = s => (s || "").normalize("NFKD").replace(/[\u0300-\u036f]/g, "");
 const tok = s => (fold(s).toLowerCase().match(/[a-z0-9]+/g) || []).filter(w => w.length > 1 && !STOP.has(w)).map(stem);
@@ -38,12 +40,28 @@ const ACTOR = /\b(cia|c\.\s?i\.\s?a|agency|central intelligence)\b/i;
 let META = {}, T = {}, idx = null;
 
 // ---- sharded index access ---------------------------------------------------
+let DATA = (window.FOIA_DATA || "data/").replace(/\/?$/, "/"), EXT = ".json";
 const cache = new Map();
+async function readJSON(r){
+  const buf = new Uint8Array(await r.arrayBuffer());
+  if (buf[0] === 0x1f && buf[1] === 0x8b) {   // gzip magic; skipped if the host already unzipped it (Content-Encoding)
+    const s = new Blob([buf]).stream().pipeThrough(new DecompressionStream("gzip"));
+    return JSON.parse(await new Response(s).text());
+  }
+  return JSON.parse(new TextDecoder().decode(buf));
+}
 const getJSON = path => {
-  if (!cache.has(path)) cache.set(path, fetch("data/" + path).then(r => {
-    if (!r.ok) throw new Error(`${r.status} loading data/${path}`); return r.json(); }));
+  if (!cache.has(path)) cache.set(path, fetch(DATA + path).then(r => {
+    if (!r.ok) throw new Error(`${r.status} loading ${path}`); return readJSON(r); }));
   return cache.get(path);
 };
+const shard = name => getJSON(name + EXT);   // p/12, d/3, t/mkultra, len
+// A bucket keeps several builds side by side (document ids change between builds), so pin one build per page load.
+async function pickBuild(){
+  if (!/^https?:/.test(DATA)) return;   // local folder: it is the build
+  try { const r = await fetch(DATA + "latest.json", {cache: "no-store"});
+    if (r.ok) DATA += (await r.json()).path.replace(/\/?$/, "/"); } catch { /* no latest.json: DATA is the build */ }
+}
 // FNV-1a 32-bit, identical to term_shard() in scraper/shard.py
 function termShard(term){
   let h = 0x811c9dc5;
@@ -54,19 +72,19 @@ function termShard(term){
 async function postings(terms){
   const out = {};
   await Promise.all(terms.map(async w => {
-    const flat = (await getJSON(`p/${termShard(w)}.json`))[w] || [];
+    const flat = (await shard(`p/${termShard(w)}`))[w] || [];
     const m = new Map(); let id = 0;
     for (let k = 0; k < flat.length; k += 2) { id += flat[k]; m.set(id, flat[k + 1]); }
     out[w] = m;
   }));
   return out;
 }
-const topicDocs = async tid => { const t = T[tid]; if (!t.set) t.set = new Set(await getJSON(`t/${tid}.json`)); return t.set; };
+const topicDocs = async tid => { const t = T[tid]; if (!t.set) t.set = new Set(await shard(`t/${tid}`)); return t.set; };
 // -> Map(docId -> doc record)
 async function getDocs(ids){
   const out = new Map(), per = idx.docShard;
   await Promise.all([...new Set(ids.map(i => Math.floor(i / per)))].map(async s => {
-    const rows = await getJSON(`d/${s}.json`);
+    const rows = await shard(`d/${s}`);
     rows.forEach((d, j) => { d.id = s * per + j; d.k = d.k || []; out.set(d.id, d); });
   }));
   return out;
@@ -82,8 +100,10 @@ function aliasRx(alias, forQuery){
 }
 
 async function load(){
-  const [j, len] = await Promise.all([getJSON("meta.json"), getJSON("len.json")]);
-  META = j.meta; T = j.topics || {};
+  await pickBuild();
+  const j = await getJSON("meta.json");
+  META = j.meta; T = j.topics || {}; EXT = META.index.ext || ".json";   // ".json": index built before gzip
+  const len = await shard("len");
   for (const [id, t] of Object.entries(T)) { t.id = id;
     t.rxDoc = t.aliases.map(a => aliasRx(a, false)); t.rxQ = [...t.aliases, ...(t.qaliases || [])].map(a => aliasRx(a, true)); }
   idx = {N: len.length, len, avg: META.index.avg_len, termShards: META.index.term_shards, docShard: META.index.doc_shard};

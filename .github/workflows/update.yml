@@ -1,0 +1,119 @@
+# Nightly update in the cloud (free for public repos): collect more documents, rebuild the index, publish it.
+#
+# - The scraper database (state.db) lives as state.db.gz on the "state" release. Seed it once from your PC
+#   (see README, "Run it in the cloud"). The run restores it, adds documents, and saves it back before indexing.
+# - The search index is uploaded to a Cloudflare R2 bucket under builds/<timestamp>/, then latest.json is switched
+#   to the new build and older builds are pruned. Needs these repo secrets:
+#   R2_ACCOUNT_ID, R2_ACCESS_KEY_ID, R2_SECRET_ACCESS_KEY, R2_BUCKET. Without them it falls back to
+#   uploading site-data.zip to the "index" release and redeploying GitHub Pages (the old way).
+name: Nightly update
+
+on:
+  schedule:
+    - cron: "17 7 * * *"   # 07:17 UTC every day
+  workflow_dispatch:
+    inputs:
+      bulk_requests:
+        description: "Internet Archive bulk requests (about 1,000 new docs per 21 requests)"
+        default: "3000"
+      publish:
+        description: "Publish the rebuilt index"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write   # update the state/index release assets
+  actions: write    # start the Pages deploy (fallback mode)
+
+concurrency:
+  group: nightly-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350   # GitHub's hard cap is 6 h; collection stops itself after 3.5 h; indexing takes ~1 h
+    env:
+      GH_TOKEN: ${{ github.token }}
+      PYTHONUNBUFFERED: "1"
+      R2_BUCKET: ${{ secrets.R2_BUCKET }}   # empty = R2 not set up yet
+      PUBLISH: ${{ github.event_name == 'schedule' || inputs.publish }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Restore state.db from the "state" release
+        run: |
+          if ! gh release download state --pattern state.db.gz --dir . ; then
+            echo "::error::No state.db.gz on a 'state' release. Seed it once from your PC (README: Run it in the cloud)."
+            exit 1
+          fi
+          python site/scraper/statedb.py unpack state.db.gz
+          echo "START_DOCS=$(python site/scraper/statedb.py count)" >> "$GITHUB_ENV"
+
+      - name: Collect documents (stops after 3.5 h; every step resumes next run)
+        working-directory: site/scraper
+        run: |
+          # timeout sends Ctrl-C, which the scraper handles by saving progress; exit 124 = time limit reached
+          run() { timeout -s INT "$1" python sources.py "${@:2}" || [ $? -eq 124 ]; }
+          run 45m ia-topics
+          run 45m documentcloud
+          run 120m ia-bulk --collection ciareadingroom --max-requests "${{ inputs.bulk_requests || '3000' }}"
+          python sources.py status
+
+      - name: Save state.db back to the "state" release
+        if: ${{ !cancelled() }}
+        run: |
+          n=$(python site/scraper/statedb.py count)
+          echo "docs: $START_DOCS -> $n"
+          if [ "$n" -lt "$START_DOCS" ]; then echo "::error::Document count dropped; not saving."; exit 1; fi
+          python site/scraper/statedb.py pack state.db.gz
+          gh release upload state state.db.gz --clobber
+
+      - name: Rebuild the search index
+        working-directory: site/scraper
+        run: |
+          python build_index.py
+          python phrases.py
+          echo "INDEX_MB=$(du -sm ../data | cut -f1)" >> "$GITHUB_ENV"
+
+      - name: Keep the alias/topic suggestions
+        uses: actions/upload-artifact@v4
+        with:
+          name: phrase-candidates
+          path: site/scraper/phrase_candidates.csv
+          retention-days: 30
+
+      - name: Publish to Cloudflare R2
+        if: ${{ env.PUBLISH == 'true' && env.R2_BUCKET != '' }}
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          AWS_DEFAULT_REGION: auto
+          # R2 doesn't need the newer default checksum headers of the AWS CLI
+          AWS_REQUEST_CHECKSUM_CALCULATION: when_required
+          AWS_RESPONSE_CHECKSUM_VALIDATION: when_required
+        run: |
+          ep="https://${{ secrets.R2_ACCOUNT_ID }}.r2.cloudflarestorage.com"
+          s3() { aws s3 --endpoint-url "$ep" --only-show-errors "$@"; }
+          ver="builds/$(date -u +%Y%m%d-%H%M)"
+          # Stored as plain bytes (no Content-Encoding), the page unzips them itself. Each build is immutable.
+          s3 cp site/data "s3://$R2_BUCKET/$ver/" --recursive \
+             --content-type application/octet-stream --cache-control "public, max-age=31536000, immutable"
+          echo "{\"path\":\"$ver\"}" > latest.json
+          s3 cp latest.json "s3://$R2_BUCKET/latest.json" --content-type application/json --cache-control "no-cache"
+          echo "Published $ver ($INDEX_MB MB)"
+          # Keep the 3 newest builds (open pages may still be reading the previous one).
+          for old in $(aws s3 ls --endpoint-url "$ep" "s3://$R2_BUCKET/builds/" | awk '{print $2}' | sort -r | tail -n +4); do
+            s3 rm "s3://$R2_BUCKET/builds/$old" --recursive && echo "Pruned builds/$old"
+          done
+
+      - name: Publish to GitHub Pages (fallback when R2 isn't set up)
+        if: ${{ env.PUBLISH == 'true' && env.R2_BUCKET == '' }}
+        run: |
+          if [ "$INDEX_MB" -gt 900 ]; then echo "::error::Index is $INDEX_MB MB, too close to the 1 GB Pages limit. Set up R2."; exit 1; fi
+          gh release upload index site-data.zip --clobber
+          gh workflow run pages.yml --ref "${{ github.ref_name }}"

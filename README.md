@@ -10,8 +10,50 @@ Type "Is it true that ____?" The page searches a scraped copy of the **CIA FOIA 
 About **112,600 documents** (~12% of the reading room), imported from public mirrors (see Sources), because
 cia.gov blocks scripts. The site is live on GitHub Pages and the banner shows the current coverage.
 
-## Keeping it updated
-`update.ps1` (repo root) runs the whole cycle. Every step resumes where the last run stopped:
+## Run it in the cloud ($0)
+The nightly update runs on **GitHub Actions** (`.github/workflows/update.yml`, free for public repos), so your PC
+doesn't need to stay on. The search index is served from **Cloudflare R2** (10 GB storage and egress are free), which
+avoids GitHub Pages' 1 GB cap. A full ~1M-document index is about 1 GB gzipped. The HTML stays on GitHub Pages.
+
+| Piece | Where | Free allowance | Our use |
+|---|---|---|---|
+| Web page (HTML/JS) | GitHub Pages | 1 GB, 100 GB/month | < 1 MB |
+| Search index | Cloudflare R2 | 10 GB storage, 10M reads/month, free egress | ~0.1–1 GB, ~5–30 reads per search |
+| Nightly job | GitHub Actions | unlimited minutes (public repo), 6 h per run | ~3–4 h |
+| `state.db` backup | GitHub Release asset | 2 GB per file | ~0.2 GB now |
+
+R2 asks for a card on file. Past the free tier it bills (no hard cap), but this site would need ~500k searches
+a month to get there.
+
+**One-time setup**
+1. **Back up the database** to a release (repo root, `gh auth login` first):
+   ```powershell
+   python site/scraper/statedb.py pack
+   gh release create state state.db.gz --title "Scraper database" --notes "state.db snapshot used by the nightly update"
+   ```
+   Once the cloud job runs, it owns `state.db`. Turn off the local scheduled task so the two copies don't diverge
+   (`Unregister-ScheduledTask "FOIA Theory Meter update"`). To work locally later, run
+   `gh release download state -p state.db.gz --clobber` and then `python site/scraper/statedb.py unpack`.
+2. **Create the bucket.** In the Cloudflare dashboard, open R2, create a bucket (e.g. `foia-index`), and under
+   *Settings → Public access* enable the `r2.dev` URL (or connect a custom domain, which is better for heavy traffic).
+   Under *Settings → CORS policy*, add:
+   ```json
+   [{"AllowedOrigins": ["https://rarendsal.github.io", "http://localhost:8000"], "AllowedMethods": ["GET", "HEAD"], "AllowedHeaders": ["*"], "MaxAgeSeconds": 86400}]
+   ```
+3. **Create an API token**: *R2 → Manage API tokens → Create*, with *Object Read & Write* on that bucket only.
+4. **Add GitHub repo settings** (*Settings → Secrets and variables → Actions*):
+   - Secrets: `R2_ACCOUNT_ID`, `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY`, `R2_BUCKET`
+   - Variable: `DATA_URL` = the bucket's public URL, e.g. `https://pub-xxxx.r2.dev/`
+5. Run **Actions → Nightly update → Run workflow**. When it finishes, run **Deploy site to GitHub Pages** once, so the
+   page is pointed at `DATA_URL`.
+
+Each run publishes the index to `builds/<timestamp>/` in the bucket, switches `latest.json` to it, and keeps the
+three newest builds. Open pages never mix files from two builds. Alias suggestions are kept as the
+`phrase-candidates` artifact on each run. Without the R2 secrets, the job falls back to the old path: it uploads
+`site-data.zip` to the `index` release and redeploys Pages.
+
+## Keeping it updated (locally)
+`update.ps1` (repo root) runs the whole cycle on your PC. Every step resumes where the last run stopped:
 1. `sources.py ia-topics` and `documentcloud`: search for every topic alias. Aliases already searched are skipped,
    so anything new you add to `topics.json` gets fetched on the next run.
 2. `sources.py ia-bulk`: walks the full ~1M-document reading-room mirror, about 140k documents per 3,000 requests.
@@ -93,7 +135,8 @@ python3 phrases.py                                # optional: suggest new key ph
 python3 build_index.py                            # writes the split index to site/data/ (no --demo!)
 cd .. && python3 -m http.server 8000         # open http://localhost:8000
 ```
-The site is fully static: deploy the `site/` folder to GitHub Pages, Netlify, or similar for free.
+The site is fully static: deploy the `site/` folder to GitHub Pages, Netlify, or similar for free. `site/config.js`
+says where the index lives (default `data/`, next to the page).
 
 ## Politeness
 - Reads `robots.txt` and honours Disallow and Crawl-delay (the delay is never below 3 s). Uses a descriptive User-Agent (edit the contact address).
@@ -120,7 +163,7 @@ STARGATE/psychoenergetics, MKULTRA, **PAPERCLIP** and **Redstone Arsenal** (cros
 
 ## How the meter works
 1. **BM25** runs in the browser over title and text (title weighted ×2, text capped at 3,000 chars per doc). The index is split
-   into small files (`scraper/shard.py`): the page loads ~0.4 MB up front and ~1–2 MB per search.
+   into small gzipped files (`scraper/shard.py`, unzipped in the browser): the page loads ~0.15 MB up front and ~0.5–1 MB per search.
 2. Two separate numbers, because "the program existed" ≠ "the wild version is true":
    - **Paper trail** (shown as a number): how much the top documents cover your keywords. Example: the CIA did fund psychic
      "remote viewing" research, so that topic has a big paper trail.
