@@ -66,7 +66,8 @@
     "psychic"
    ],
    "see_also": [
-    "mkultra"
+    "mkultra",
+    "bluebeam_fake_second_comnig_or_alien_inv"
    ],
    "query_aliases": [
     "psychic spies",
@@ -520,6 +521,20 @@
    ],
    "see_also": [
     "azorian"
+   ]
+  },
+  "bluebeam_fake_second_comnig_or_alien_inv": {
+   "name": "BLUEBEAM / Fake second comnig or alien invasion",
+   "desc": "Using satellites and holograms to fake either a second coming of Christ or to fake an alien invasion.",
+   "aliases": [
+    "BLUEBEAM",
+    "Project Bluebeam"
+   ],
+   "see_also": [
+    "stargate"
+   ],
+   "query_aliases": [
+    "second coming"
    ]
   }
  }
