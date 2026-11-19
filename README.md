@@ -73,11 +73,11 @@ To run it nightly, see "Schedule it" below.
 One command, from the repo root. It asks for anything you leave out, then shows roughly how many of your
 documents already mention each alias:
 ```powershell
-python site/scraper/topic.py add                                    # step-by-step prompts
-python site/scraper/topic.py add "ARGO / Iran hostage exfiltration" --alias "ARGO, Canadian caper" --ask "Argo movie" --related iran_contra --desc "CIA operation that got six US diplomats out of Iran in 1980."
-python site/scraper/topic.py alias stargate SCANATE                 # more aliases for an existing topic
-python site/scraper/topic.py review                                 # y/n through the suggestions in phrase_candidates.csv
-python site/scraper/topic.py list                                   # or: show stargate, remove argo
+python site\scraper\topic.py add                                    # step-by-step prompts
+python site\scraper\topic.py add "ARGO / Iran hostage exfiltration" --alias "ARGO, Canadian caper" --ask "Argo movie" --related iran_contra --desc "CIA operation that got six US diplomats out of Iran in 1980."
+python site\scraper\topic.py alias stargate SCANATE                 # more aliases for an existing topic
+python site\scraper\topic.py review                                 # y/n through the suggestions in phrase_candidates.csv
+python site\scraper\topic.py list                                   # or: show stargate, remove argo
 ```
 - `--alias` tags documents. ALL-CAPS aliases match case-sensitively (code names), and the rest match any case.
 - `--ask` only recognizes the topic in a question. Use it for broad words like "Kennedy" that would mis-tag documents.
