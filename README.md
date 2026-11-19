@@ -70,16 +70,21 @@ three newest builds. Open pages never mix files from two builds. Alias suggestio
 To run it nightly, see "Schedule it" below.
 
 ### Adding topics
-1. Open `site/scraper/phrase_candidates.csv`.
-   - `alias -> stargate`: the phrase mostly appears in files already tagged with that topic (e.g. SCANATE).
-     Add it to that topic's `aliases` in `topics.json`.
-   - `new topic?`: a recurring code name with no topic yet. Look it up, and if it's interesting add a topic:
-     ```json
-     "argo": {"name": "ARGO / Iran hostage exfiltration", "desc": "CIA operation that got six US diplomats out of Iran in 1980.",
-              "aliases": ["ARGO", "Canadian caper"], "query_aliases": ["Argo movie"], "see_also": ["iran_contra"]}
-     ```
-   ALL-CAPS aliases match documents case-sensitively; `query_aliases` only match questions.
-2. Run `update.ps1`. It searches the new aliases, retags every document, and republishes.
+One command, from the repo root. It asks for anything you leave out, then shows roughly how many of your
+documents already mention each alias:
+```powershell
+python site/scraper/topic.py add                                    # step-by-step prompts
+python site/scraper/topic.py add "ARGO / Iran hostage exfiltration" --alias "ARGO, Canadian caper" --ask "Argo movie" --related iran_contra --desc "CIA operation that got six US diplomats out of Iran in 1980."
+python site/scraper/topic.py alias stargate SCANATE                 # more aliases for an existing topic
+python site/scraper/topic.py review                                 # y/n through the suggestions in phrase_candidates.csv
+python site/scraper/topic.py list                                   # or: show stargate, remove argo
+```
+- `--alias` tags documents. ALL-CAPS aliases match case-sensitively (code names), and the rest match any case.
+- `--ask` only recognizes the topic in a question. Use it for broad words like "Kennedy" that would mis-tag documents.
+- `review` walks the `alias -> <topic>` and `new topic?` suggestions that `phrases.py` writes. Answer `y` to add,
+  `n` to hide the suggestion for good (saved in `rejected_phrases.txt`), or Enter to skip.
+- Add `--push` to commit and push `topics.json`. The nightly cloud update then searches the new aliases, retags every
+  document, and republishes. To do that on this PC instead, run `update.ps1`.
 
 ### Schedule it (Windows Task Scheduler)
 ```powershell

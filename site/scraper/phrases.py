@@ -137,6 +137,10 @@ def main():
         rows.append((suggestion, round(score, 1), p, kind[p], n,
                      f"{topics[tid]['name']} ({round(100 * share)}%)" if tid else "",
                      top_col, re.sub(r"\s+", " ", example.get(p, ""))[:200]))
+    rej = os.path.join(HERE, "rejected_phrases.txt")      # phrases answered "n" in `topic.py review`
+    if os.path.exists(rej):
+        no = set(open(rej, encoding="utf-8").read().splitlines())
+        rows = [r for r in rows if r[2] not in no]
     rows.sort(key=lambda r: (not r[0].startswith("alias"), -r[1]))
     rows = [r for r in rows if r[0].startswith("alias")][:TOP_N // 2] + [r for r in rows if not r[0].startswith("alias")][:TOP_N // 2]
     out = os.path.join(HERE, "phrase_candidates.csv")
