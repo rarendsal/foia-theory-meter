@@ -1,641 +1,631 @@
 suggestion,score,phrase,kind,docs,top_topic,top_collection,example
-alias -> corona,26.4,especially indoctrinated,phrase,904,CORONA spy satellites (88%),CIA Reading Room (mirror),
-alias -> corona,26.1,personnel especially indoctrinated,phrase,887,CORONA spy satellites (88%),CIA Reading Room (mirror),
-alias -> corona,26.1,indoctrinated and authorized,phrase,889,CORONA spy satellites (88%),CIA Reading Room (mirror),
-alias -> corona,26.0,SECRET RUFF,codename,923,CORONA spy satellites (86%),CIA Reading Room (mirror),"RU I 2r5O' M SIC J-1,., n/,., Handle Via TALENT-KEYHOLE Control System Only TOP SECRET RUFF Handle Via TALENT-KEYHOLE Control System Only A 50-acre double-secured ammuniti"
-alias -> corona,26.0,top secret ruff,phrase,1016,CORONA spy satellites (81%),CIA Reading Room (mirror),
-alias -> corona,25.7,talent-keyhole control,phrase,681,CORONA spy satellites (98%),CIA Reading Room (mirror),
-alias -> corona,25.4,talent keyhole,phrase,674,CORONA spy satellites (98%),CIA Reading Room (mirror),
-alias -> corona,24.8,manner prejudicial,phrase,887,CORONA spy satellites (83%),CIA Reading Room (mirror),
-alias -> corona,24.7,talent-keyhole control system,phrase,614,CORONA spy satellites (100%),CIA Reading Room (mirror),
-alias -> corona,24.6,via talent-keyhole,phrase,626,CORONA spy satellites (98%),CIA Reading Room (mirror),
-alias -> recon_aircraft,24.2,project aquatone,phrase,776,U-2 / OXCART / Area 51 (87%),CIA Reading Room (mirror),
-alias -> corona,23.9,handle via talent-keyhole,phrase,590,CORONA spy satellites (98%),CIA Reading Room (mirror),
-alias -> nuclear_soviet,23.2,icbm complex,phrase,578,Soviet nuclear & missile programs (96%),CIA Reading Room (mirror),
-alias -> corona,22.3,keyhole control,phrase,513,CORONA spy satellites (99%),CIA Reading Room (mirror),
-alias -> corona,21.6,accordance with keyhole,phrase,482,CORONA spy satellites (98%),CIA Reading Room (mirror),
-alias -> corona,21.5,via talent keyhole,phrase,480,CORONA spy satellites (98%),CIA Reading Room (mirror),
-alias -> corona,21.3,keyhole and talent,phrase,467,CORONA spy satellites (99%),CIA Reading Room (mirror),
-alias -> corona,21.3,NIMA,codename,888,CORONA spy satellites (72%),CIA Reading Room (mirror),"ite partnership with the National Geospatial-Intelligence Agency (NGA-formerly, NIMA), 3) the CDC business process, and progress against workload (93 million pages "
-alias -> corona,20.9,nima dod,phrase,838,CORONA spy satellites (72%),CIA Reading Room (mirror),
-alias -> corona,20.8,kh- mission,phrase,469,CORONA spy satellites (96%),CIA Reading Room (mirror),
-alias -> corona,20.3,via talent-keyhole control,phrase,420,CORONA spy satellites (99%),CIA Reading Room (mirror),
-alias -> iran_contra,20.0,nicaraguan rebels,phrase,576,Iran–Contra (83%),CIA Reading Room (mirror),
-alias -> corona,19.9,declass review,phrase,821,CORONA spy satellites (69%),CIA Reading Room (mirror),
-alias -> corona,19.5,talent keyhole control,phrase,395,CORONA spy satellites (98%),CIA Reading Room (mirror),
-alias -> corona,19.5,talent-keyhole information,phrase,389,CORONA spy satellites (99%),CIA Reading Room (mirror),
-alias -> nuclear_soviet,19.2,soviet icbm,phrase,458,Soviet nuclear & missile programs (90%),CIA Reading Room (mirror),
-alias -> corona,19.0,receive talent-keyhole,phrase,368,CORONA spy satellites (99%),CIA Reading Room (mirror),
-alias -> corona,18.6,receive talent-keyhole information,phrase,354,CORONA spy satellites (99%),CIA Reading Room (mirror),
-alias -> nuclear_soviet,18.4,KAPUSTIN,codename,356,Soviet nuclear & missile programs (98%),CIA Reading Room (mirror)," AS OF 1942 CI'TJPRIN,Lt.Col. Head of the School and 1110 Staff Officer 25X1A2g KAPUSTIN, Sr, Lt. Trai-ilner in topography 25X1 A2g PET''.OV,Capt. Trainer and Agent co'"
-alias -> corona,18.0,keyhole photography,phrase,346,CORONA spy satellites (97%),CIA Reading Room (mirror),
+alias -> corona,57.6,nima dod,phrase,3332,CORONA spy satellites (100%),CIA Reading Room (mirror),
+alias -> corona,53.6,declass review,phrase,3223,CORONA spy satellites (94%),CIA Reading Room (mirror),
+alias -> corona,41.0,indoctrinated and authorized,phrase,1744,CORONA spy satellites (98%),CIA Reading Room (mirror),
+alias -> corona,25.6,ILLEGIB,codename,1416,CORONA spy satellites (68%),CIA Reading Room (mirror),":sW'~"" Ra}aor Jr Approved For Retease.'20Q4/07%07: CIA-RC)75-f}Qi49RQ5001000""6- ILLEGIB"
+alias -> corona,24.5,DECLASS REVIEW,codename,632,CORONA spy satellites (97%),CIA Reading Room (mirror),"gress Report No. 8 to: P. O. Box 8031 Southwest Station Washington, D. C. 20024 DECLASS REVIEW by NIMA/DOD EXCLODED FROM AOM 5M0010 REGRADIRG: DAD D DOES at APPLY Approved Fo"
+alias -> corona,23.7,ruff handle,phrase,569,CORONA spy satellites (99%),CIA Reading Room (mirror),
+alias -> corona,23.7,npic project,phrase,656,CORONA spy satellites (92%),CIA Reading Room (mirror),
+alias -> corona,21.9,particular re-,phrase,755,CORONA spy satellites (80%),CIA Reading Room (mirror),
+alias -> corona,21.9,published and disseminated,phrase,792,CORONA spy satellites (78%),CIA Reading Room (mirror),
+alias -> corona,21.8,letter designators,phrase,750,CORONA spy satellites (80%),CIA Reading Room (mirror),
+alias -> corona,21.4,particular re- port,phrase,732,CORONA spy satellites (79%),CIA Reading Room (mirror),
+alias -> corona,21.0,logistic installations,phrase,716,CORONA spy satellites (78%),CIA Reading Room (mirror),
+alias -> corona,20.9,automatic downgrading,phrase,1374,CORONA spy satellites (56%),CIA Reading Room (mirror),
+alias -> corona,20.8,letter designator,phrase,704,CORONA spy satellites (78%),CIA Reading Room (mirror),
+alias -> corona,20.7,DOWNGRADING,codename,780,CORONA spy satellites (74%),CIA Reading Room (mirror), PER L C / SECRET (When Filled In) TOTAL COPIES GROUP I EXCLUDED FROM AUTOMATIC DOWNGRADING AND DECLASSIFICATION S. REPRODUCTION OF THIS COPY PROHIBITED INDEX: 0 YES 0 NO
+alias -> corona,20.6,munition storage,phrase,697,CORONA spy satellites (78%),CIA Reading Room (mirror),
+alias -> corona,20.5,logistic installations being,phrase,692,CORONA spy satellites (78%),CIA Reading Room (mirror),
+alias -> corona,20.3,force and logistic,phrase,684,CORONA spy satellites (78%),CIA Reading Room (mirror),
+alias -> corona,20.3,designator are omitted,phrase,685,CORONA spy satellites (78%),CIA Reading Room (mirror),
+alias -> corona,20.1,munition storage areas,phrase,674,CORONA spy satellites (77%),CIA Reading Room (mirror),
+alias -> corona,20.1,DECLASSIFICATION,codename,1033,CORONA spy satellites (62%),CIA Reading Room (mirror),"unity in the-1960s and, on occasion, identified himself CIA HAS NO OBJECTION TO DECLASSIFICATION ANDiOR RELEASE OF CIA INFORMATION IN THIS DOCUMENT as Maurice Bishop. At right "
+alias -> corona,19.9,uniformity the titles,phrase,665,CORONA spy satellites (77%),CIA Reading Room (mirror),
+alias -> corona,19.8,areas am-,phrase,660,CORONA spy satellites (77%),CIA Reading Room (mirror),
+alias -> corona,19.8,field train-,phrase,654,CORONA spy satellites (77%),CIA Reading Room (mirror),
+alias -> corona,19.7,downgrading and declassification,phrase,1119,CORONA spy satellites (59%),CIA Reading Room (mirror),
+alias -> corona,19.7,am- munition,phrase,691,CORONA spy satellites (75%),CIA Reading Room (mirror),
+alias -> corona,19.6,am- munition storage,phrase,651,CORONA spy satellites (77%),CIA Reading Room (mirror),
+alias -> corona,19.6,storage areas am-,phrase,652,CORONA spy satellites (77%),CIA Reading Room (mirror),
+alias -> corona,19.4,arms field train-,phrase,638,CORONA spy satellites (77%),CIA Reading Room (mirror),
+alias -> corona,19.3,areas am- munition,phrase,637,CORONA spy satellites (76%),CIA Reading Room (mirror),
+alias -> corona,19.3,field train- ing,phrase,632,CORONA spy satellites (77%),CIA Reading Room (mirror),
+alias -> corona,19.2,re- port,phrase,1009,CORONA spy satellites (60%),CIA Reading Room (mirror),
+alias -> corona,19.2,ruff top,phrase,434,CORONA spy satellites (92%),CIA Reading Room (mirror),
+alias -> corona,18.9,artillery emplacements,phrase,631,CORONA spy satellites (75%),CIA Reading Room (mirror),
+alias -> corona,18.9,train- ing,phrase,769,CORONA spy satellites (68%),CIA Reading Room (mirror),
+alias -> corona,18.7,npic the photographic,phrase,576,CORONA spy satellites (78%),CIA Reading Room (mirror),
+alias -> corona,18.6,chess ruff,phrase,547,CORONA spy satellites (80%),CIA Reading Room (mirror),
+alias -> corona,18.6,COMOR,codename,734,CORONA spy satellites (69%),CIA Reading Room (mirror),General Carroll personally and seek to keep USIB out of this until the detailed COMOR study is ready in about a month. DDS noted receipt of two letters from Marvin W
+alias -> mlk,18.3,DATE DISTR,codename,1459,"Martin Luther King, Jr. Assassination (48%)",CIA Reading Room (mirror)," FORM MAT 68 UTILIZED AS DEEMED NECESSARY BY 7445 RECEIVING AGENCY. 25X1 25X1 r DATE DISTR. 19 July 1940, NO. OF PAGES 4 NO. OF ENCLS. (tJSTEO BELOW) Aft SUPPLEMENT TO RE"
+alias -> corona,18.3,npic photographic,phrase,606,CORONA spy satellites (74%),CIA Reading Room (mirror),
+alias -> corona,18.2,usatc series,phrase,447,CORONA spy satellites (86%),CIA Reading Room (mirror),
+alias -> corona,18.2,emplacements batteries,phrase,596,CORONA spy satellites (75%),CIA Reading Room (mirror),
+alias -> corona,18.1,SECRET CHESS RUFF,codename,504,CORONA spy satellites (81%),CIA Reading Room (mirror),ublished and Disseminated by - NATIONAL. PHOTOGRAPHIC INTERPRETATION CENTER TOP SECRET CHESS RUFF Qz_ AIRFIELD NORTHWEST Yudino is . -_ KAZAN AIRFRAME PLANT NO 387-. -~ - Road T
+alias -> corona,18.1,npic photographic analysis,phrase,586,CORONA spy satellites (75%),CIA Reading Room (mirror),
+alias -> corona,18.0,train- ing areas,phrase,510,CORONA spy satellites (80%),CIA Reading Room (mirror),
+alias -> corona,17.9,artillery emplacements batteries,phrase,583,CORONA spy satellites (74%),CIA Reading Room (mirror),
 alias -> recon_aircraft,17.6,project idealist,phrase,313,U-2 / OXCART / Area 51 (100%),CIA Reading Room (mirror),
-alias -> recon_aircraft,17.3,idea osa,phrase,333,U-2 / OXCART / Area 51 (95%),CIA Reading Room (mirror),
-alias -> corona,17.3,ruff handle,phrase,304,CORONA spy satellites (99%),CIA Reading Room (mirror),
-alias -> stargate,16.7,inscom grill,phrase,280,STARGATE / remote viewing (100%),STARGATE files,
-alias -> stargate,16.7,inscom grill flame,phrase,278,STARGATE / remote viewing (100%),STARGATE files,
-alias -> corona,16.5,ruff handle via,phrase,279,CORONA spy satellites (99%),CIA Reading Room (mirror),
-alias -> iran_contra,16.5,john poindexter,phrase,472,Iran–Contra (76%),CIA Reading Room (mirror),
-alias -> mkultra,16.5,mkultra subproject,phrase,275,MKULTRA / mind control (100%),CIA Reading Room (mirror),
-alias -> corona,16.5,division npic,phrase,424,CORONA spy satellites (80%),CIA Reading Room (mirror),
-alias -> corona,16.2,nro review,phrase,660,CORONA spy satellites (63%),CIA Reading Room (mirror),
-alias -> jfk,16.2,assassinations hsca,phrase,263,Kennedy assassination (100%),CIA Reading Room (mirror),
-alias -> nuclear_soviet,16.2,icbm launch,phrase,292,Soviet nuclear & missile programs (95%),CIA Reading Room (mirror),
-alias -> nuclear_soviet,16.1,yar vladimirovka,phrase,272,Soviet nuclear & missile programs (97%),CIA Reading Room (mirror),
-alias -> corona,15.8,nro review completed,phrase,610,CORONA spy satellites (64%),CIA Reading Room (mirror),
-alias -> nuclear_soviet,15.7,yar vladimirovka missile,phrase,259,Soviet nuclear & missile programs (97%),CIA Reading Room (mirror),
-alias -> nuclear_soviet,15.7,vladimirovka missile,phrase,263,Soviet nuclear & missile programs (97%),CIA Reading Room (mirror),
-alias -> nuclear_soviet,15.6,vladimirovka missile test,phrase,258,Soviet nuclear & missile programs (97%),CIA Reading Room (mirror),
-alias -> recon_aircraft,15.6,USAF,codename,1482,U-2 / OXCART / Area 51 (40%),CIA Reading Room (mirror),"ichard H. Lansdale Associate General Counsel FROM Major General Jack E. Thomas, USAF (Ret.) Special Assistant to the D/DCl/IC SUBJECT Rev. Martin Luther King, Jr. R"
-alias -> stargate,15.5,ops proj,phrase,244,STARGATE / remote viewing (99%),STARGATE files,
-alias -> iran_contra,15.4,richard secord,phrase,263,Iran–Contra (95%),CIA Reading Room (mirror),
-alias -> corona,15.3,ILLEGIB,codename,881,CORONA spy satellites (51%),CIA Reading Room (mirror),":sW'~"" Ra}aor Jr Approved For Retease.'20Q4/07%07: CIA-RC)75-f}Qi49RQ5001000""6- ILLEGIB"
-alias -> iran_contra,15.2,edwin meese,phrase,424,Iran–Contra (74%),CIA Reading Room (mirror),
-alias -> stargate,15.1,rv- star,phrase,227,STARGATE / remote viewing (100%),STARGATE files,
-alias -> stargate,15.1,INSCOM,codename,242,STARGATE / remote viewing (97%),CIA Reading Room (mirror),"SESSION: C-79. VIEWER 1. TARGET: . TAPE T147 S & T. 7902.. Folder: INSCOM, GRILL FLAME PROJECT SESSION REPORT, REMOTE VIEWING (RV) SESSION C-79; STAR GAT"
-alias -> iran_contra,15.1,con- tras,phrase,291,Iran–Contra (88%),CIA Reading Room (mirror),
+alias -> recon_aircraft,17.3,idea osa,phrase,335,U-2 / OXCART / Area 51 (95%),CIA Reading Room (mirror),
+alias -> corona,17.2,emplacements batteries infantry,phrase,552,CORONA spy satellites (73%),CIA Reading Room (mirror),
+alias -> corona,17.0,usatc series sheet,phrase,376,CORONA spy satellites (88%),CIA Reading Room (mirror),
+alias -> corona,16.9,USATC,codename,365,CORONA spy satellites (88%),CIA Reading Room (mirror),"Approved for Release 2012/01/18: CIA-RDP84TO0171 R000300470001-8 SECRET MvnRnRN USATC. Series 200, scale 1:200,000 (see reference page) Balashov KGB Radcom Rcvr Sta "
+alias -> corona,16.7,nima dod group,phrase,280,CORONA spy satellites (100%),CIA Reading Room (mirror),
+alias -> corona,16.6,RUFF,codename,493,CORONA spy satellites (75%),CIA Reading Room (mirror), Approved for Release 2014/01/09: CIA-RDP79-00999A000200010026-7 -4 crp. Secret RUFF ZAttF VIABRAU Soviets Possibly Lead US in Applied Parapsychology Studies: A rev
+alias -> iran_contra,16.5,sandinista government,phrase,422,Iran–Contra (80%),CIA Reading Room (mirror),
+alias -> iran_contra,16.4,edwin meese,phrase,452,Iran–Contra (77%),CIA Reading Room (mirror),
+alias -> corona,16.2,ranges artillery emplacements,phrase,497,CORONA spy satellites (73%),CIA Reading Room (mirror),
+alias -> iran_contra,16.0,con- tras,phrase,322,Iran–Contra (89%),CIA Reading Room (mirror),
+alias -> iran_contra,15.7,george shultz,phrase,659,Iran–Contra (61%),CIA Reading Room (mirror),
+alias -> corona,15.6,declassification review,phrase,801,CORONA spy satellites (55%),CIA Reading Room (mirror),
+alias -> mlk,15.6,tional defense,phrase,411,"Martin Luther King, Jr. Assassination (77%)",CIA Reading Room (mirror),
+alias -> stargate,15.6,INSCOM,codename,265,STARGATE / remote viewing (96%),CIA Reading Room (mirror),"SESSION: C-79. VIEWER 1. TARGET: . TAPE T147 S & T. 7902.. Folder: INSCOM, GRILL FLAME PROJECT SESSION REPORT, REMOTE VIEWING (RV) SESSION C-79; STAR GAT"
+alias -> iran_contra,15.5,general edwin meese,phrase,333,Iran–Contra (85%),CIA Reading Room (mirror),
+alias -> mlk,15.5,within the mean-,phrase,382,"Martin Luther King, Jr. Assassination (79%)",CIA Reading Room (mirror),
+alias -> corona,15.4,ussr declass,phrase,240,CORONA spy satellites (99%),CIA Reading Room (mirror),
+alias -> mlk,15.4,mean- ing,phrase,396,"Martin Luther King, Jr. Assassination (77%)",CIA Reading Room (mirror),
+alias -> corona,15.4,ussr declass review,phrase,240,CORONA spy satellites (99%),CIA Reading Room (mirror),
+alias -> jfk,15.3,hsca staff,phrase,235,Kennedy assassination (100%),CIA Reading Room (mirror),
+alias -> iran_contra,15.2,state george shultz,phrase,564,Iran–Contra (64%),CIA Reading Room (mirror),
 alias -> stargate,15.1,rv- star gate,phrase,227,STARGATE / remote viewing (100%),STARGATE files,
-alias -> jfk,15.1,hsca staff,phrase,231,Kennedy assassination (100%),CIA Reading Room (mirror),
-alias -> corona,14.8,particular re-,phrase,252,CORONA spy satellites (93%),CIA Reading Room (mirror),
-alias -> stargate,14.7,SG1J,codename,227,STARGATE / remote viewing (98%),CIA Reading Room (mirror),5 on future projects. 4. U The undersigned is the Project P 00 Alternate VOC is SG1J SG 1 J They can be reached at or SG 1 B SG1 B 2 Enclosures 1. Data Summaries (S
-alias -> recon_aircraft,14.7,osa osa,phrase,274,U-2 / OXCART / Area 51 (89%),CIA Reading Room (mirror),
-alias -> corona,14.7,COMOR,codename,553,CORONA spy satellites (63%),CIA Reading Room (mirror),General Carroll personally and seek to keep USIB out of this until the detailed COMOR study is ready in about a month. DDS noted receipt of two letters from Marvin W
-alias -> nuclear_soviet,14.7,VLADIMIROVKA MISSILE TEST,codename,222,Soviet nuclear & missile programs (99%),CIA Reading Room (mirror),"LAUNCH COMPLEX C KAPUSTIN YAR/VLADIMIROVKA MISSILE TEST CENTER, USSR AS OF APRIL 1964. Declassified in Part - Sanitized Copy Approved f"
-alias -> recon_aircraft,14.6,idealist mission,phrase,220,U-2 / OXCART / Area 51 (98%),CIA Reading Room (mirror),
+alias -> iran_contra,15.1,robert mcfarlane,phrase,411,Iran–Contra (74%),CIA Reading Room (mirror),
+alias -> stargate,15.1,rv- star,phrase,227,STARGATE / remote viewing (100%),STARGATE files,
+alias -> stargate,14.8,SG1J,codename,228,STARGATE / remote viewing (98%),CIA Reading Room (mirror),5 on future projects. 4. U The undersigned is the Project P 00 Alternate VOC is SG1J SG 1 J They can be reached at or SG 1 B SG1 B 2 Enclosures 1. Data Summaries (S
+alias -> mlk,14.7,na- tional defense,phrase,363,"Martin Luther King, Jr. Assassination (77%)",CIA Reading Room (mirror),
+alias -> nuclear_soviet,14.7,type iiid,phrase,230,Soviet nuclear & missile programs (97%),CIA Reading Room (mirror),
+alias -> corona,14.7,oblast ussr,phrase,343,CORONA spy satellites (79%),CIA Reading Room (mirror),
 alias -> recon_aircraft,14.6,project oxcart,phrase,214,U-2 / OXCART / Area 51 (100%),CIA Reading Room (mirror),
-alias -> corona,14.5,particular re- port,phrase,244,CORONA spy satellites (93%),CIA Reading Room (mirror),
-alias -> recon_aircraft,14.5,oxcart program,phrase,213,U-2 / OXCART / Area 51 (99%),CIA Reading Room (mirror),
-alias -> corona,14.5,letter designators,phrase,244,CORONA spy satellites (93%),CIA Reading Room (mirror),
-alias -> iran_contra,14.4,general edwin meese,phrase,310,Iran–Contra (82%),CIA Reading Room (mirror),
-alias -> iran_contra,14.3,sandinista government,phrase,353,Iran–Contra (76%),CIA Reading Room (mirror),
-alias -> stargate,14.3,PROJ,codename,294,STARGATE / remote viewing (84%),STARGATE files,ENHANCED HUMAN PERFORMANCE INVESTIGATION (PROJ 1291) SRI INTERNATIONAL DEC 1987. Folder: ENHANCED HUMAN PERFORMANCE INVESTIGAT
-alias -> recon_aircraft,14.2,idealist tackle,phrase,203,U-2 / OXCART / Area 51 (100%),CIA Reading Room (mirror),
-alias -> stargate,14.2,crv viewer,phrase,202,STARGATE / remote viewing (100%),STARGATE files,
-alias -> corona,14.1,ruff top,phrase,242,CORONA spy satellites (90%),CIA Reading Room (mirror),
-alias -> recon_aircraft,13.9,CONCURRENCE,codename,404,U-2 / OXCART / Area 51 (69%),CIA Reading Room (mirror)," OSWALD'S CONNECTION WITH THE AGENCY. [1:;-10322-10046 ACTION APPROVAL COMMENT CONCURRENCE uNtwrestwEED 10.111 .10- 9 ,a 7 Use previous editions gY1 ` . DIRECT REPLY DISP"
-alias -> corona,13.9,logistic installations,phrase,226,CORONA spy satellites (92%),CIA Reading Room (mirror),
-alias -> corona,13.9,letter designator,phrase,225,CORONA spy satellites (93%),CIA Reading Room (mirror),
-alias -> recon_aircraft,13.8,muckrock lawsuit,phrase,899,U-2 / OXCART / Area 51 (46%),CIA CREST (National Security Archive),
-alias -> recon_aircraft,13.8,made text searchable,phrase,899,U-2 / OXCART / Area 51 (46%),CIA CREST (National Security Archive),
-alias -> nuclear_soviet,13.8,icbm complex ussr,phrase,189,Soviet nuclear & missile programs (101%),CIA Reading Room (mirror),
-alias -> recon_aircraft,13.8,text searchable,phrase,900,U-2 / OXCART / Area 51 (46%),CIA CREST (National Security Archive),
-alias -> iran_contra,13.7,robert mcfarlane,phrase,345,Iran–Contra (74%),CIA Reading Room (mirror),
-alias -> corona,13.7,NEGATION DATE,codename,253,CORONA spy satellites (86%),CIA Reading Room (mirror)," PHOTOGRAPHIC INTERPRETATION CENTER 7. SUBSEQUENT COVERAGE: 14 KH-4, 3 KH-7, 6. NEGATION DATE: 8. DIMENSIONS SPECIFICATIONS : 9. MISSION READOUT: 6 July 1967 Page 2 SARY-SHA"
-alias -> corona,13.5,chess ruff,phrase,334,CORONA spy satellites (74%),CIA Reading Room (mirror),
-alias -> corona,13.5,logistic installations being,phrase,214,CORONA spy satellites (93%),CIA Reading Room (mirror),
-alias -> corona,13.5,munition storage,phrase,219,CORONA spy satellites (91%),CIA Reading Room (mirror),
-alias -> corona,13.4,designator are omitted,phrase,211,CORONA spy satellites (92%),CIA Reading Room (mirror),
-alias -> jfk,13.3,hsca request,phrase,178,Kennedy assassination (100%),CIA Reading Room (mirror),
-alias -> corona,13.3,published and disseminated,phrase,268,CORONA spy satellites (81%),CIA Reading Room (mirror),
-alias -> corona,13.2,force and logistic,phrase,208,CORONA spy satellites (92%),CIA Reading Room (mirror),
-alias -> corona,13.1,SECRET CHESS RUFF,codename,304,CORONA spy satellites (75%),CIA Reading Room (mirror),ublished and Disseminated by - NATIONAL. PHOTOGRAPHIC INTERPRETATION CENTER TOP SECRET CHESS RUFF Qz_ AIRFIELD NORTHWEST Yudino is . -_ KAZAN AIRFRAME PLANT NO 387-. -~ - Road T
-alias -> corona,13.1,munition storage areas,phrase,207,CORONA spy satellites (91%),CIA Reading Room (mirror),
-alias -> corona,13.1,areas am-,phrase,203,CORONA spy satellites (92%),CIA Reading Room (mirror),
+alias -> recon_aircraft,14.6,osa osa,phrase,276,U-2 / OXCART / Area 51 (88%),CIA Reading Room (mirror),
+alias -> mlk,14.6,affecting the na-,phrase,359,"Martin Luther King, Jr. Assassination (77%)",CIA Reading Room (mirror),
+alias -> recon_aircraft,14.6,idealist mission,phrase,220,U-2 / OXCART / Area 51 (98%),CIA Reading Room (mirror),
+alias -> recon_aircraft,14.5,oxcart program,phrase,214,U-2 / OXCART / Area 51 (99%),CIA Reading Room (mirror),
+alias -> corona,14.3,keyhole channels,phrase,212,CORONA spy satellites (98%),CIA Reading Room (mirror),
+alias -> recon_aircraft,14.3,idealist tackle,phrase,206,U-2 / OXCART / Area 51 (100%),CIA Reading Room (mirror),
+alias -> stargate,14.2,PROJ,codename,302,STARGATE / remote viewing (81%),STARGATE files,ENHANCED HUMAN PERFORMANCE INVESTIGATION (PROJ 1291) SRI INTERNATIONAL DEC 1987. Folder: ENHANCED HUMAN PERFORMANCE INVESTIGAT
+alias -> mlk,14.2,report date distr,phrase,365,"Martin Luther King, Jr. Assassination (74%)",CIA Reading Room (mirror),
+alias -> stargate,14.2,crv viewer,phrase,204,STARGATE / remote viewing (100%),STARGATE files,
+alias -> corona,14.0,system only tcs-,phrase,232,CORONA spy satellites (92%),CIA Reading Room (mirror),
+alias -> jfk,14.0,hsca request,phrase,195,Kennedy assassination (100%),CIA Reading Room (mirror),
+alias -> corona,13.8,cia pid,phrase,352,CORONA spy satellites (73%),CIA Reading Room (mirror),
+alias -> recon_aircraft,13.8,CONCURRENCE,codename,411,U-2 / OXCART / Area 51 (68%),CIA Reading Room (mirror)," OSWALD'S CONNECTION WITH THE AGENCY. [1:;-10322-10046 ACTION APPROVAL COMMENT CONCURRENCE uNtwrestwEED 10.111 .10- 9 ,a 7 Use previous editions gY1 ` . DIRECT REPLY DISP"
+alias -> corona,13.6,build- ings,phrase,326,CORONA spy satellites (75%),CIA Reading Room (mirror),
+alias -> corona,13.6,ruff tcs-,phrase,188,CORONA spy satellites (99%),CIA Reading Room (mirror),
+alias -> corona,13.5,geo coords,phrase,200,CORONA spy satellites (96%),CIA Reading Room (mirror),
+alias -> corona,13.5,ACIC,codename,308,CORONA spy satellites (77%),CIA Reading Room (mirror),"basMHOID rpt, Travaux do 101ristitut Geophysiguedo sciences ,VoTfr, 66, pp 1-44.ACIC TC-2079Sci-Ear SciSept 66 309v126Nov Motorized Cable Cwvayoz- Syvi:m at the Sid"
+alias -> mlk,13.4,aec note,phrase,213,"Martin Luther King, Jr. Assassination (92%)",CIA Reading Room (mirror),
+alias -> iran_contra,13.3,nicaraguan democratic,phrase,230,Iran–Contra (87%),CIA Reading Room (mirror),
+alias -> corona,13.2,nima dod handle,phrase,175,CORONA spy satellites (100%),CIA Reading Room (mirror),
+alias -> nuclear_soviet,13.2,IIID,codename,177,Soviet nuclear & missile programs (99%),CIA Reading Room (mirror),"5X1D Location: Approximately 8.9 nm south of the Complex Support Facility Type: IIID, Negation Date: Stage of Construction: Mid 25X1 D Launch site is situated in ro"
+alias -> stargate,13.1,folder inscom,phrase,172,STARGATE / remote viewing (100%),STARGATE files,
+alias -> stargate,13.0,RELEASABLE,codename,435,STARGATE / remote viewing (62%),CIA Reading Room (mirror),IFIED BY MULTIPLE SOURCES OR HIGHER DOD AUTHORITY DECLASSIFY ON OADR SECRET NOT RELEASABLE TO FOREIGN NATIONALS STAR GATE Approved For Release 2002/11/18 : CIA-RDP96-0078
 alias -> stargate,13.0,arv brv,phrase,172,STARGATE / remote viewing (99%),CIA Reading Room (mirror),
-alias -> jfk,13.0,robert blakey,phrase,207,Kennedy assassination (90%),CIA Reading Room (mirror),
 alias -> stargate,13.0,TASKER,codename,169,STARGATE / remote viewing (100%),STARGATE files,"063; VIEWER: 00D; DATE: 16 JUL 90; SESSION: 01; TARGET: MOTOR YACHT TRANSCRIPT, TASKER. Folder: P: JT4-90-0063; STAR GATE was an umbrella term for the Intelligence Co"
-alias -> stargate,13.0,folder inscom,phrase,168,STARGATE / remote viewing (100%),STARGATE files,
-alias -> iran_contra,13.0,george shultz,phrase,557,Iran–Contra (55%),CIA Reading Room (mirror),
 alias -> stargate,13.0,prv arv,phrase,174,STARGATE / remote viewing (99%),CIA Reading Room (mirror),
-alias -> corona,12.9,storage areas am-,phrase,199,CORONA spy satellites (91%),CIA Reading Room (mirror),
-alias -> corona,12.8,field train-,phrase,194,CORONA spy satellites (92%),CIA Reading Room (mirror),
-alias -> corona,12.8,am- munition storage,phrase,199,CORONA spy satellites (91%),CIA Reading Room (mirror),
-alias -> corona,12.8,am- munition,phrase,226,CORONA spy satellites (85%),CIA Reading Room (mirror),
+alias -> mlk,12.9,aec note washington,phrase,194,"Martin Luther King, Jr. Assassination (93%)",CIA Reading Room (mirror),
+alias -> stargate,12.8,AMSAA,codename,168,STARGATE / remote viewing (99%),CIA Reading Room (mirror),1979-1980 AMSAA (ARMY MATERIEL SYSTEMS ANALYSIS) GRILL FLAME STUDIES. Folder: HANDWRITTEN NOTE;
 alias -> jfk,12.8,hsca investigation,phrase,163,Kennedy assassination (100%),CIA Reading Room (mirror),
-alias -> corona,12.7,kh- missions,phrase,176,CORONA spy satellites (95%),CIA Reading Room (mirror),
+alias -> corona,12.8,ussr illegib,phrase,184,CORONA spy satellites (94%),CIA Reading Room (mirror),
+alias -> nuclear_soviet,12.8,icbm complexes,phrase,186,Soviet nuclear & missile programs (94%),CIA Reading Room (mirror),
+alias -> corona,12.7,NPIC PROJECT,codename,195,CORONA spy satellites (91%),CIA Reading Room (mirror),"elease !fiB/0SU RE11 25X1 25X1 DOCUM ENT 1. NPIC. REQUIREMENT CIA. C-DI5-82,972 NPIC PROJECT 11210/66 (partial answer) Approved For Release 2 Q3~Q4,; P - 25X1 25X1 25X1 App"
 alias -> stargate,12.7,erv prv,phrase,164,STARGATE / remote viewing (99%),CIA Reading Room (mirror),
-alias -> corona,12.7,uniformity the titles,phrase,195,CORONA spy satellites (91%),CIA Reading Room (mirror),
-alias -> stargate,12.6,prv arv brv,phrase,162,STARGATE / remote viewing (99%),CIA Reading Room (mirror),
-alias -> stargate,12.6,RELEASABLE,codename,402,STARGATE / remote viewing (63%),CIA Reading Room (mirror),IFIED BY MULTIPLE SOURCES OR HIGHER DOD AUTHORITY DECLASSIFY ON OADR SECRET NOT RELEASABLE TO FOREIGN NATIONALS STAR GATE Approved For Release 2002/11/18 : CIA-RDP96-0078
-alias -> corona,12.6,areas am- munition,phrase,192,CORONA spy satellites (91%),CIA Reading Room (mirror),
-alias -> iran_contra,12.6,state george shultz,phrase,470,Iran–Contra (58%),CIA Reading Room (mirror),
+alias -> jfk,12.7,robert blakey,phrase,225,Kennedy assassination (85%),CIA Reading Room (mirror),
+alias -> nuclear_soviet,12.7,lytical work,phrase,172,Soviet nuclear & missile programs (97%),CIA Reading Room (mirror),
+alias -> corona,12.6,MRBM,codename,389,CORONA spy satellites (64%),CIA Reading Room (mirror),"RETATION CENTER ERRATUM FOR NPIC/TCS-81068/65 In the Brief on Camel Fixed Field MRBM Site No 2, the WAC number which reads 0107 should read 0167. Declass Review by "
 alias -> stargate,12.6,erv prv arv,phrase,163,STARGATE / remote viewing (99%),CIA Reading Room (mirror),
-alias -> corona,12.6,npic project,phrase,271,CORONA spy satellites (76%),CIA Reading Room (mirror),
-alias -> stargate,12.5,folder inscom grill,phrase,156,STARGATE / remote viewing (100%),STARGATE files,
+alias -> iran_contra,12.6,nicara- guan,phrase,219,Iran–Contra (85%),CIA Reading Room (mirror),
+alias -> corona,12.6,mission ipir,phrase,158,CORONA spy satellites (100%),CIA Reading Room (mirror),
+alias -> stargate,12.6,prv arv brv,phrase,162,STARGATE / remote viewing (99%),CIA Reading Room (mirror),
+alias -> nuclear_soviet,12.6,detailed ana-,phrase,170,Soviet nuclear & missile programs (96%),CIA Reading Room (mirror),
+alias -> nuclear_soviet,12.5,detailed ana- lytical,phrase,168,Soviet nuclear & missile programs (96%),CIA Reading Room (mirror),
+alias -> corona,12.5,npic target,phrase,187,CORONA spy satellites (91%),CIA Reading Room (mirror),
+alias -> iran_contra,12.5,rea- gan,phrase,383,Iran–Contra (64%),CIA Reading Room (mirror),
+alias -> corona,12.5,mission ipir number,phrase,156,CORONA spy satellites (100%),CIA Reading Room (mirror),
+alias -> nuclear_soviet,12.5,ana- lytical work,phrase,167,Soviet nuclear & missile programs (96%),CIA Reading Room (mirror),
+alias -> nuclear_soviet,12.5,npic peg,phrase,165,Soviet nuclear & missile programs (97%),CIA Reading Room (mirror),
 alias -> recon_aircraft,12.5,osa idea,phrase,176,U-2 / OXCART / Area 51 (94%),CIA Reading Room (mirror),
+alias -> corona,12.5,ipir number,phrase,156,CORONA spy satellites (100%),CIA Reading Room (mirror),
+alias -> nuclear_soviet,12.4,ana- lytical,phrase,173,Soviet nuclear & missile programs (94%),CIA Reading Room (mirror),
+alias -> recon_aircraft,12.4,osa chrono,phrase,188,U-2 / OXCART / Area 51 (90%),CIA Reading Room (mirror),
+alias -> corona,12.4,pertaining totalent-keyhole,phrase,155,CORONA spy satellites (99%),CIA Reading Room (mirror),
 alias -> recon_aircraft,12.4,jcs pass,phrase,159,U-2 / OXCART / Area 51 (98%),CIA Reading Room (mirror),
-alias -> corona,12.4,arms field train-,phrase,186,CORONA spy satellites (91%),CIA Reading Room (mirror),
-alias -> corona,12.4,mission ipir number,phrase,154,CORONA spy satellites (100%),CIA Reading Room (mirror),
-alias -> corona,12.4,mission ipir,phrase,155,CORONA spy satellites (100%),CIA Reading Room (mirror),
-alias -> corona,12.4,IPIR NUMBER,codename,153,CORONA spy satellites (100%),CIA Reading Room (mirror),KH-4 MISSION 1110 IPIR NUMBER I MISSION 1110-1 OAK PART 1 21-23 MAY 1970. Approved For Release 2000/04/17 : C
-alias -> corona,12.4,ipir number,phrase,154,CORONA spy satellites (100%),CIA Reading Room (mirror),
-alias -> corona,12.4,kh- mission ipir,phrase,154,CORONA spy satellites (100%),CIA Reading Room (mirror),
-alias -> recon_aircraft,12.4,osa chrono,phrase,185,U-2 / OXCART / Area 51 (91%),CIA Reading Room (mirror),
-alias -> stargate,12.3,AMSAA,codename,156,STARGATE / remote viewing (99%),CIA Reading Room (mirror),1979-1980 AMSAA (ARMY MATERIEL SYSTEMS ANALYSIS) GRILL FLAME STUDIES. Folder: HANDWRITTEN NOTE;
-alias -> corona,12.3,field train- ing,phrase,181,CORONA spy satellites (92%),CIA Reading Room (mirror),
-alias -> jfk,12.2,hsca staff members,phrase,150,Kennedy assassination (100%),CIA Reading Room (mirror),
-alias -> corona,12.2,npic top,phrase,231,CORONA spy satellites (80%),CIA Reading Room (mirror),
-alias -> jfk,12.2,hsca review,phrase,148,Kennedy assassination (100%),CIA Reading Room (mirror),
+alias -> corona,12.4,ussr carpathian,phrase,156,CORONA spy satellites (99%),CIA Reading Room (mirror),
+alias -> corona,12.4,IPIR NUMBER,codename,155,CORONA spy satellites (100%),CIA Reading Room (mirror),KH-4 MISSION 1110 IPIR NUMBER I MISSION 1110-1 OAK PART 1 21-23 MAY 1970. Approved For Release 2000/04/17 : C
+alias -> iran_contra,12.3,nicaraguan democratic force,phrase,181,Iran–Contra (91%),CIA Reading Room (mirror),
+alias -> corona,12.3,regulations pertaining totalent-keyhole,phrase,152,CORONA spy satellites (100%),CIA Reading Room (mirror),
 alias -> stargate,12.2,source rv-,phrase,151,STARGATE / remote viewing (99%),STARGATE files,
-alias -> stargate,12.1,crv session,phrase,147,STARGATE / remote viewing (100%),STARGATE files,
-alias -> corona,12.1,artillery emplacements,phrase,185,CORONA spy satellites (89%),CIA Reading Room (mirror),
-alias -> corona,12.1,npic photographic,phrase,179,CORONA spy satellites (91%),CIA Reading Room (mirror),
-alias -> nuclear_soviet,12.0,lytical work,phrase,153,Soviet nuclear & missile programs (97%),CIA Reading Room (mirror),
-alias -> mkultra,12.0,DOCUMENTS WITH PUBDATES,codename,146,MKULTRA / mind control (99%),CIA Reading Room (mirror),"MKULTRA SUBPROJECT 83 (28 DOCUMENTS WITH PUBDATES FROM 580418 TO 600919 ). Editorial Prolect Expenses 1, 1959 through June 30, 19"
-alias -> stargate,12.0,site acquisit,phrase,146,STARGATE / remote viewing (99%),CIA Reading Room (mirror),
-alias -> stargate,12.0,MEMOS,codename,176,STARGATE / remote viewing (90%),STARGATE files,MISCELLANEOUS CIA NOTES AND MEMOS. Folder: ; STAR GATE was an umbrella term for the Intelligence Community effort
-alias -> mkultra,12.0,mkultra subproject documents,phrase,144,MKULTRA / mind control (100%),CIA Reading Room (mirror),
+alias -> jfk,12.2,hsca review,phrase,148,Kennedy assassination (100%),CIA Reading Room (mirror),
+alias -> corona,12.2,sa- sam,phrase,338,CORONA spy satellites (67%),CIA Reading Room (mirror),
+alias -> jfk,12.2,hsca staff members,phrase,150,Kennedy assassination (100%),CIA Reading Room (mirror),
+alias -> corona,12.2,keyhole missions,phrase,159,CORONA spy satellites (97%),CIA Reading Room (mirror),
+alias -> corona,12.2,USSR CARPATHIAN,codename,152,CORONA spy satellites (99%),CIA Reading Room (mirror),"VINNITSA MILITARY BARRACKS NORTH VINNITSA, USSR CARPATHIAN MD. Approved For Release 2001/08/21 : CIA-RDP78TO5439A000400020004-5 Approved F"
+alias -> stargate,12.1,crv session,phrase,148,STARGATE / remote viewing (99%),STARGATE files,
+alias -> iran_contra,12.1,nicara- gua,phrase,248,Iran–Contra (77%),CIA Reading Room (mirror),
+alias -> iran_contra,12.0,adolfo calero,phrase,158,Iran–Contra (96%),CIA Reading Room (mirror),
 alias -> recon_aircraft,12.0,oxc osa,phrase,146,U-2 / OXCART / Area 51 (99%),CIA Reading Room (mirror),
-alias -> corona,12.0,npic the photographic,phrase,170,CORONA spy satellites (92%),CIA Reading Room (mirror),
-alias -> mkultra,12.0,documents with pubdates,phrase,146,MKULTRA / mind control (99%),CIA Reading Room (mirror),
+alias -> stargate,12.0,MEMOS,codename,177,STARGATE / remote viewing (90%),STARGATE files,MISCELLANEOUS CIA NOTES AND MEMOS. Folder: ; STAR GATE was an umbrella term for the Intelligence Community effort
 alias -> mkultra,12.0,subproject documents,phrase,146,MKULTRA / mind control (99%),CIA Reading Room (mirror),
-alias -> nuclear_soviet,11.9,detailed ana-,phrase,151,Soviet nuclear & missile programs (97%),CIA Reading Room (mirror),
-alias -> corona,11.9,mission readout,phrase,256,CORONA spy satellites (75%),CIA Reading Room (mirror),
-alias -> corona,11.8,npic photographic analysis,phrase,170,CORONA spy satellites (91%),CIA Reading Room (mirror),
-alias -> iran_contra,11.8,adm john poindexter,phrase,199,Iran–Contra (83%),CIA Reading Room (mirror),
+alias -> corona,12.0,keyhole information,phrase,146,CORONA spy satellites (99%),CIA Reading Room (mirror),
+alias -> stargate,12.0,site acquisit,phrase,146,STARGATE / remote viewing (99%),CIA Reading Room (mirror),
+alias -> mkultra,12.0,documents with pubdates,phrase,146,MKULTRA / mind control (99%),CIA Reading Room (mirror),
+alias -> mkultra,12.0,DOCUMENTS WITH PUBDATES,codename,146,MKULTRA / mind control (99%),CIA Reading Room (mirror),"MKULTRA SUBPROJECT 83 (28 DOCUMENTS WITH PUBDATES FROM 580418 TO 600919 ). Editorial Prolect Expenses 1, 1959 through June 30, 19"
+alias -> corona,11.9,nima dod top,phrase,141,CORONA spy satellites (100%),CIA Reading Room (mirror),
+alias -> corona,11.8,COORDS,codename,154,CORONA spy satellites (95%),CIA Reading Room (mirror),OPS PROJ: 92-2 VIEWER 079 SOLO DATE: 10 JAN 92 SESSION 01 TARGET: COORDS 503164/194865 SESSION INFORMATION - SUMMARY TASKING SHEET. Folder: SESSION INFO
+alias -> corona,11.8,chess ruff handle,phrase,144,CORONA spy satellites (99%),CIA Reading Room (mirror),
+alias -> corona,11.8,NEGATION DATE,codename,450,CORONA spy satellites (56%),CIA Reading Room (mirror)," PHOTOGRAPHIC INTERPRETATION CENTER 7. SUBSEQUENT COVERAGE: 14 KH-4, 3 KH-7, 6. NEGATION DATE: 8. DIMENSIONS SPECIFICATIONS : 9. MISSION READOUT: 6 July 1967 Page 2 SARY-SHA"
 alias -> stargate,11.8,brv other working,phrase,141,STARGATE / remote viewing (99%),CIA Reading Room (mirror),
-alias -> corona,11.8,re- porting period,phrase,237,CORONA spy satellites (76%),CIA Reading Room (mirror),
-alias -> nuclear_soviet,11.8,detailed ana- lytical,phrase,149,Soviet nuclear & missile programs (97%),CIA Reading Room (mirror),
-alias -> nuclear_soviet,11.8,ana- lytical work,phrase,148,Soviet nuclear & missile programs (97%),CIA Reading Room (mirror),
-alias -> nuclear_soviet,11.7,icbm complexes,phrase,157,Soviet nuclear & missile programs (93%),CIA Reading Room (mirror),
-alias -> corona,11.7,keyhole control system,phrase,137,CORONA spy satellites (100%),CIA Reading Room (mirror),
-alias -> nuclear_soviet,11.7,ana- lytical,phrase,154,Soviet nuclear & missile programs (94%),CIA Reading Room (mirror),
-alias -> corona,11.7,porting period,phrase,249,CORONA spy satellites (74%),CIA Reading Room (mirror),
+alias -> corona,11.7,tco nsa,phrase,197,CORONA spy satellites (83%),CIA Reading Room (mirror),
 alias -> recon_aircraft,11.7,osa idea osa,phrase,153,U-2 / OXCART / Area 51 (95%),CIA Reading Room (mirror),
-alias -> corona,11.7,MISSION READOUT,codename,245,CORONA spy satellites (75%),CIA Reading Room (mirror)," COVERAGE: 14 KH-4, 3 KH-7, 6. NEGATION DATE: 8. DIMENSIONS SPECIFICATIONS : 9. MISSION READOUT: 6 July 1967 Page 2 SARY-SHA.GAN PROBABLE LONG RANGE SAM LAUNCH COMPLEX 1. FOR "
-alias -> corona,11.6,emplacements batteries,phrase,168,CORONA spy satellites (90%),CIA Reading Room (mirror),
-alias -> nuclear_soviet,11.6,npic peg,phrase,143,Soviet nuclear & missile programs (97%),CIA Reading Room (mirror),
-alias -> corona,11.6,RUFF,codename,321,CORONA spy satellites (64%),CIA Reading Room (mirror), Approved for Release 2014/01/09: CIA-RDP79-00999A000200010026-7 -4 crp. Secret RUFF ZAttF VIABRAU Soviets Possibly Lead US in Applied Parapsychology Studies: A rev
-alias -> jfk,11.5,blakey chief,phrase,167,Kennedy assassination (89%),CIA Reading Room (mirror),
-alias -> corona,11.4,division npic top,phrase,180,CORONA spy satellites (85%),CIA Reading Room (mirror),
-alias -> stargate,11.4,number crv,phrase,131,STARGATE / remote viewing (100%),STARGATE files,
-alias -> corona,11.4,support division npic,phrase,218,CORONA spy satellites (78%),CIA Reading Room (mirror),
-alias -> iran_contra,11.4,david boren,phrase,228,Iran–Contra (75%),CIA Reading Room (mirror),
+alias -> iran_contra,11.6,david boren,phrase,238,Iran–Contra (75%),CIA Reading Room (mirror),
+alias -> iran_contra,11.6,nicaraguan government,phrase,239,Iran–Contra (75%),CIA Reading Room (mirror),
 alias -> stargate,11.4,session number crv,phrase,131,STARGATE / remote viewing (100%),STARGATE files,
-alias -> corona,11.4,artillery emplacements batteries,phrase,162,CORONA spy satellites (90%),CIA Reading Room (mirror),
-alias -> corona,11.4,ipir number oak,phrase,129,CORONA spy satellites (100%),CIA Reading Room (mirror),
+alias -> stargate,11.4,number crv,phrase,131,STARGATE / remote viewing (100%),STARGATE files,
+alias -> corona,11.4,nsa tco,phrase,200,CORONA spy satellites (80%),CIA Reading Room (mirror),
 alias -> stargate,11.4,number crv viewer,phrase,131,STARGATE / remote viewing (100%),STARGATE files,
-alias -> jfk,11.4,blakey chief counsel,phrase,161,Kennedy assassination (90%),CIA Reading Room (mirror),
 alias -> recon_aircraft,11.4,aquatone clearance,phrase,129,U-2 / OXCART / Area 51 (100%),CIA Reading Room (mirror),
-alias -> iran_contra,11.3,adolfo calero,phrase,140,Iran–Contra (96%),CIA Reading Room (mirror),
-alias -> jfk,11.3,hsca reviewer,phrase,127,Kennedy assassination (100%),CIA Reading Room (mirror),
+alias -> corona,11.4,ipir number oak,phrase,131,CORONA spy satellites (100%),CIA Reading Room (mirror),
+alias -> nuclear_soviet,11.3,plesetsk icbm,phrase,136,Soviet nuclear & missile programs (97%),CIA Reading Room (mirror),
+alias -> mlk,11.3,REPORT DATE DISTR,codename,241,"Martin Luther King, Jr. Assassination (73%)",CIA Reading Room (mirror),rised person is prohibited by law. The reproduction of this form Is prohibited. REPORT DATE DISTR. NO. OF PAGES REQUIREMENT REFERENCES THE SOURCE EVALUATIONS IN THIS REPORT ARE 
+alias -> corona,11.3,pid project,phrase,173,CORONA spy satellites (86%),CIA Reading Room (mirror),
+alias -> mlk,11.3,hsca reviewer,phrase,127,"Martin Luther King, Jr. Assassination (100%)",CIA Reading Room (mirror),
 alias -> jfk,11.3,bruce solie,phrase,147,Kennedy assassination (93%),CIA Reading Room (mirror),
-alias -> corona,11.3,intelligence division npic,phrase,159,CORONA spy satellites (90%),CIA Reading Room (mirror),
-alias -> jfk,11.3,assassinations hsca staff,phrase,127,Kennedy assassination (100%),CIA Reading Room (mirror),
 alias -> recon_aircraft,11.3,oxcart mission,phrase,130,U-2 / OXCART / Area 51 (99%),CIA Reading Room (mirror),
-alias -> jfk,11.3,robert blakey chief,phrase,159,Kennedy assassination (90%),CIA Reading Room (mirror),
+alias -> nuclear_soviet,11.3,olovyannaya icbm,phrase,130,Soviet nuclear & missile programs (99%),CIA Reading Room (mirror),
+alias -> recon_aircraft,11.2,idealist program,phrase,132,U-2 / OXCART / Area 51 (98%),CIA Reading Room (mirror),
+alias -> corona,11.2,via talent-,phrase,138,CORONA spy satellites (95%),CIA Reading Room (mirror),
 alias -> stargate,11.2,menlo park,phrase,159,STARGATE / remote viewing (89%),CIA Reading Room (mirror),
-alias -> corona,11.2,re- porting,phrase,262,CORONA spy satellites (69%),CIA Reading Room (mirror),
-alias -> recon_aircraft,11.2,idealist program,phrase,131,U-2 / OXCART / Area 51 (98%),CIA Reading Room (mirror),
-alias -> corona,11.2,train- ing areas,phrase,151,CORONA spy satellites (91%),CIA Reading Room (mirror),
-alias -> jfk,11.1,lower right-hand corner,phrase,127,Kennedy assassination (98%),CIA Reading Room (mirror),
-alias -> iran_contra,11.1,gen richard secord,phrase,134,Iran–Contra (96%),CIA Reading Room (mirror),
-alias -> iran_contra,11.1,rea- gan,phrase,337,Iran–Contra (61%),CIA Reading Room (mirror),
-alias -> jfk,11.1,staffer this material,phrase,123,Kennedy assassination (100%),CIA Reading Room (mirror),
-alias -> corona,11.1,keyhole channels,phrase,131,CORONA spy satellites (97%),CIA Reading Room (mirror),
-alias -> jfk,11.1,hsca review office,phrase,124,Kennedy assassination (100%),CIA Reading Room (mirror),
-alias -> corona,11.1,DOWNGRADING,codename,418,CORONA spy satellites (54%),CIA Reading Room (mirror), PER L C / SECRET (When Filled In) TOTAL COPIES GROUP I EXCLUDED FROM AUTOMATIC DOWNGRADING AND DECLASSIFICATION S. REPRODUCTION OF THIS COPY PROHIBITED INDEX: 0 YES 0 NO
-alias -> jfk,11.1,lower right-hand,phrase,128,Kennedy assassination (98%),CIA Reading Room (mirror),
-alias -> nuclear_soviet,11.0,type iiid,phrase,128,Soviet nuclear & missile programs (97%),CIA Reading Room (mirror),
-alias -> recon_aircraft,11.0,U-2R,codename,138,U-2 / OXCART / Area 51 (93%),CIA Reading Room (mirror),"orce Base. Since it would take two years to effect the move, the testing of the U-2R should be substantially completed and the closure of North Base could be consid"
-alias -> iran_contra,11.0,nicaraguan democratic,phrase,185,Iran–Contra (81%),CIA Reading Room (mirror),
-alias -> jfk,11.0,right-hand corner,phrase,130,Kennedy assassination (96%),CIA Reading Room (mirror),
-alias -> iran_contra,11.0,nicara- guan,phrase,187,Iran–Contra (80%),CIA Reading Room (mirror),
-alias -> jfk,11.0,hsca certain,phrase,121,Kennedy assassination (100%),CIA Reading Room (mirror),
-alias -> corona,11.0,re- port,phrase,491,CORONA spy satellites (49%),CIA Reading Room (mirror),
-alias -> corona,11.0,train- ing,phrase,297,CORONA spy satellites (64%),CIA Reading Room (mirror),
-alias -> corona,10.9,KH-7,codename,156,CORONA spy satellites (87%),CIA Reading Room (mirror),tems). A. Satellite Coverage High resolution is currently being provided by the KH-7 and KH-8 satellites The lower resolution KH-4 missions are capable of providing
+alias -> jfk,11.2,blakey chief,phrase,184,Kennedy assassination (83%),CIA Reading Room (mirror),
+alias -> corona,11.1,group cgs,phrase,144,CORONA spy satellites (92%),CIA Reading Room (mirror),
+alias -> mlk,11.1,hsca review office,phrase,124,"Martin Luther King, Jr. Assassination (100%)",CIA Reading Room (mirror),
+alias -> mlk,11.1,staffer this material,phrase,123,"Martin Luther King, Jr. Assassination (100%)",CIA Reading Room (mirror),
+alias -> mlk,11.1,lower right-hand corner,phrase,127,"Martin Luther King, Jr. Assassination (98%)",CIA Reading Room (mirror),
+alias -> nuclear_soviet,11.1,nocontract- not releasable,phrase,250,Soviet nuclear & missile programs (70%),CIA Reading Room (mirror),
+alias -> mlk,11.1,lower right-hand,phrase,128,"Martin Luther King, Jr. Assassination (98%)",CIA Reading Room (mirror),
+alias -> mlk,11.1,right-hand corner,phrase,130,"Martin Luther King, Jr. Assassination (97%)",CIA Reading Room (mirror),
+alias -> recon_aircraft,11.1,U-2R,codename,143,U-2 / OXCART / Area 51 (93%),CIA Reading Room (mirror),"orce Base. Since it would take two years to effect the move, the testing of the U-2R should be substantially completed and the closure of North Base could be consid"
+alias -> nuclear_soviet,11.1,noforn- not releasable,phrase,250,Soviet nuclear & missile programs (70%),CIA Reading Room (mirror),
+alias -> corona,11.1,reconnaissance group cgs,phrase,138,CORONA spy satellites (94%),CIA Reading Room (mirror),
+alias -> nuclear_soviet,11.1,consultants propin-,phrase,241,Soviet nuclear & missile programs (71%),CIA Reading Room (mirror),
+alias -> corona,11.0,cia pid project,phrase,165,CORONA spy satellites (85%),CIA Reading Room (mirror),
+alias -> mlk,11.0,hsca certain,phrase,121,"Martin Luther King, Jr. Assassination (100%)",CIA Reading Room (mirror),
+alias -> corona,11.0,references usatc,phrase,129,CORONA spy satellites (97%),CIA Reading Room (mirror),
+alias -> jfk,11.0,blakey chief counsel,phrase,177,Kennedy assassination (83%),CIA Reading Room (mirror),
+alias -> nuclear_soviet,11.0,foreign nationals nocontract-,phrase,251,Soviet nuclear & missile programs (70%),CIA Reading Room (mirror),
+alias -> mkultra,11.0,SUBPROJECT,codename,122,MKULTRA / mind control (99%),CIA Reading Room (mirror),"PROJECT MKULTRA, SUBPROJECT 5. Approve For Re-lea 2 11A-RDP78i3Aoool 00030026-4 SECURITY INFORMATION 28 May"
+alias -> nuclear_soviet,11.0,contractor consultants propin-,phrase,240,Soviet nuclear & missile programs (71%),CIA Reading Room (mirror),
+alias -> nuclear_soviet,11.0,ss- icbm,phrase,156,Soviet nuclear & missile programs (88%),CIA Reading Room (mirror),
+alias -> nuclear_soviet,11.0,nationals nocontract-,phrase,251,Soviet nuclear & missile programs (70%),CIA Reading Room (mirror),
+alias -> corona,11.0,mrbm complex,phrase,151,CORONA spy satellites (89%),CIA Reading Room (mirror),
+alias -> jfk,11.0,robert blakey chief,phrase,176,Kennedy assassination (83%),CIA Reading Room (mirror),
+alias -> corona,10.9,surface-to-air missile sam,phrase,176,CORONA spy satellites (82%),CIA Reading Room (mirror),
+alias -> nuclear_soviet,10.9,orcon- dissemination,phrase,247,Soviet nuclear & missile programs (69%),CIA Reading Room (mirror),
 alias -> stargate,10.9,proj viewer,phrase,118,STARGATE / remote viewing (100%),STARGATE files,
-alias -> stargate,10.7,streak proj,phrase,114,STARGATE / remote viewing (100%),STARGATE files,
-alias -> stargate,10.7,STREAK PROJ,codename,114,STARGATE / remote viewing (100%),STARGATE files,"SUN STREAK PROJ 8911-22 (W-10). Folder: 8911-22 (W-10) SESSION 01, SOLO, VIEWER # 025; STAR GAT"
-alias -> corona,10.7,emplacements batteries infantry,phrase,147,CORONA spy satellites (88%),CIA Reading Room (mirror),
-alias -> recon_aircraft,10.7,info idealist,phrase,115,U-2 / OXCART / Area 51 (100%),CIA Reading Room (mirror),
+alias -> corona,10.9,KH-7,codename,178,CORONA spy satellites (81%),CIA Reading Room (mirror),tems). A. Satellite Coverage High resolution is currently being provided by the KH-7 and KH-8 satellites The lower resolution KH-4 missions are capable of providing
+alias -> corona,10.9,ruff this report,phrase,148,CORONA spy satellites (89%),CIA Reading Room (mirror),
+alias -> nuclear_soviet,10.9,type iiic,phrase,121,Soviet nuclear & missile programs (99%),CIA Reading Room (mirror),
+alias -> iran_contra,10.8,con- gress,phrase,527,Iran–Contra (47%),CIA Reading Room (mirror),
+alias -> corona,10.8,references usatc series,phrase,125,CORONA spy satellites (97%),CIA Reading Room (mirror),
+alias -> stargate,10.8,CIA-RDP96,codename,129,STARGATE / remote viewing (95%),CIA CREST Database,"r, BRL Dr. H. Puthoff, SRI Mr. R. Targ, SRI ,4. Approved For Release 2000/08/07 CIA-RDP96- 0788RO01200240010-3 Sy.'J ki :}R. .."
+alias -> corona,10.7,OACSI,codename,343,CORONA spy satellites (58%),CIA Reading Room (mirror),"CENTER LANE ACCESS ROSTER. Folder: OACSI, HQ DA ACCESS ROSTER - CENTER LANE; STAR GATE was an umbrella term for the Inte"
+alias -> stargate,10.7,protocol undated,phrase,115,STARGATE / remote viewing (100%),CIA Reading Room (mirror),
+alias -> corona,10.7,cite npic,phrase,569,CORONA spy satellites (45%),CIA Reading Room (mirror),
 alias -> stargate,10.7,sun streak proj,phrase,114,STARGATE / remote viewing (100%),STARGATE files,
-alias -> corona,10.7,system only tcs-,phrase,151,CORONA spy satellites (87%),CIA Reading Room (mirror),
-alias -> corona,10.6,USATC,codename,179,CORONA spy satellites (79%),CIA Reading Room (mirror),"Approved for Release 2012/01/18: CIA-RDP84TO0171 R000300470001-8 SECRET MvnRnRN USATC. Series 200, scale 1:200,000 (see reference page) Balashov KGB Radcom Rcvr Sta "
-alias -> stargate,10.6,CIA-RDP96,codename,125,STARGATE / remote viewing (95%),CIA CREST Database,"r, BRL Dr. H. Puthoff, SRI Mr. R. Targ, SRI ,4. Approved For Release 2000/08/07 CIA-RDP96- 0788RO01200240010-3 Sy.'J ki :}R. .."
-alias -> corona,10.6,usatc series,phrase,186,CORONA spy satellites (78%),CIA Reading Room (mirror),
+alias -> nuclear_soviet,10.7,swn remarks,phrase,132,Soviet nuclear & missile programs (93%),CIA Reading Room (mirror),
+alias -> iran_contra,10.7,congres- sional,phrase,332,Iran–Contra (59%),CIA Reading Room (mirror),
+alias -> corona,10.7,tdi name,phrase,117,CORONA spy satellites (99%),CIA Reading Room (mirror),
+alias -> stargate,10.7,STREAK PROJ,codename,114,STARGATE / remote viewing (100%),STARGATE files,"SUN STREAK PROJ 8911-22 (W-10). Folder: 8911-22 (W-10) SESSION 01, SOLO, VIEWER # 025; STAR GAT"
+alias -> recon_aircraft,10.7,division osa,phrase,151,U-2 / OXCART / Area 51 (87%),CIA Reading Room (mirror),
+alias -> recon_aircraft,10.7,info idealist,phrase,115,U-2 / OXCART / Area 51 (100%),CIA Reading Room (mirror),
+alias -> corona,10.7,TSSG,codename,173,CORONA spy satellites (82%),CIA Reading Room (mirror),jr u- or sped epresen t ve 25X Distribution: 25X1 Orig. - Addressee - ^1 - NPIC/TSSG/DED J. - ICAD 1 - GCB 1 - CSS follow up OL/PD/CA&SB/CSS (19 June 68) F_a~Qn~ ~S
+alias -> stargate,10.7,streak proj,phrase,114,STARGATE / remote viewing (100%),STARGATE files,
+alias -> corona,10.7,chess ruff top,phrase,140,CORONA spy satellites (91%),CIA Reading Room (mirror),
+alias -> corona,10.6,handle via talent-,phrase,119,CORONA spy satellites (97%),CIA Reading Room (mirror),
+alias -> corona,10.6,multistory barracks,phrase,197,CORONA spy satellites (76%),CIA Reading Room (mirror),
+alias -> corona,10.6,mrbm launch,phrase,190,CORONA spy satellites (77%),CIA Reading Room (mirror),
 alias -> stargate,10.6,target folder inscom,phrase,113,STARGATE / remote viewing (100%),STARGATE files,
-alias -> recon_aircraft,10.6,division osa,phrase,149,U-2 / OXCART / Area 51 (87%),CIA Reading Room (mirror),
-alias -> nuclear_soviet,10.4,consultants propin-,phrase,208,Soviet nuclear & missile programs (72%),CIA Reading Room (mirror),
-alias -> nuclear_soviet,10.4,noforn- not releasable,phrase,215,Soviet nuclear & missile programs (71%),CIA Reading Room (mirror),
-alias -> nuclear_soviet,10.4,nocontract- not releasable,phrase,215,Soviet nuclear & missile programs (71%),CIA Reading Room (mirror),
-alias -> nuclear_soviet,10.4,contractor consultants propin-,phrase,207,Soviet nuclear & missile programs (72%),CIA Reading Room (mirror),
-alias -> iran_contra,10.4,nicara- gua,phrase,218,Iran–Contra (71%),CIA Reading Room (mirror),
-alias -> jfk,10.3,hsca staffer,phrase,106,Kennedy assassination (100%),CIA Reading Room (mirror),
-alias -> nuclear_soviet,10.3,foreign nationals nocontract-,phrase,216,Soviet nuclear & missile programs (70%),CIA Reading Room (mirror),
-alias -> nuclear_soviet,10.3,complex kapustin,phrase,109,Soviet nuclear & missile programs (99%),CIA Reading Room (mirror),
-alias -> stargate,10.3,rv- folder,phrase,107,STARGATE / remote viewing (100%),STARGATE files,
-alias -> stargate,10.3,session dc-,phrase,108,STARGATE / remote viewing (99%),STARGATE files,
-alias -> nuclear_soviet,10.3,nationals nocontract-,phrase,216,Soviet nuclear & missile programs (70%),CIA Reading Room (mirror),
-alias -> corona,10.3,DECLASS REVIEW,codename,167,CORONA spy satellites (80%),CIA Reading Room (mirror),"gress Report No. 8 to: P. O. Box 8031 Southwest Station Washington, D. C. 20024 DECLASS REVIEW by NIMA/DOD EXCLODED FROM AOM 5M0010 REGRADIRG: DAD D DOES at APPLY Approved Fo"
+alias -> nuclear_soviet,10.5,complex kapustin,phrase,113,Soviet nuclear & missile programs (99%),CIA Reading Room (mirror),
+alias -> corona,10.5,scale unclassified,phrase,118,CORONA spy satellites (97%),CIA Reading Room (mirror),
+alias -> corona,10.5,COMIREX,codename,423,CORONA spy satellites (51%),CIA Reading Room (mirror),"te, and Arm Installations are imminent at DOE and NSA. B. Support to PTO: CAMS (COMIREX Automated Management System) A demonstration of the interactive graphics system"
+alias -> stargate,10.5,viewing protocol undated,phrase,111,STARGATE / remote viewing (100%),CIA Reading Room (mirror),
+alias -> iran_contra,10.4,meese iii,phrase,214,Iran–Contra (71%),CIA Reading Room (mirror),
+alias -> nuclear_soviet,10.4,icbm program,phrase,120,Soviet nuclear & missile programs (95%),CIA Reading Room (mirror),
+alias -> nuclear_soviet,10.4,tatishchevo icbm,phrase,108,Soviet nuclear & missile programs (100%),CIA Reading Room (mirror),
+alias -> stargate,10.4,protocol amsaa,phrase,109,STARGATE / remote viewing (100%),CIA Reading Room (mirror),
+alias -> stargate,10.4,session dc-,phrase,110,STARGATE / remote viewing (99%),STARGATE files,
+alias -> stargate,10.3,DAMI-ISH,codename,111,STARGATE / remote viewing (97%),CIA Reading Room (mirror),GRILL FLAME EVALUATION TEAM MEMBERS & REPORTS. Folder: NOTE TO MAJOR STONER (DAMI-ISH); STAR GATE was an umbrella term for the Intelligence Community effort that use
+alias -> corona,10.3,SA-2,codename,359,CORONA spy satellites (55%),CIA Reading Room (mirror), 1:30 Early A13M Problem 1:30 - 2:00 - Shadow Analysis SA-5 Missile 2;00 - 2:15 SA-2's in North Viet Nam DECLASS REVIEW BY NGA / DOD Approved For Release 2005/02/17
 alias -> stargate,10.3,crv viewer star,phrase,106,STARGATE / remote viewing (100%),STARGATE files,
-alias -> mkultra,10.3,SUBPROJECT,codename,109,MKULTRA / mind control (99%),CIA Reading Room (mirror),"PROJECT MKULTRA, SUBPROJECT 5. Approve For Re-lea 2 11A-RDP78i3Aoool 00030026-4 SECURITY INFORMATION 28 May"
+alias -> iran_contra,10.3,administra- tion,phrase,594,Iran–Contra (42%),CIA Reading Room (mirror),
+alias -> stargate,10.3,rv- folder,phrase,107,STARGATE / remote viewing (100%),STARGATE files,
+alias -> corona,10.3,strategic ssm,phrase,140,CORONA spy satellites (87%),CIA Reading Room (mirror),
+alias -> nuclear_soviet,10.3,iiid stage,phrase,104,Soviet nuclear & missile programs (101%),CIA Reading Room (mirror),
+alias -> jfk,10.3,hsca staffer,phrase,106,Kennedy assassination (100%),CIA Reading Room (mirror),
+alias -> corona,10.3,cia iad,phrase,146,CORONA spy satellites (85%),CIA Reading Room (mirror),
+alias -> corona,10.3,rail-to-road transfer,phrase,215,CORONA spy satellites (70%),CIA Reading Room (mirror),
+alias -> stargate,10.3,amsaa applied remote,phrase,106,STARGATE / remote viewing (100%),CIA Reading Room (mirror),
+alias -> corona,10.3,notional security,phrase,128,CORONA spy satellites (91%),CIA Reading Room (mirror),
+alias -> corona,10.3,ruff npic,phrase,151,CORONA spy satellites (83%),CIA Reading Room (mirror),
 alias -> recon_aircraft,10.3,jcs wash,phrase,111,U-2 / OXCART / Area 51 (98%),CIA Reading Room (mirror),
-alias -> nuclear_soviet,10.2,orcon- dissemination,phrase,213,Soviet nuclear & missile programs (70%),CIA Reading Room (mirror),
-alias -> nuclear_soviet,10.1,ss- icbm,phrase,135,Soviet nuclear & missile programs (87%),CIA Reading Room (mirror),
-alias -> stargate,10.1,DECLASSIFY,codename,169,STARGATE / remote viewing (78%),CIA Reading Room (mirror),"ct that the $2,000,oOt NOT RELEASABLE TO FOREIGN NATIONALS RECLASSIFIED BY: OD"" DECLASSIFY ON: OA Approved For Release 2000/08/08 : ~~=~~96-007898002900550004-7 proved Fo"
-alias -> stargate,10.1,tasker folder,phrase,102,STARGATE / remote viewing (100%),STARGATE files,
-alias -> recon_aircraft,10.1,colonel usaf,phrase,227,U-2 / OXCART / Area 51 (67%),CIA Reading Room (mirror),
+alias -> stargate,10.3,amsaa applied,phrase,107,STARGATE / remote viewing (100%),CIA Reading Room (mirror),
+alias -> corona,10.3,npic top,phrase,397,CORONA spy satellites (52%),CIA Reading Room (mirror),
+alias -> iran_contra,10.3,ad- ministration,phrase,530,Iran–Contra (45%),CIA Reading Room (mirror),
+alias -> nuclear_soviet,10.2,type iiid stage,phrase,103,Soviet nuclear & missile programs (101%),CIA Reading Room (mirror),
+alias -> stargate,10.2,flame protocol amsaa,phrase,104,STARGATE / remote viewing (100%),CIA Reading Room (mirror),
+alias -> nuclear_soviet,10.2,silo excavation,phrase,106,Soviet nuclear & missile programs (99%),CIA Reading Room (mirror),
+alias -> corona,10.2,AFSSO,codename,492,CORONA spy satellites (46%),CIA Reading Room (mirror),"24 May began filing high-precedence Middle East and European materials to the 3 AFSSO, South Ruislip Air Station, England, at the request of the Station's intelligen"
+alias -> stargate,10.2,protocol amsaa applied,phrase,105,STARGATE / remote viewing (100%),CIA Reading Room (mirror),
+alias -> corona,10.2,tcs- npic,phrase,111,CORONA spy satellites (96%),CIA Reading Room (mirror),
 alias -> recon_aircraft,10.1,afsso pass,phrase,103,U-2 / OXCART / Area 51 (100%),CIA Reading Room (mirror),
+alias -> iran_contra,10.1,offi- cials,phrase,420,Iran–Contra (49%),CIA Reading Room (mirror),
+alias -> corona,10.1,dod tcs-,phrase,104,CORONA spy satellites (99%),CIA Reading Room (mirror),
+alias -> stargate,10.1,tasker folder,phrase,102,STARGATE / remote viewing (100%),STARGATE files,
+alias -> nuclear_soviet,10.1,icbm deployment,phrase,122,Soviet nuclear & missile programs (92%),CIA Reading Room (mirror),
+alias -> corona,10.1,npic psg,phrase,107,CORONA spy satellites (97%),CIA Reading Room (mirror),
+alias -> corona,10.1,cia pir-,phrase,156,CORONA spy satellites (81%),CIA Reading Room (mirror),
+alias -> stargate,10.1,DECLASSIFY,codename,175,STARGATE / remote viewing (76%),CIA Reading Room (mirror),"ct that the $2,000,oOt NOT RELEASABLE TO FOREIGN NATIONALS RECLASSIFIED BY: OD"" DECLASSIFY ON: OA Approved For Release 2000/08/08 : ~~=~~96-007898002900550004-7 proved Fo"
+alias -> iran_contra,10.0,adviser robert mcfarlane,phrase,165,Iran–Contra (78%),CIA Reading Room (mirror),
+alias -> corona,10.0,sa- sam site,phrase,212,CORONA spy satellites (68%),CIA Reading Room (mirror),
+alias -> corona,10.0,R-926,codename,108,CORONA spy satellites (96%),CIA Reading Room (mirror),"SSR AD AREA NPIC PROJECT F r N-665/64 (partial answer) LY-1- 8 REFERENCES Ii IC/R-926/61+ (TS USATC Series 200, Sheet 01024 9H E 3d ed, Nov 63 (S) CHESS RUFF KIMBO) "
 alias -> jfk,10.0,assassinations request,phrase,100,Kennedy assassination (100%),CIA Reading Room (mirror),
-alias -> corona,10.0,talent-keyhole channels,phrase,110,CORONA spy satellites (95%),CIA Reading Room (mirror),
-alias -> vietnam,10.0,MACV,codename,233,Vietnam / Phoenix Program (66%),CIA Reading Room (mirror),"2010 F-2010-00486 WHO TO CONTACT FOR ""DECLASSIFIED"" INFORMATION ON VIET NAM ERA MACV/SOG OPERATIONS 1/14/2010 F-2010-00487 MIRIAM MAKEBA 1/14/2010 F-2010-00490 DAVI"
-alias -> stargate,10.0,protocol amsaa,phrase,100,STARGATE / remote viewing (100%),CIA Reading Room (mirror),
-alias -> nuclear_soviet,10.0,swn remarks,phrase,117,Soviet nuclear & missile programs (92%),CIA Reading Room (mirror),
-alias -> stargate,10.0,protocol undated,phrase,100,STARGATE / remote viewing (100%),CIA Reading Room (mirror),
-alias -> iran_contra,10.0,nicaraguan democratic force,phrase,140,Iran–Contra (84%),CIA Reading Room (mirror),
-alias -> recon_aircraft,10.0,intel osa,phrase,153,U-2 / OXCART / Area 51 (81%),CIA Reading Room (mirror),
-alias -> stargate,9.9,amsaa applied,phrase,98,STARGATE / remote viewing (100%),CIA Reading Room (mirror),
-alias -> jfk,9.9,scott breckinridge,phrase,124,Kennedy assassination (89%),CIA Reading Room (mirror),
-alias -> stargate,9.9,erv viewer,phrase,99,STARGATE / remote viewing (100%),STARGATE files,
-alias -> nuclear_soviet,9.9,icbm complex launch,phrase,98,Soviet nuclear & missile programs (100%),CIA Reading Room (mirror),
+alias -> vietnam,10.0,MACV,codename,235,Vietnam / Phoenix Program (65%),CIA Reading Room (mirror),"2010 F-2010-00486 WHO TO CONTACT FOR ""DECLASSIFIED"" INFORMATION ON VIET NAM ERA MACV/SOG OPERATIONS 1/14/2010 F-2010-00487 MIRIAM MAKEBA 1/14/2010 F-2010-00490 DAVI"
+alias -> iran_contra,10.0,edwin meese iii,phrase,200,Iran–Contra (71%),CIA Reading Room (mirror),
+alias -> corona,10.0,ssm space facilities,phrase,110,CORONA spy satellites (95%),CIA Reading Room (mirror),
+alias -> jfk,10.0,scott breckinridge,phrase,127,Kennedy assassination (89%),CIA Reading Room (mirror),
+alias -> corona,10.0,ssm space,phrase,112,CORONA spy satellites (95%),CIA Reading Room (mirror),
+alias -> corona,10.0,kh- photography,phrase,109,CORONA spy satellites (95%),CIA Reading Room (mirror),
+alias -> corona,9.9,ranges strategic ssm,phrase,105,CORONA spy satellites (96%),CIA Reading Room (mirror),
+alias -> iran_contra,9.9,eugene hasenfus,phrase,127,Iran–Contra (88%),CIA Reading Room (mirror),
+alias -> nuclear_soviet,9.9,tyura tam,phrase,254,Soviet nuclear & missile programs (62%),CIA Reading Room (mirror),
+alias -> nuclear_soviet,9.9,information involved orcon-,phrase,170,Soviet nuclear & missile programs (76%),CIA Reading Room (mirror),
+alias -> corona,9.9,pid npic,phrase,152,CORONA spy satellites (80%),CIA Reading Room (mirror),
 alias -> recon_aircraft,9.9,usaf jcs,phrase,100,U-2 / OXCART / Area 51 (99%),CIA Reading Room (mirror),
-alias -> corona,9.9,ranges artillery emplacements,phrase,128,CORONA spy satellites (88%),CIA Reading Room (mirror),
-alias -> corona,9.9,identification negation,phrase,129,CORONA spy satellites (87%),CIA Reading Room (mirror),
-alias -> stargate,9.9,viewing protocol undated,phrase,99,STARGATE / remote viewing (100%),CIA Reading Room (mirror),
-alias -> stargate,9.9,OADR,codename,322,STARGATE / remote viewing (55%),CIA Reading Room (mirror),"the conferees direct that the $2,000,000 in RECLASSIFIED BY: ODT DECLASSIFY ON: OADR Approved For Release 200418E CIA-RDP96-00789R002600150011-6 SG1-A Approved For "
+alias -> recon_aircraft,9.9,colonel usaf,phrase,237,U-2 / OXCART / Area 51 (65%),CIA Reading Room (mirror),
+alias -> nuclear_soviet,9.9,involved orcon- dissemination,phrase,170,Soviet nuclear & missile programs (76%),CIA Reading Room (mirror),
+alias -> nuclear_soviet,9.9,rel this information,phrase,318,Soviet nuclear & missile programs (55%),CIA Reading Room (mirror),
 alias -> vietnam,9.9,phung hoang,phrase,115,Vietnam / Phoenix Program (92%),CIA Reading Room (mirror),
-alias -> recon_aircraft,9.8,priority idealist,phrase,97,U-2 / OXCART / Area 51 (100%),CIA Reading Room (mirror),
-alias -> stargate,9.8,amsaa applied remote,phrase,97,STARGATE / remote viewing (100%),CIA Reading Room (mirror),
-alias -> iran_contra,9.8,meese iii,phrase,203,Iran–Contra (69%),CIA Reading Room (mirror),
-alias -> recon_aircraft,9.8,osa distribution,phrase,113,U-2 / OXCART / Area 51 (92%),CIA Reading Room (mirror),
-alias -> stargate,9.8,session dc- viewer,phrase,97,STARGATE / remote viewing (100%),STARGATE files,
+alias -> recon_aircraft,9.9,priority idealist,phrase,98,U-2 / OXCART / Area 51 (100%),CIA Reading Room (mirror),
+alias -> nuclear_soviet,9.9,involved orcon-,phrase,171,Soviet nuclear & missile programs (75%),CIA Reading Room (mirror),
+alias -> stargate,9.9,erv viewer,phrase,99,STARGATE / remote viewing (100%),STARGATE files,
+alias -> corona,9.9,rail-to-road transfer point,phrase,197,CORONA spy satellites (71%),CIA Reading Room (mirror),
+alias -> corona,9.9,AFNIN,codename,108,CORONA spy satellites (95%),CIA Reading Room (mirror),"6,27,28,29 Excluded through Mission 1009-2. State TCO DIA DIA OACSI TCO ONI TCO AFNIN TCO NSA TCO NRO TCO Group I from automatic down- grading and declassification, "
+alias -> corona,9.9,affecting the notional,phrase,117,CORONA spy satellites (91%),CIA Reading Room (mirror),
 alias -> stargate,9.8,dc- viewer,phrase,97,STARGATE / remote viewing (100%),STARGATE files,
-alias -> stargate,9.8,protocol amsaa applied,phrase,96,STARGATE / remote viewing (100%),CIA Reading Room (mirror),
-alias -> drugs,9.8,drug traffickers,phrase,190,CIA and drug trafficking allegations (71%),CIA Reading Room (mirror),
-alias -> recon_aircraft,9.8,submitted for concurrence,phrase,156,U-2 / OXCART / Area 51 (78%),CIA Reading Room (mirror),
-alias -> recon_aircraft,9.8,operations osa,phrase,98,U-2 / OXCART / Area 51 (99%),CIA Reading Room (mirror),
+alias -> mlk,9.8,navy nsrb,phrase,175,"Martin Luther King, Jr. Assassination (74%)",CIA Reading Room (mirror),
+alias -> recon_aircraft,9.8,operations osa,phrase,99,U-2 / OXCART / Area 51 (99%),CIA Reading Room (mirror),
+alias -> nuclear_soviet,9.8,afsso ftd,phrase,402,Soviet nuclear & missile programs (49%),CIA Reading Room (mirror),
+alias -> corona,9.8,mrbm complex ussr,phrase,105,CORONA spy satellites (95%),CIA Reading Room (mirror),
+alias -> stargate,9.8,session dc- viewer,phrase,97,STARGATE / remote viewing (100%),STARGATE files,
+alias -> stargate,9.8,OADR,codename,337,STARGATE / remote viewing (53%),CIA Reading Room (mirror),"the conferees direct that the $2,000,000 in RECLASSIFIED BY: ODT DECLASSIFY ON: OADR Approved For Release 200418E CIA-RDP96-00789R002600150011-6 SG1-A Approved For "
+alias -> nuclear_soviet,9.8,launch complex kapustin,phrase,96,Soviet nuclear & missile programs (100%),CIA Reading Room (mirror),
 alias -> stargate,9.8,source rv- folder,phrase,97,STARGATE / remote viewing (100%),STARGATE files,
-alias -> iran_contra,9.8,congres- sional,phrase,303,Iran–Contra (56%),CIA Reading Room (mirror),
-alias -> corona,9.8,first identification negation,phrase,127,CORONA spy satellites (87%),CIA Reading Room (mirror),
-alias -> corona,9.7,kh- photography,phrase,103,CORONA spy satellites (95%),CIA Reading Room (mirror),
-alias -> recon_aircraft,9.7,compt osa,phrase,110,U-2 / OXCART / Area 51 (93%),CIA Reading Room (mirror),
-alias -> corona,9.7,talent keyhole channels,phrase,94,CORONA spy satellites (100%),CIA Reading Room (mirror),
-alias -> stargate,9.7,flame protocol amsaa,phrase,95,STARGATE / remote viewing (100%),CIA Reading Room (mirror),
-alias -> stargate,9.7,DAMI-ISH,codename,99,STARGATE / remote viewing (98%),CIA Reading Room (mirror),GRILL FLAME EVALUATION TEAM MEMBERS & REPORTS. Folder: NOTE TO MAJOR STONER (DAMI-ISH); STAR GATE was an umbrella term for the Intelligence Community effort that use
-alias -> corona,9.7,totalent-keyhole control,phrase,94,CORONA spy satellites (100%),CIA Reading Room (mirror),
-alias -> corona,9.7,usatc series sheet,phrase,149,CORONA spy satellites (80%),CIA Reading Room (mirror),
-alias -> iran_contra,9.7,adviser robert mcfarlane,phrase,142,Iran–Contra (81%),CIA Reading Room (mirror),
-alias -> nuclear_soviet,9.6,launch complex kapustin,phrase,92,Soviet nuclear & missile programs (100%),CIA Reading Room (mirror),
-alias -> corona,9.6,pertaining totalent-keyhole control,phrase,92,CORONA spy satellites (100%),CIA Reading Room (mirror),
-alias -> corona,9.6,totalent-keyhole control system,phrase,93,CORONA spy satellites (100%),CIA Reading Room (mirror),
-alias -> stargate,9.6,tasking sheet,phrase,112,STARGATE / remote viewing (91%),STARGATE files,
-alias -> corona,9.6,regulations pertaining totalent-keyhole,phrase,92,CORONA spy satellites (100%),CIA Reading Room (mirror),
-alias -> corona,9.6,pertaining totalent-keyhole,phrase,93,CORONA spy satellites (100%),CIA Reading Room (mirror),
-alias -> corona,9.6,kh- kh-,phrase,104,CORONA spy satellites (94%),CIA Reading Room (mirror),
+alias -> corona,9.8,keyhole mission,phrase,109,CORONA spy satellites (94%),CIA Reading Room (mirror),
+alias -> recon_aircraft,9.8,osa distribution,phrase,113,U-2 / OXCART / Area 51 (92%),CIA Reading Room (mirror),
+alias -> recon_aircraft,9.8,submitted for concurrence,phrase,156,U-2 / OXCART / Area 51 (78%),CIA Reading Room (mirror),
+alias -> corona,9.8,DECLASSIFICATION REVIEW,codename,106,CORONA spy satellites (95%),CIA Reading Room (mirror),DECLASSIFICATION REVIEW OF STATE DEPARTMENT RECORDS FOR FOREIGN RELATIONS OF THE U.S. SERIES. Approved 
+alias -> nuclear_soviet,9.8,afsso afsc,phrase,340,Soviet nuclear & missile programs (53%),CIA Reading Room (mirror),
+alias -> corona,9.8,strategic ssm space,phrase,103,CORONA spy satellites (96%),CIA Reading Room (mirror),
+alias -> recon_aircraft,9.7,compt osa,phrase,111,U-2 / OXCART / Area 51 (92%),CIA Reading Room (mirror),
+alias -> drugs,9.7,drug traffickers,phrase,193,CIA and drug trafficking allegations (70%),CIA Reading Room (mirror),
+alias -> iran_contra,9.7,nica- raguan,phrase,130,Iran–Contra (85%),CIA Reading Room (mirror),
+alias -> nuclear_soviet,9.7,facility type iiid,phrase,93,Soviet nuclear & missile programs (101%),CIA Reading Room (mirror),
+alias -> iran_contra,9.7,nicaraguan rebel,phrase,130,Iran–Contra (85%),CIA Reading Room (mirror),
+alias -> corona,9.7,dia tco,phrase,132,CORONA spy satellites (84%),CIA Reading Room (mirror),
+alias -> corona,9.7,deployed strategic ssm,phrase,120,CORONA spy satellites (88%),CIA Reading Room (mirror),
+alias -> nuclear_soviet,9.7,imeni gastello,phrase,103,Soviet nuclear & missile programs (95%),CIA Reading Room (mirror),
+alias -> iran_contra,9.7,sandinista regime,phrase,184,Iran–Contra (71%),CIA Reading Room (mirror),
+alias -> corona,9.7,tactical ssm,phrase,104,CORONA spy satellites (95%),CIA Reading Room (mirror),
+alias -> corona,9.6,ntp functional areas,phrase,92,CORONA spy satellites (100%),CIA Reading Room (mirror),
+alias -> corona,9.6,associated ntp,phrase,92,CORONA spy satellites (100%),CIA Reading Room (mirror),
+alias -> corona,9.6,nima dod national,phrase,91,CORONA spy satellites (101%),CIA Reading Room (mirror),
+alias -> iran_contra,9.6,boland amendment,phrase,114,Iran–Contra (90%),CIA Reading Room (mirror),
+alias -> nuclear_soviet,9.6,criminal sanctions noforn-,phrase,121,Soviet nuclear & missile programs (88%),CIA Reading Room (mirror),
+alias -> iran_contra,9.6,con- gressional,phrase,274,Iran–Contra (58%),CIA Reading Room (mirror),
+alias -> corona,9.6,associated ntp functional,phrase,92,CORONA spy satellites (100%),CIA Reading Room (mirror),
+alias -> jfk,9.6,ASSASSINATIONS,codename,147,Kennedy assassination (79%),CIA Reading Room (mirror),PRESS STATEMENT:FINAL REPORT OF THE SELECT COMMITTEE ON ASSASSINATIONS. CIA HAS NO OBJF_CTION TO DECLASSiFICATION AND/OR . RELEASE OF CIA INFORMATION 
+alias -> recon_aircraft,9.6,project comptroller,phrase,127,U-2 / OXCART / Area 51 (85%),CIA Reading Room (mirror),
+alias -> corona,9.6,chief cia pid,phrase,145,CORONA spy satellites (80%),CIA Reading Room (mirror),
+alias -> stargate,9.6,tasking sheet,phrase,113,STARGATE / remote viewing (90%),STARGATE files,
+alias -> nuclear_soviet,9.6,sanctions noforn-,phrase,121,Soviet nuclear & missile programs (88%),CIA Reading Room (mirror),
+alias -> corona,9.6,oacsi tco,phrase,117,CORONA spy satellites (89%),CIA Reading Room (mirror),
+alias -> corona,9.6,strategic ssm facilities,phrase,119,CORONA spy satellites (88%),CIA Reading Room (mirror),
+alias -> corona,9.6,grading and declassification,phrase,174,CORONA spy satellites (72%),CIA Reading Room (mirror),
+alias -> nuclear_soviet,9.6,SILO,codename,135,Soviet nuclear & missile programs (83%),CIA Reading Room (mirror)," T I S A,TO Y PApTtES WOULD REFFA1w tR TO kNC OAC , ON TH Tr,R11313177i MAY 73 ;SILO THE T R ITO VErRE1 TY A#N0 COUNTRIES SHALL CAMBODIA AND ~ LAOS Approved For Rel"
+alias -> corona,9.5,site declass,phrase,95,CORONA spy satellites (98%),CIA Reading Room (mirror),
+alias -> corona,9.5,deployed amm,phrase,94,CORONA spy satellites (98%),CIA Reading Room (mirror),
 alias -> stargate,9.5,dc- viewer target,phrase,90,STARGATE / remote viewing (100%),STARGATE files,
-alias -> iran_contra,9.5,con- gress,phrase,479,Iran–Contra (44%),CIA Reading Room (mirror),
-alias -> corona,9.5,sa- sam,phrase,187,CORONA spy satellites (70%),CIA Reading Room (mirror),
-alias -> nuclear_soviet,9.5,plesetsk icbm,phrase,97,Soviet nuclear & missile programs (97%),CIA Reading Room (mirror),
-alias -> iran_contra,9.5,edwin meese iii,phrase,192,Iran–Contra (69%),CIA Reading Room (mirror),
-alias -> nuclear_soviet,9.5,IIID,codename,90,Soviet nuclear & missile programs (100%),CIA Reading Room (mirror),"5X1D Location: Approximately 8.9 nm south of the Complex Support Facility Type: IIID, Negation Date: Stage of Construction: Mid 25X1 D Launch site is situated in ro"
-alias -> nuclear_soviet,9.5,icbm launch complex,phrase,90,Soviet nuclear & missile programs (100%),CIA Reading Room (mirror),
-alias -> jfk,9.5,hsca certain items,phrase,91,Kennedy assassination (100%),CIA Reading Room (mirror),
-alias -> recon_aircraft,9.4,AFSSO PASS,codename,90,U-2 / OXCART / Area 51 (99%),CIA Reading Room (mirror), OPERATI~7M LL IntrtAZ I IMEt)IATE CITE MESSAGE. RELEASEABLE FRDM SSO CHANNELS. AFSSO PASS TO AFOOP/SA. 5SC JCS PASS TO J-3 JItC. IDEALIST 11811 LANi7~Et) LAUGHLIN AFB AT
+alias -> corona,9.5,ranges tactical ssm,phrase,90,CORONA spy satellites (100%),CIA Reading Room (mirror),
+alias -> mlk,9.5,hsca certain items,phrase,91,"Martin Luther King, Jr. Assassination (100%)",CIA Reading Room (mirror),
+alias -> corona,9.5,ntp functional,phrase,97,CORONA spy satellites (97%),CIA Reading Room (mirror),
+alias -> corona,9.5,ssm facilities,phrase,125,CORONA spy satellites (85%),CIA Reading Room (mirror),
+alias -> corona,9.5,tcs- handle,phrase,94,CORONA spy satellites (98%),CIA Reading Room (mirror),
+alias -> corona,9.5,deployed amm facilities,phrase,92,CORONA spy satellites (99%),CIA Reading Room (mirror),
+alias -> corona,9.5,tactical ssm facilities,phrase,91,CORONA spy satellites (100%),CIA Reading Room (mirror),
+alias -> nuclear_soviet,9.5,drovyanaya icbm,phrase,98,Soviet nuclear & missile programs (96%),CIA Reading Room (mirror),
+alias -> recon_aircraft,9.5,intel osa,phrase,173,U-2 / OXCART / Area 51 (72%),CIA Reading Room (mirror),
+alias -> corona,9.5,surface-to-air missile,phrase,439,CORONA spy satellites (45%),CIA Reading Room (mirror),
+alias -> corona,9.5,site declass review,phrase,95,CORONA spy satellites (98%),CIA Reading Room (mirror),
+alias -> corona,9.4,automatic down-,phrase,146,CORONA spy satellites (78%),CIA Reading Room (mirror),
+alias -> corona,9.4,amm facilities,phrase,93,CORONA spy satellites (98%),CIA Reading Room (mirror),
+alias -> corona,9.4,facilities cbr,phrase,88,CORONA spy satellites (100%),CIA Reading Room (mirror),
+alias -> corona,9.4,national tasking plan,phrase,101,CORONA spy satellites (93%),CIA Reading Room (mirror),
+alias -> corona,9.4,cbr facilities,phrase,88,CORONA spy satellites (100%),CIA Reading Room (mirror),
+alias -> corona,9.4,dist unit,phrase,104,CORONA spy satellites (92%),CIA Reading Room (mirror),
+alias -> corona,9.4,kh- kh-,phrase,111,CORONA spy satellites (89%),CIA Reading Room (mirror),
+alias -> corona,9.4,tso cia,phrase,119,CORONA spy satellites (86%),CIA Reading Room (mirror),
+alias -> corona,9.4,tasking plan,phrase,102,CORONA spy satellites (93%),CIA Reading Room (mirror),
+alias -> corona,9.4,afsso acic,phrase,405,CORONA spy satellites (47%),CIA Reading Room (mirror),
+alias -> corona,9.4,sam amm,phrase,88,CORONA spy satellites (100%),CIA Reading Room (mirror),
+alias -> corona,9.4,negation date stage,phrase,92,CORONA spy satellites (98%),CIA Reading Room (mirror),
+alias -> corona,9.4,deployed tactical ssm,phrase,88,CORONA spy satellites (100%),CIA Reading Room (mirror),
+alias -> corona,9.4,kh- and kh-,phrase,91,CORONA spy satellites (99%),CIA Reading Room (mirror),
 alias -> stargate,9.4,site site acquisit,phrase,90,STARGATE / remote viewing (99%),CIA Reading Room (mirror),
-alias -> corona,9.3,npic group,phrase,142,CORONA spy satellites (78%),CIA Reading Room (mirror),
-alias -> vietnam,9.3,ARVN,codename,242,Vietnam / Phoenix Program (60%),CIA Reading Room (mirror),"ion. DMZ and Laos. C. Present status: 1)Enemy OB, capabilities. 2)Effectiveness ARVN 3)Pacification role--still means combat II. Political Situation in S VN. 1. Con"
-alias -> nuclear_soviet,9.3,information involved orcon-,phrase,151,Soviet nuclear & missile programs (75%),CIA Reading Room (mirror),
-alias -> nuclear_soviet,9.3,yar missile,phrase,109,Soviet nuclear & missile programs (89%),CIA Reading Room (mirror),
-alias -> stargate,9.3,ops proj viewer,phrase,86,STARGATE / remote viewing (100%),STARGATE files,
+alias -> corona,9.4,ranges sam amm,phrase,88,CORONA spy satellites (100%),CIA Reading Room (mirror),
+alias -> recon_aircraft,9.4,AFSSO PASS,codename,90,U-2 / OXCART / Area 51 (99%),CIA Reading Room (mirror), OPERATI~7M LL IntrtAZ I IMEt)IATE CITE MESSAGE. RELEASEABLE FRDM SSO CHANNELS. AFSSO PASS TO AFOOP/SA. 5SC JCS PASS TO J-3 JItC. IDEALIST 11811 LANi7~Et) LAUGHLIN AFB AT
+alias -> nuclear_soviet,9.4,yar missile,phrase,112,Soviet nuclear & missile programs (89%),CIA Reading Room (mirror),
+alias -> mlk,9.4,NSRB,codename,154,"Martin Luther King, Jr. Assassination (76%)",CIA Reading Room (mirror),"ELOW) SUPPLEMENT TO REPORT NO. THIS IS UNEVALUATED INFORMATION STATE # X NAVY X NSRB 1 DISTRIBUTION ARM Yo -R,r#' X A I R 0 X FB I O. Ev -x- iTIC Ev .x._ 1 Appr ved"
+alias -> corona,9.4,group npic,phrase,158,CORONA spy satellites (75%),CIA Reading Room (mirror),
+alias -> nuclear_soviet,9.4,icbm test,phrase,104,Soviet nuclear & missile programs (92%),CIA Reading Room (mirror),
+alias -> corona,9.3,ssm deployed strategic,phrase,87,CORONA spy satellites (100%),CIA Reading Room (mirror),
+alias -> nuclear_soviet,9.3,propin- caution-proprietary information,phrase,165,Soviet nuclear & missile programs (73%),CIA Reading Room (mirror),
+alias -> corona,9.3,nro tco,phrase,102,CORONA spy satellites (92%),CIA Reading Room (mirror),
+alias -> corona,9.3,national tasking,phrase,103,CORONA spy satellites (91%),CIA Reading Room (mirror),
+alias -> corona,9.3,energy facilities cbr,phrase,87,CORONA spy satellites (100%),CIA Reading Room (mirror),
+alias -> corona,9.3,cbr facilities industry,phrase,87,CORONA spy satellites (100%),CIA Reading Room (mirror),
+alias -> corona,9.3,strategic ssm deployed,phrase,87,CORONA spy satellites (100%),CIA Reading Room (mirror),
 alias -> recon_aircraft,9.3,dad osa,phrase,105,U-2 / OXCART / Area 51 (90%),CIA Reading Room (mirror),
-alias -> corona,9.3,coverage kh-,phrase,90,CORONA spy satellites (98%),CIA Reading Room (mirror),
-alias -> corona,9.3,kh- and kh-,phrase,89,CORONA spy satellites (99%),CIA Reading Room (mirror),
-alias -> nuclear_soviet,9.3,involved orcon- dissemination,phrase,151,Soviet nuclear & missile programs (75%),CIA Reading Room (mirror),
-alias -> nuclear_soviet,9.2,involved orcon-,phrase,152,Soviet nuclear & missile programs (75%),CIA Reading Room (mirror),
-alias -> jfk,9.2,ASSASSINATIONS REQUEST,codename,85,Kennedy assassination (100%),CIA Reading Room (mirror),HOUSE SELECT COMMITTEE ON ASSASSINATIONS REQUEST FOR INFORMATION ON 20 CRITERIA (S). Approved For Release 2004/07/16 : CIA-RDP81
-alias -> iran_contra,9.2,ad- ministration,phrase,425,Iran–Contra (44%),CIA Reading Room (mirror),
-alias -> recon_aircraft,9.2,tech osa,phrase,101,U-2 / OXCART / Area 51 (91%),CIA Reading Room (mirror),
-alias -> corona,9.2,ARGON,codename,110,CORONA spy satellites (88%),CIA Reading Room (mirror), i 8 023 1-'R012 ACOU21 !':. HLU_OGRAPH' COMPUT?a!?? ??; .C' 019 r}2s I-'r?{)13 ARGON ?r.Jtr LASER RSrrr:4_1! ! i L LASER 1122 sl;i3 . .X10 'I 7'7-- 11 i NOV 0 '.7 1
+alias -> corona,9.3,ranges air- launched,phrase,86,CORONA spy satellites (100%),CIA Reading Room (mirror),
+alias -> stargate,9.3,SG1A,codename,139,STARGATE / remote viewing (79%),CIA Reading Room (mirror),"CIA-RDP96-00791 R000100030037-5 CONFIDENTIAL SG1I SUBJECT: Stargate FROM: DATE: SG1A At the reception last Friday I spoke with Hal Lewis. He bias just publishe,ja b"
+alias -> corona,9.3,cia pid npic,phrase,135,CORONA spy satellites (80%),CIA Reading Room (mirror),
+alias -> corona,9.3,cbr cbr,phrase,87,CORONA spy satellites (100%),CIA Reading Room (mirror),
+alias -> nuclear_soviet,9.3,propin- caution-proprietary,phrase,166,Soviet nuclear & missile programs (72%),CIA Reading Room (mirror),
+alias -> stargate,9.3,ops proj viewer,phrase,86,STARGATE / remote viewing (100%),STARGATE files,
+alias -> corona,9.3,cia ias,phrase,133,CORONA spy satellites (80%),CIA Reading Room (mirror),
+alias -> corona,9.3,npic ieg,phrase,258,CORONA spy satellites (58%),CIA Reading Room (mirror),
+alias -> corona,9.3,sam amm facilities,phrase,87,CORONA spy satellites (100%),CIA Reading Room (mirror),
+alias -> corona,9.3,missiles deployed amm,phrase,87,CORONA spy satellites (100%),CIA Reading Room (mirror),
+alias -> corona,9.3,ssm deployed,phrase,87,CORONA spy satellites (100%),CIA Reading Room (mirror),
+alias -> corona,9.3,facilities tactical ssm,phrase,87,CORONA spy satellites (100%),CIA Reading Room (mirror),
+alias -> corona,9.3,ranges air-,phrase,86,CORONA spy satellites (100%),CIA Reading Room (mirror),
+alias -> corona,9.3,ARGON,codename,111,CORONA spy satellites (88%),CIA Reading Room (mirror), i 8 023 1-'R012 ACOU21 !':. HLU_OGRAPH' COMPUT?a!?? ??; .C' 019 r}2s I-'r?{)13 ARGON ?r.Jtr LASER RSrrr:4_1! ! i L LASER 1122 sl;i3 . .X10 'I 7'7-- 11 i NOV 0 '.7 1
+alias -> corona,9.3,ssm facilities missile,phrase,87,CORONA spy satellites (100%),CIA Reading Room (mirror),
+alias -> nuclear_soviet,9.3,consultants propin- caution-proprietary,phrase,164,Soviet nuclear & missile programs (73%),CIA Reading Room (mirror),
+alias -> corona,9.3,missile ranges air-,phrase,86,CORONA spy satellites (100%),CIA Reading Room (mirror),
+alias -> iran_contra,9.3,john singlaub,phrase,111,Iran–Contra (88%),CIA Reading Room (mirror),
+alias -> corona,9.3,cbr cbr facilities,phrase,87,CORONA spy satellites (100%),CIA Reading Room (mirror),
+alias -> corona,9.3,amm facilities deployed,phrase,87,CORONA spy satellites (100%),CIA Reading Room (mirror),
+alias -> corona,9.3,facilities cbr cbr,phrase,87,CORONA spy satellites (100%),CIA Reading Room (mirror),
+alias -> iran_contra,9.3,lieut col,phrase,133,Iran–Contra (80%),CIA Reading Room (mirror),
+alias -> corona,9.3,amm facilities air,phrase,87,CORONA spy satellites (100%),CIA Reading Room (mirror),
+alias -> corona,9.3,codes strategic ssm,phrase,86,CORONA spy satellites (100%),CIA Reading Room (mirror),
+alias -> corona,9.2,non-military logistics,phrase,85,CORONA spy satellites (100%),CIA Reading Room (mirror),
+alias -> corona,9.2,ssm facilities logistics,phrase,85,CORONA spy satellites (100%),CIA Reading Room (mirror),
 alias -> recon_aircraft,9.2,osa oxc,phrase,89,U-2 / OXCART / Area 51 (98%),CIA Reading Room (mirror),
-alias -> iran_contra,9.2,nicaraguan government,phrase,180,Iran–Contra (69%),CIA Reading Room (mirror),
-alias -> iran_contra,9.1,boren d-okla,phrase,90,Iran–Contra (96%),CIA Reading Room (mirror),
-alias -> stargate,9.1,SG1A,codename,129,STARGATE / remote viewing (80%),CIA Reading Room (mirror),"CIA-RDP96-00791 R000100030037-5 CONFIDENTIAL SG1I SUBJECT: Stargate FROM: DATE: SG1A At the reception last Friday I spoke with Hal Lewis. He bias just publishe,ja b"
+alias -> recon_aircraft,9.2,tech osa,phrase,101,U-2 / OXCART / Area 51 (91%),CIA Reading Room (mirror),
+alias -> vietnam,9.2,ARVN,codename,245,Vietnam / Phoenix Program (59%),CIA Reading Room (mirror),"ion. DMZ and Laos. C. Present status: 1)Enemy OB, capabilities. 2)Effectiveness ARVN 3)Pacification role--still means combat II. Political Situation in S VN. 1. Con"
+alias -> jfk,9.2,ASSASSINATIONS REQUEST,codename,85,Kennedy assassination (100%),CIA Reading Room (mirror),HOUSE SELECT COMMITTEE ON ASSASSINATIONS REQUEST FOR INFORMATION ON 20 CRITERIA (S). Approved For Release 2004/07/16 : CIA-RDP81
+alias -> recon_aircraft,9.2,SAPC,codename,100,U-2 / OXCART / Area 51 (92%),CIA Reading Room (mirror),"hrono JAC/WJC/ht Very truly YO'-Ws, JAME2 A. C INGBAM, JR. namo-Wooldridge) w/o SAPC No. { t iiiJsv~?j i NO. NO LASS'. iy~~y6 E.. rt ,~.c BFPO. i:3 S C .-r, 714956 "
+alias -> corona,9.2,air- launched,phrase,87,CORONA spy satellites (99%),CIA Reading Room (mirror),
+alias -> corona,9.2,storage build-,phrase,129,CORONA spy satellites (81%),CIA Reading Room (mirror),
+alias -> corona,9.2,miscellaneous non-military,phrase,85,CORONA spy satellites (100%),CIA Reading Room (mirror),
+alias -> corona,9.2,ruff figure,phrase,114,CORONA spy satellites (86%),CIA Reading Room (mirror),
+alias -> corona,9.2,non-military logistics facilities,phrase,85,CORONA spy satellites (100%),CIA Reading Room (mirror),
+alias -> corona,9.2,air- launched missile,phrase,85,CORONA spy satellites (100%),CIA Reading Room (mirror),
+alias -> corona,9.2,SURFACE-TO-AIR MISSILE,codename,108,CORONA spy satellites (89%),CIA Reading Room (mirror),SURFACE-TO-AIR MISSILE (SAM) ACTIVITY. Approved For Release 2001/09/03 : CIA-RDP78TO5439A000200070031-
+alias -> corona,9.2,tcs- handle via,phrase,85,CORONA spy satellites (100%),CIA Reading Room (mirror),
+alias -> corona,9.2,miscellaneous non-military logistics,phrase,85,CORONA spy satellites (100%),CIA Reading Room (mirror),
+alias -> corona,9.2,operationally associated targets,phrase,85,CORONA spy satellites (100%),CIA Reading Room (mirror),
+alias -> nuclear_soviet,9.1,pacaf afsso,phrase,327,Soviet nuclear & missile programs (50%),CIA Reading Room (mirror),
+alias -> corona,9.1,operationally associated,phrase,87,CORONA spy satellites (98%),CIA Reading Room (mirror),
+alias -> corona,9.1,facilities miscellaneous non-military,phrase,83,CORONA spy satellites (100%),CIA Reading Room (mirror),
+alias -> corona,9.1,comor photo,phrase,145,CORONA spy satellites (75%),CIA Reading Room (mirror),
+alias -> nuclear_soviet,9.1,perm icbm,phrase,82,Soviet nuclear & missile programs (100%),CIA Reading Room (mirror),
+alias -> corona,9.1,tco nsa tco,phrase,128,CORONA spy satellites (80%),CIA Reading Room (mirror),
+alias -> corona,9.1,comor photo working,phrase,145,CORONA spy satellites (75%),CIA Reading Room (mirror),
+alias -> nuclear_soviet,9.1,afsso usafe,phrase,370,Soviet nuclear & missile programs (48%),CIA Reading Room (mirror),
+alias -> nuclear_soviet,9.1,afsso pacaf,phrase,384,Soviet nuclear & missile programs (46%),CIA Reading Room (mirror),
+alias -> corona,9.1,tactical ssm deployed,phrase,83,CORONA spy satellites (100%),CIA Reading Room (mirror),
 alias -> recon_aircraft,9.1,usaf jcs wash,phrase,82,U-2 / OXCART / Area 51 (100%),CIA Reading Room (mirror),
-alias -> corona,9.1,ruff tcs-,phrase,84,CORONA spy satellites (99%),CIA Reading Room (mirror),
-alias -> nuclear_soviet,9.1,rel this information,phrase,282,Soviet nuclear & missile programs (54%),CIA Reading Room (mirror),
-alias -> recon_aircraft,9.1,sas osa,phrase,92,U-2 / OXCART / Area 51 (95%),CIA Reading Room (mirror),
-alias -> iran_contra,9.1,eugene hasenfus,phrase,118,Iran–Contra (84%),CIA Reading Room (mirror),
-alias -> recon_aircraft,9.1,richard bissell,phrase,285,U-2 / OXCART / Area 51 (54%),CIA Reading Room (mirror),
-alias -> corona,9.1,nima dod handle,phrase,82,CORONA spy satellites (100%),CIA Reading Room (mirror),
-alias -> corona,9.1,automatic down-,phrase,140,CORONA spy satellites (77%),CIA Reading Room (mirror),
-alias -> iran_contra,9.1,administra- tion,phrase,508,Iran–Contra (41%),CIA Reading Room (mirror),
-alias -> nuclear_soviet,9.0,icbm program,phrase,87,Soviet nuclear & missile programs (97%),CIA Reading Room (mirror),
-alias -> corona,9.0,keyhole missions,phrase,86,CORONA spy satellites (97%),CIA Reading Room (mirror),
-alias -> nuclear_soviet,9.0,olovyannaya icbm,phrase,83,Soviet nuclear & missile programs (99%),CIA Reading Room (mirror),
-alias -> nuclear_soviet,9.0,afsso afsc,phrase,225,Soviet nuclear & missile programs (60%),CIA Reading Room (mirror),
-alias -> jfk,9.0,solie chief security,phrase,83,Kennedy assassination (99%),CIA Reading Room (mirror),
-alias -> recon_aircraft,9.0,SAPC,codename,97,U-2 / OXCART / Area 51 (92%),CIA Reading Room (mirror),"hrono JAC/WJC/ht Very truly YO'-Ws, JAME2 A. C INGBAM, JR. namo-Wooldridge) w/o SAPC No. { t iiiJsv~?j i NO. NO LASS'. iy~~y6 E.. rt ,~.c BFPO. i:3 S C .-r, 714956 "
-alias -> nuclear_soviet,9.0,icbm test,phrase,95,Soviet nuclear & missile programs (93%),CIA Reading Room (mirror),
-alias -> recon_aircraft,9.0,BISSELL,codename,180,U-2 / OXCART / Area 51 (67%),CIA Reading Room (mirror),"om an 18 October 1960 memorandum from J. Edgar HOOVER, Director/FBT: to Richard BISSELL, Deputy Director for Plans, which states as follows: ""During recent conversatia"
-alias -> stargate,8.9,folder tasking,phrase,79,STARGATE / remote viewing (100%),STARGATE files,
-alias -> corona,8.9,subsequent coverage kh-,phrase,83,CORONA spy satellites (98%),CIA Reading Room (mirror),
-alias -> iran_contra,8.9,sandinista regime,phrase,166,Iran–Contra (69%),CIA Reading Room (mirror),
-alias -> nuclear_soviet,8.9,sanctions noforn-,phrase,104,Soviet nuclear & missile programs (88%),CIA Reading Room (mirror),
-alias -> iran_contra,8.9,boland amendment,phrase,102,Iran–Contra (88%),CIA Reading Room (mirror),
-alias -> corona,8.9,cite npic,phrase,359,CORONA spy satellites (47%),CIA Reading Room (mirror),
-alias -> stargate,8.9,memos folder,phrase,80,STARGATE / remote viewing (100%),STARGATE files,
-alias -> mkultra,8.9,project mkultra subproject,phrase,80,MKULTRA / mind control (100%),CIA Reading Room (mirror),
-alias -> nuclear_soviet,8.9,criminal sanctions noforn-,phrase,104,Soviet nuclear & missile programs (88%),CIA Reading Room (mirror),
-alias -> jfk,8.9,solie chief,phrase,84,Kennedy assassination (98%),CIA Reading Room (mirror),
+alias -> mlk,9.1,solie chief,phrase,84,"Martin Luther King, Jr. Assassination (99%)",CIA Reading Room (mirror),
+alias -> mlk,9.1,bruce solie chief,phrase,84,"Martin Luther King, Jr. Assassination (99%)",CIA Reading Room (mirror),
+alias -> recon_aircraft,9.1,sas osa,phrase,93,U-2 / OXCART / Area 51 (95%),CIA Reading Room (mirror),
+alias -> recon_aircraft,9.1,richard bissell,phrase,287,U-2 / OXCART / Area 51 (54%),CIA Reading Room (mirror),
+alias -> mlk,9.1,solie chief security,phrase,83,"Martin Luther King, Jr. Assassination (100%)",CIA Reading Room (mirror),
+alias -> corona,9.1,ssm deployed tactical,phrase,83,CORONA spy satellites (100%),CIA Reading Room (mirror),
+alias -> recon_aircraft,9.1,BISSELL,codename,184,U-2 / OXCART / Area 51 (67%),CIA Reading Room (mirror),"om an 18 October 1960 memorandum from J. Edgar HOOVER, Director/FBT: to Richard BISSELL, Deputy Director for Plans, which states as follows: ""During recent conversatia"
+alias -> nuclear_soviet,9.0,launch site declass,phrase,81,Soviet nuclear & missile programs (100%),CIA Reading Room (mirror),
+alias -> corona,9.0,tco oni,phrase,109,CORONA spy satellites (86%),CIA Reading Room (mirror),
+alias -> corona,9.0,issued recd,phrase,103,CORONA spy satellites (88%),CIA Reading Room (mirror),
+alias -> corona,9.0,director npic,phrase,214,CORONA spy satellites (61%),CIA Reading Room (mirror),
+alias -> iran_contra,9.0,boren d-okla,phrase,92,Iran–Contra (93%),CIA Reading Room (mirror),
+alias -> stargate,9.0,session dcc-,phrase,81,STARGATE / remote viewing (100%),STARGATE files,
+alias -> nuclear_soviet,8.9,afsso pacaf afsso,phrase,322,Soviet nuclear & missile programs (50%),CIA Reading Room (mirror),
+alias -> corona,8.9,oacsi tco oni,phrase,103,CORONA spy satellites (87%),CIA Reading Room (mirror),
+alias -> corona,8.9,complex ussr declass,phrase,82,CORONA spy satellites (99%),CIA Reading Room (mirror),
+alias -> corona,8.9,npic tssg,phrase,110,CORONA spy satellites (85%),CIA Reading Room (mirror),
+alias -> recon_aircraft,8.9,being procured,phrase,125,U-2 / OXCART / Area 51 (79%),CIA Reading Room (mirror),
+alias -> corona,8.9,oni tco,phrase,108,CORONA spy satellites (85%),CIA Reading Room (mirror),
+alias -> iran_contra,8.9,albert hakim,phrase,92,Iran–Contra (92%),CIA Reading Room (mirror),
 alias -> stargate,8.9,crv erv,phrase,81,STARGATE / remote viewing (99%),CIA Reading Room (mirror),
-alias -> corona,8.9,keyhole information,phrase,85,CORONA spy satellites (96%),CIA Reading Room (mirror),
-alias -> nuclear_soviet,8.9,afsso ftd,phrase,269,Soviet nuclear & missile programs (54%),CIA Reading Room (mirror),
-alias -> stargate,8.9,session dcc-,phrase,79,STARGATE / remote viewing (100%),STARGATE files,
-alias -> jfk,8.9,bruce solie chief,phrase,84,Kennedy assassination (98%),CIA Reading Room (mirror),
-alias -> recon_aircraft,8.9,being procured,phrase,124,U-2 / OXCART / Area 51 (80%),CIA Reading Room (mirror),
-alias -> corona,8.8,chess ruff handle,phrase,81,CORONA spy satellites (98%),CIA Reading Room (mirror),
-alias -> recon_aircraft,8.8,authenticating officer,phrase,244,U-2 / OXCART / Area 51 (56%),CIA Reading Room (mirror),
-alias -> stargate,8.8,viewer crv,phrase,78,STARGATE / remote viewing (100%),STARGATE files,
-alias -> iran_contra,8.8,david boren d-okla,phrase,83,Iran–Contra (96%),CIA Reading Room (mirror),
-alias -> nuclear_soviet,8.8,DIRNSA FROM NPIC,codename,177,Soviet nuclear & missile programs (66%),CIA Reading Room (mirror),CABLE TO DIRNSA FROM NPIC. Approved For Release 2008/03/18: CIA-RDP78B03817A000300020092-9 0 V CONTINUING
-alias -> iran_contra,8.8,nica- raguan,phrase,108,Iran–Contra (84%),CIA Reading Room (mirror),
-alias -> nuclear_soviet,8.8,type iiic,phrase,80,Soviet nuclear & missile programs (99%),CIA Reading Room (mirror),
-alias -> corona,8.8,OACSI,codename,286,CORONA spy satellites (52%),CIA Reading Room (mirror),"CENTER LANE ACCESS ROSTER. Folder: OACSI, HQ DA ACCESS ROSTER - CENTER LANE; STAR GATE was an umbrella term for the Inte"
-alias -> nuclear_soviet,8.8,dirnsa from npic,phrase,177,Soviet nuclear & missile programs (66%),CIA Reading Room (mirror),
-alias -> recon_aircraft,8.8,osa intel,phrase,120,U-2 / OXCART / Area 51 (80%),CIA Reading Room (mirror),
-alias -> iran_contra,8.8,offi- cials,phrase,378,Iran–Contra (46%),CIA Reading Room (mirror),
-alias -> nuclear_soviet,8.8,tyura tam,phrase,210,Soviet nuclear & missile programs (61%),CIA Reading Room (mirror),
-alias -> recon_aircraft,8.8,ELINT,codename,183,U-2 / OXCART / Area 51 (65%),CIA Reading Room (mirror),"expanding the current program in a manner similar to that of the disciplines of ELINT, SIGINT, COMINT, etc. Additionally, Dr. Vorona would like to expand the current"
-alias -> stargate,8.8,skeet channels,phrase,82,STARGATE / remote viewing (98%),CIA Reading Room (mirror),
+alias -> corona,8.9,coverage kh-,phrase,101,CORONA spy satellites (88%),CIA Reading Room (mirror),
+alias -> corona,8.9,nima dod tcs-,phrase,79,CORONA spy satellites (100%),CIA Reading Room (mirror),
+alias -> corona,8.9,ddi irs,phrase,90,CORONA spy satellites (93%),CIA Reading Room (mirror),
+alias -> corona,8.9,cia ddi,phrase,125,CORONA spy satellites (80%),CIA Reading Room (mirror),
+alias -> stargate,8.9,folder tasking,phrase,79,STARGATE / remote viewing (100%),STARGATE files,
+alias -> stargate,8.9,memos folder,phrase,80,STARGATE / remote viewing (100%),STARGATE files,
+alias -> nuclear_soviet,8.9,caution-proprietary information involved,phrase,190,Soviet nuclear & missile programs (65%),CIA Reading Room (mirror),
+alias -> iran_contra,8.9,WASHINGTON-,codename,191,Iran–Contra (64%),CIA Reading Room (mirror),"s na on. I. Soviet. Later, despite this avow- lice official who defected to the WASHINGTON-Mrs. Jacque-:1 :line Kennedy is giving her uc- that time Mrs. Oswald was liv-, a"
+alias -> iran_contra,8.9,national se-,phrase,263,Iran–Contra (55%),CIA Reading Room (mirror),
+alias -> nuclear_soviet,8.9,caution-proprietary information,phrase,190,Soviet nuclear & missile programs (65%),CIA Reading Room (mirror),
+alias -> corona,8.9,cia ddi irs,phrase,79,CORONA spy satellites (100%),CIA Reading Room (mirror),
+alias -> stargate,8.9,target cuing,phrase,80,STARGATE / remote viewing (100%),CIA Reading Room (mirror),
+alias -> corona,8.8,review nima,phrase,77,CORONA spy satellites (100%),CIA Reading Room (mirror),
+alias -> stargate,8.8,collation interpretation,phrase,77,STARGATE / remote viewing (100%),CIA Reading Room (mirror),
+alias -> nuclear_soviet,8.8,DIRNSA FROM NPIC,codename,273,Soviet nuclear & missile programs (53%),CIA Reading Room (mirror),CABLE TO DIRNSA FROM NPIC. Approved For Release 2008/03/18: CIA-RDP78B03817A000300020092-9 0 V CONTINUING
+alias -> iran_contra,8.8,caspar weinberger,phrase,341,Iran–Contra (48%),CIA Reading Room (mirror),
+alias -> nuclear_soviet,8.8,dirnsa from npic,phrase,273,Soviet nuclear & missile programs (53%),CIA Reading Room (mirror),
+alias -> corona,8.8,tcs- control,phrase,81,CORONA spy satellites (98%),CIA Reading Room (mirror),
+alias -> corona,8.8,automatic down- grading,phrase,133,CORONA spy satellites (77%),CIA Reading Room (mirror),
+alias -> stargate,8.8,session cd-,phrase,77,STARGATE / remote viewing (100%),STARGATE files,
+alias -> iran_contra,8.8,adminis- tration,phrase,430,Iran–Contra (43%),CIA Reading Room (mirror),
+alias -> corona,8.8,down- grading,phrase,139,CORONA spy satellites (75%),CIA Reading Room (mirror),
 alias -> mkultra,8.8,project artichoke,phrase,98,MKULTRA / mind control (89%),CIA Reading Room (mirror),
-alias -> corona,8.7,ruff talent-keyhole,phrase,76,CORONA spy satellites (100%),CIA Reading Room (mirror),
-alias -> recon_aircraft,8.7,cite idealist,phrase,75,U-2 / OXCART / Area 51 (100%),CIA Reading Room (mirror),
-alias -> recon_aircraft,8.7,idealist afsso,phrase,75,U-2 / OXCART / Area 51 (100%),CIA Reading Room (mirror),
-alias -> stargate,8.7,via skeet,phrase,80,STARGATE / remote viewing (98%),CIA Reading Room (mirror),
-alias -> corona,8.7,oblast ussr,phrase,98,CORONA spy satellites (88%),CIA Reading Room (mirror),
-alias -> corona,8.7,declassification review,phrase,456,CORONA spy satellites (41%),CIA Reading Room (mirror),
-alias -> stargate,8.7,session cd-,phrase,76,STARGATE / remote viewing (100%),STARGATE files,
-alias -> corona,8.7,comor photo,phrase,140,CORONA spy satellites (74%),CIA Reading Room (mirror),
-alias -> corona,8.7,grading and declassification,phrase,156,CORONA spy satellites (70%),CIA Reading Room (mirror),
-alias -> corona,8.7,division npic group,phrase,113,CORONA spy satellites (82%),CIA Reading Room (mirror),
-alias -> corona,8.7,negation date subsequent,phrase,106,CORONA spy satellites (85%),CIA Reading Room (mirror),
-alias -> iran_contra,8.7,con- gressional,phrase,243,Iran–Contra (56%),CIA Reading Room (mirror),
+alias -> stargate,8.8,viewer crv,phrase,78,STARGATE / remote viewing (100%),STARGATE files,
+alias -> nuclear_soviet,8.8,complex olovyannaya,phrase,78,Soviet nuclear & missile programs (100%),CIA Reading Room (mirror),
+alias -> corona,8.8,afnin tco,phrase,82,CORONA spy satellites (98%),CIA Reading Room (mirror),
+alias -> nuclear_soviet,8.8,originator rel,phrase,400,Soviet nuclear & missile programs (44%),CIA Reading Room (mirror),
+alias -> corona,8.7,recd iss,phrase,91,CORONA spy satellites (91%),CIA Reading Room (mirror),
+alias -> iran_contra,8.7,sen david boren,phrase,90,Iran–Contra (92%),CIA Reading Room (mirror),
+alias -> corona,8.7,series declass,phrase,75,CORONA spy satellites (100%),CIA Reading Room (mirror),
+alias -> recon_aircraft,8.7,aquatone clearances,phrase,75,U-2 / OXCART / Area 51 (100%),CIA Reading Room (mirror),
+alias -> iran_contra,8.7,nicaraguan resistance,phrase,147,Iran–Contra (72%),CIA Reading Room (mirror),
+alias -> corona,8.7,KH-9 MISSION,codename,75,CORONA spy satellites (100%),CIA Reading Room (mirror),OAK SUPPLEMENT PART 8 KH-9 MISSION 1205 10 MARCH - 18 APRIL 1973. Declassified in Part - Sanitized Copy Approved f
+alias -> stargate,8.7,msg dami-ish,phrase,80,STARGATE / remote viewing (98%),CIA Reading Room (mirror),
+alias -> corona,8.7,review nima dod,phrase,75,CORONA spy satellites (100%),CIA Reading Room (mirror),
+alias -> iran_contra,8.7,david boren d-okla,phrase,84,Iran–Contra (95%),CIA Reading Room (mirror),
 alias -> stargate,8.7,cl- noforn,phrase,75,STARGATE / remote viewing (100%),CIA Reading Room (mirror),
-alias -> corona,8.7,comor photo working,phrase,140,CORONA spy satellites (74%),CIA Reading Room (mirror),
-alias -> corona,8.6,via talent-,phrase,86,CORONA spy satellites (93%),CIA Reading Room (mirror),
-alias -> recon_aircraft,8.6,aquatone clearances,phrase,74,U-2 / OXCART / Area 51 (100%),CIA Reading Room (mirror),
-alias -> corona,8.6,down- grading,phrase,134,CORONA spy satellites (74%),CIA Reading Room (mirror),
-alias -> nuclear_soviet,8.6,AFSSO,codename,332,Soviet nuclear & missile programs (47%),CIA Reading Room (mirror),"24 May began filing high-precedence Middle East and European materials to the 3 AFSSO, South Ruislip Air Station, England, at the request of the Station's intelligen"
-alias -> corona,8.6,automatic down- grading,phrase,129,CORONA spy satellites (76%),CIA Reading Room (mirror),
-alias -> stargate,8.6,SKEET CHANNELS ONLY,codename,78,STARGATE / remote viewing (97%),CIA Reading Room (mirror)," stayed in the area for about four hours after completion of the on- HANDLE VIA SKEET CHANNELS ONLY STIPPLED INFORMATION SG1A CLASSIFIED BY: ODCSINT, DAMI-PO DECLASSIFY BY: OADR O"
-alias -> stargate,8.6,TASKING SHEET,codename,81,STARGATE / remote viewing (95%),STARGATE files,NARCOTICS. Folder: TASKING SHEET; STAR GATE was an umbrella term for the Intelligence Community effort that used
-alias -> vietnam,8.6,suspected nlf,phrase,74,Vietnam / Phoenix Program (100%),CIA CREST (National Security Archive),
-alias -> recon_aircraft,8.6,commo osa,phrase,80,U-2 / OXCART / Area 51 (96%),CIA Reading Room (mirror),
-alias -> nuclear_soviet,8.6,afsso acic,phrase,272,Soviet nuclear & missile programs (52%),CIA Reading Room (mirror),
-alias -> recon_aircraft,8.5,equipment being procured,phrase,108,U-2 / OXCART / Area 51 (81%),CIA Reading Room (mirror),
-alias -> nuclear_soviet,8.5,pacaf afsso,phrase,208,Soviet nuclear & missile programs (59%),CIA Reading Room (mirror),
-alias -> stargate,8.5,target cuing,phrase,73,STARGATE / remote viewing (100%),CIA Reading Room (mirror),
-alias -> corona,8.5,ussr illegib,phrase,107,CORONA spy satellites (82%),CIA Reading Room (mirror),
-alias -> corona,8.5,build- ings,phrase,128,CORONA spy satellites (75%),CIA Reading Room (mirror),
-alias -> stargate,8.5,collation interpretation,phrase,73,STARGATE / remote viewing (100%),CIA Reading Room (mirror),
-alias -> corona,8.5,keyhole mission,phrase,83,CORONA spy satellites (93%),CIA Reading Room (mirror),
-alias -> nuclear_soviet,8.5,propin- caution-proprietary,phrase,141,Soviet nuclear & missile programs (72%),CIA Reading Room (mirror),
-alias -> iran_contra,8.5,john singlaub,phrase,102,Iran–Contra (84%),CIA Reading Room (mirror),
-alias -> stargate,8.5,via skeet channels,phrase,77,STARGATE / remote viewing (97%),CIA Reading Room (mirror),
-alias -> nuclear_soviet,8.5,propin- caution-proprietary information,phrase,140,Soviet nuclear & missile programs (72%),CIA Reading Room (mirror),
-alias -> nuclear_soviet,8.5,consultants propin- caution-proprietary,phrase,140,Soviet nuclear & missile programs (72%),CIA Reading Room (mirror),
-alias -> nuclear_soviet,8.4,afsso pacaf afsso,phrase,206,Soviet nuclear & missile programs (58%),CIA Reading Room (mirror),
-alias -> iran_contra,8.4,sen david boren,phrase,87,Iran–Contra (90%),CIA Reading Room (mirror),
-alias -> jfk,8.4,ASSASSINATIONS,codename,119,Kennedy assassination (77%),CIA Reading Room (mirror),PRESS STATEMENT:FINAL REPORT OF THE SELECT COMMITTEE ON ASSASSINATIONS. CIA HAS NO OBJF_CTION TO DECLASSiFICATION AND/OR . RELEASE OF CIA INFORMATION 
-alias -> recon_aircraft,8.4,idealist afsso pass,phrase,70,U-2 / OXCART / Area 51 (100%),CIA Reading Room (mirror),
-alias -> stargate,8.4,session rv-,phrase,73,STARGATE / remote viewing (99%),STARGATE files,
-alias -> recon_aircraft,8.4,afsso usaf jcs,phrase,71,U-2 / OXCART / Area 51 (100%),CIA Reading Room (mirror),
-alias -> corona,8.4,ACIC,codename,169,CORONA spy satellites (64%),CIA Reading Room (mirror),"basMHOID rpt, Travaux do 101ristitut Geophysiguedo sciences ,VoTfr, 66, pp 1-44.ACIC TC-2079Sci-Ear SciSept 66 309v126Nov Motorized Cable Cwvayoz- Syvi:m at the Sid"
-alias -> recon_aircraft,8.4,osa oxc osa,phrase,73,U-2 / OXCART / Area 51 (99%),CIA Reading Room (mirror),
-alias -> recon_aircraft,8.4,osa intel osa,phrase,111,U-2 / OXCART / Area 51 (79%),CIA Reading Room (mirror),
-alias -> recon_aircraft,8.4,request for aquatone,phrase,71,U-2 / OXCART / Area 51 (100%),CIA Reading Room (mirror),
-alias -> corona,8.4,strategic ssm,phrase,98,CORONA spy satellites (85%),CIA Reading Room (mirror),
-alias -> nuclear_soviet,8.4,SILO,codename,107,Soviet nuclear & missile programs (81%),CIA Reading Room (mirror)," T I S A,TO Y PApTtES WOULD REFFA1w tR TO kNC OAC , ON TH Tr,R11313177i MAY 73 ;SILO THE T R ITO VErRE1 TY A#N0 COUNTRIES SHALL CAMBODIA AND ~ LAOS Approved For Rel"
-alias -> stargate,8.4,handle via skeet,phrase,74,STARGATE / remote viewing (97%),CIA Reading Room (mirror),
-alias -> corona,8.4,KH-7 MISSIONS,codename,75,CORONA spy satellites (97%),CIA Reading Room (mirror)," PWG WISHES TO CHECK THE DIA PCMCI FOR KH-4 MISSIONS AND ""GRAVY REPORTS FOR THE KH-7 MISSIONS IN ORDER THAT IT MAY WHICH TARGETS WERE PROBABLY COVERED BY THE MISSION. 3. THI"
-alias -> recon_aircraft,8.4,top secret idealist,phrase,70,U-2 / OXCART / Area 51 (100%),CIA Reading Room (mirror),
-alias -> recon_aircraft,8.3,jrc cite,phrase,69,U-2 / OXCART / Area 51 (100%),CIA Reading Room (mirror),
-alias -> recon_aircraft,8.3,oxcart aircraft,phrase,69,U-2 / OXCART / Area 51 (100%),CIA Reading Room (mirror),
-alias -> stargate,8.3,dc- star,phrase,69,STARGATE / remote viewing (100%),STARGATE files,
-alias -> jfk,8.3,coordinator hsca,phrase,69,Kennedy assassination (100%),CIA Reading Room (mirror),
-alias -> stargate,8.3,menlo park california,phrase,80,STARGATE / remote viewing (92%),CIA Reading Room (mirror),
-alias -> stargate,8.3,session dcc- viewer,phrase,69,STARGATE / remote viewing (100%),STARGATE files,
-alias -> nuclear_soviet,8.3,afsso pacaf,phrase,256,Soviet nuclear & missile programs (52%),CIA Reading Room (mirror),
-alias -> stargate,8.3,dc- star gate,phrase,69,STARGATE / remote viewing (100%),STARGATE files,
-alias -> nuclear_soviet,8.3,yar missile test,phrase,88,Soviet nuclear & missile programs (89%),CIA Reading Room (mirror),
-alias -> stargate,8.3,dcc- viewer,phrase,69,STARGATE / remote viewing (100%),STARGATE files,
-alias -> corona,8.3,ssm space,phrase,84,CORONA spy satellites (90%),CIA Reading Room (mirror),
-alias -> corona,8.3,tco nsa,phrase,137,CORONA spy satellites (71%),CIA Reading Room (mirror),
-alias -> iran_contra,8.3,albert hakim,phrase,80,Iran–Contra (92%),CIA Reading Room (mirror),
-alias -> corona,8.3,ssm space facilities,phrase,82,CORONA spy satellites (91%),CIA Reading Room (mirror),
-alias -> corona,8.3,cia pid,phrase,180,CORONA spy satellites (62%),CIA Reading Room (mirror),
-alias -> nuclear_soviet,8.3,afsso usafe,phrase,243,Soviet nuclear & missile programs (53%),CIA Reading Room (mirror),
-alias -> iran_contra,8.3,nicaraguan resistance,phrase,140,Iran–Contra (70%),CIA Reading Room (mirror),
-alias -> recon_aircraft,8.2,usaf review,phrase,129,U-2 / OXCART / Area 51 (72%),CIA Reading Room (mirror),
-alias -> recon_aircraft,8.2,aquatone arc,phrase,67,U-2 / OXCART / Area 51 (100%),CIA Reading Room (mirror),
-alias -> recon_aircraft,8.2,CIA-RDP71,codename,119,U-2 / OXCART / Area 51 (75%),CIA Reading Room (mirror),"R00140A000100090359-0 ^ U'NCLA t~11ed For R nn "" 'ERNAL n ~tl ile ~Q.1'/08/07 : CIA-RDP71 R90~14 MA9'o ^ SECRET ROUTING AND RECORD SHEET SUBJECT: (Optional) FROM: 25X1A "
-alias -> nuclear_soviet,8.2,tatishchevo icbm,phrase,68,Soviet nuclear & missile programs (100%),CIA Reading Room (mirror),
-alias -> corona,8.2,ussr carpathian,phrase,69,CORONA spy satellites (99%),CIA Reading Room (mirror),
-alias -> corona,8.2,talent- keyhole,phrase,70,CORONA spy satellites (99%),CIA Reading Room (mirror),
-alias -> corona,8.2,chess ruff top,phrase,82,CORONA spy satellites (90%),CIA Reading Room (mirror),
-alias -> nuclear_soviet,8.2,icbm deployment,phrase,83,Soviet nuclear & missile programs (90%),CIA Reading Room (mirror),
-alias -> stargate,8.2,noforn following,phrase,68,STARGATE / remote viewing (100%),CIA Reading Room (mirror),
-alias -> recon_aircraft,8.2,james reber,phrase,141,U-2 / OXCART / Area 51 (69%),CIA Reading Room (mirror),
-alias -> nuclear_soviet,8.2,sary shagan,phrase,130,Soviet nuclear & missile programs (72%),CIA Reading Room (mirror),
-alias -> corona,8.2,dia tco,phrase,106,CORONA spy satellites (79%),CIA Reading Room (mirror),
-alias -> stargate,8.2,msg dami-ish,phrase,70,STARGATE / remote viewing (99%),CIA Reading Room (mirror),
-alias -> corona,8.2,ranges strategic ssm,phrase,78,CORONA spy satellites (92%),CIA Reading Room (mirror),
-alias -> jfk,8.2,olc chron,phrase,92,Kennedy assassination (86%),CIA Reading Room (mirror),
-alias -> stargate,8.1,RV-003,codename,66,STARGATE / remote viewing (100%),STARGATE files,"CRV SESSION 1 - 4 SEP 1986, SOURCE: RV-003, PROJECT E. Folder: RV SESSION NOTES AND DRAWINGS. SOURCE: RV-003; STAR GATE wa"
-alias -> recon_aircraft,8.1,project aquatone arc,phrase,65,U-2 / OXCART / Area 51 (100%),CIA Reading Room (mirror),
-alias -> stargate,8.1,erv session,phrase,65,STARGATE / remote viewing (100%),STARGATE files,
-alias -> corona,8.1,tactical ssm,phrase,72,CORONA spy satellites (96%),CIA Reading Room (mirror),
-alias -> corona,8.1,ranges tactical ssm,phrase,67,CORONA spy satellites (99%),CIA Reading Room (mirror),
-alias -> recon_aircraft,8.1,idealist scope,phrase,65,U-2 / OXCART / Area 51 (100%),CIA Reading Room (mirror),
-alias -> recon_aircraft,8.1,aquatone operations,phrase,65,U-2 / OXCART / Area 51 (100%),CIA Reading Room (mirror),
-alias -> corona,8.1,deployed strategic ssm,phrase,84,CORONA spy satellites (88%),CIA Reading Room (mirror),
-alias -> recon_aircraft,8.1,cite opcen,phrase,135,U-2 / OXCART / Area 51 (70%),CIA Reading Room (mirror),
-alias -> nuclear_soviet,8.1,afsso esd,phrase,158,Soviet nuclear & missile programs (65%),CIA Reading Room (mirror),
-alias -> iran_contra,8.1,WASHINGTON-,codename,170,Iran–Contra (62%),CIA Reading Room (mirror),"s na on. I. Soviet. Later, despite this avow- lice official who defected to the WASHINGTON-Mrs. Jacque-:1 :line Kennedy is giving her uc- that time Mrs. Oswald was liv-, a"
-alias -> corona,8.1,ranges sam amm,phrase,67,CORONA spy satellites (99%),CIA Reading Room (mirror),
-alias -> stargate,8.1,wrv viewer,phrase,65,STARGATE / remote viewing (100%),STARGATE files,
-alias -> corona,8.1,strategic ssm space,phrase,77,CORONA spy satellites (92%),CIA Reading Room (mirror),
-alias -> iran_contra,8.1,ni- caraguan,phrase,93,Iran–Contra (84%),CIA Reading Room (mirror),
-alias -> nuclear_soviet,8.1,caution-proprietary information,phrase,163,Soviet nuclear & missile programs (64%),CIA Reading Room (mirror),
-alias -> corona,8.1,MRBM,codename,259,CORONA spy satellites (50%),CIA Reading Room (mirror),"RETATION CENTER ERRATUM FOR NPIC/TCS-81068/65 In the Brief on Camel Fixed Field MRBM Site No 2, the WAC number which reads 0107 should read 0167. Declass Review by "
-alias -> nuclear_soviet,8.1,caution-proprietary information involved,phrase,163,Soviet nuclear & missile programs (64%),CIA Reading Room (mirror),
-alias -> corona,8.1,cbr facilities,phrase,67,CORONA spy satellites (99%),CIA Reading Room (mirror),
-alias -> corona,8.1,tactical ssm facilities,phrase,67,CORONA spy satellites (99%),CIA Reading Room (mirror),
-alias -> corona,8.1,USSR CARPATHIAN,codename,67,CORONA spy satellites (99%),CIA Reading Room (mirror),"VINNITSA MILITARY BARRACKS NORTH VINNITSA, USSR CARPATHIAN MD. Approved For Release 2001/08/21 : CIA-RDP78TO5439A000400020004-5 Approved F"
-alias -> corona,8.1,handle via talent-,phrase,71,CORONA spy satellites (96%),CIA Reading Room (mirror),
-alias -> corona,8.1,facilities cbr,phrase,67,CORONA spy satellites (99%),CIA Reading Room (mirror),
-alias -> corona,8.1,sam amm,phrase,67,CORONA spy satellites (99%),CIA Reading Room (mirror),
-alias -> iran_contra,8.1,nsc staff,phrase,314,Iran–Contra (46%),CIA Reading Room (mirror),
-alias -> corona,8.1,mrbm complex,phrase,83,CORONA spy satellites (89%),CIA Reading Room (mirror),
-alias -> corona,8.1,AFNIN,codename,76,CORONA spy satellites (93%),CIA Reading Room (mirror),"6,27,28,29 Excluded through Mission 1009-2. State TCO DIA DIA OACSI TCO ONI TCO AFNIN TCO NSA TCO NRO TCO Group I from automatic down- grading and declassification, "
-alias -> stargate,8.1,dcc- viewer target,phrase,65,STARGATE / remote viewing (100%),STARGATE files,
-alias -> nuclear_soviet,8.0,originator rel,phrase,364,Soviet nuclear & missile programs (42%),CIA Reading Room (mirror),
-alias -> corona,8.0,deployed tactical ssm,phrase,66,CORONA spy satellites (98%),CIA Reading Room (mirror),
-alias -> corona,8.0,amm facilities air,phrase,66,CORONA spy satellites (98%),CIA Reading Room (mirror),
-alias -> corona,8.0,strategic ssm deployed,phrase,66,CORONA spy satellites (98%),CIA Reading Room (mirror),
-alias -> corona,8.0,ssm deployed,phrase,66,CORONA spy satellites (98%),CIA Reading Room (mirror),
-alias -> corona,8.0,sam amm facilities,phrase,66,CORONA spy satellites (98%),CIA Reading Room (mirror),
-alias -> corona,8.0,ruff national photographic,phrase,111,CORONA spy satellites (76%),CIA Reading Room (mirror),
-alias -> corona,8.0,cbr cbr,phrase,66,CORONA spy satellites (98%),CIA Reading Room (mirror),
-alias -> corona,8.0,ruff national,phrase,111,CORONA spy satellites (76%),CIA Reading Room (mirror),
-alias -> corona,8.0,deployed amm,phrase,70,CORONA spy satellites (96%),CIA Reading Room (mirror),
-alias -> corona,8.0,associated ntp,phrase,66,CORONA spy satellites (98%),CIA Reading Room (mirror),
-alias -> corona,8.0,facilities cbr cbr,phrase,66,CORONA spy satellites (98%),CIA Reading Room (mirror),
-alias -> corona,8.0,amm facilities deployed,phrase,66,CORONA spy satellites (98%),CIA Reading Room (mirror),
-alias -> corona,8.0,ntp functional areas,phrase,66,CORONA spy satellites (98%),CIA Reading Room (mirror),
-alias -> corona,8.0,ssm deployed strategic,phrase,66,CORONA spy satellites (98%),CIA Reading Room (mirror),
-alias -> corona,8.0,deployed amm facilities,phrase,68,CORONA spy satellites (97%),CIA Reading Room (mirror),
-alias -> nuclear_soviet,8.0,olovyannaya icbm complex,phrase,64,Soviet nuclear & missile programs (100%),CIA Reading Room (mirror),
-alias -> corona,8.0,cbr facilities industry,phrase,66,CORONA spy satellites (98%),CIA Reading Room (mirror),
-alias -> corona,8.0,cbr cbr facilities,phrase,66,CORONA spy satellites (98%),CIA Reading Room (mirror),
-alias -> corona,8.0,associated ntp functional,phrase,66,CORONA spy satellites (98%),CIA Reading Room (mirror),
-alias -> jfk,8.0,principal coordinator hsca,phrase,64,Kennedy assassination (100%),CIA Reading Room (mirror),
-alias -> corona,8.0,energy facilities cbr,phrase,66,CORONA spy satellites (98%),CIA Reading Room (mirror),
-alias -> corona,8.0,ssm facilities missile,phrase,66,CORONA spy satellites (98%),CIA Reading Room (mirror),
-alias -> iran_contra,8.0,lieut col,phrase,115,Iran–Contra (75%),CIA Reading Room (mirror),
-alias -> corona,8.0,facilities tactical ssm,phrase,66,CORONA spy satellites (98%),CIA Reading Room (mirror),
-alias -> corona,8.0,talent keyhole information,phrase,70,CORONA spy satellites (96%),CIA Reading Room (mirror),
-alias -> corona,8.0,strategic ssm facilities,phrase,83,CORONA spy satellites (88%),CIA Reading Room (mirror),
-alias -> nuclear_soviet,8.0,icbm sites,phrase,71,Soviet nuclear & missile programs (94%),CIA Reading Room (mirror),
-alias -> corona,8.0,missiles deployed amm,phrase,66,CORONA spy satellites (98%),CIA Reading Room (mirror),
-alias -> corona,7.9,tcs- npic,phrase,69,CORONA spy satellites (96%),CIA Reading Room (mirror),
-alias -> corona,7.9,ranges air-,phrase,65,CORONA spy satellites (98%),CIA Reading Room (mirror),
-alias -> nuclear_soviet,7.9,imeni gastello,phrase,72,Soviet nuclear & missile programs (93%),CIA Reading Room (mirror),
-alias -> corona,7.9,operationally associated targets,phrase,64,CORONA spy satellites (98%),CIA Reading Room (mirror),
-alias -> corona,7.9,non-military logistics,phrase,64,CORONA spy satellites (98%),CIA Reading Room (mirror),
-alias -> corona,7.9,nsa tco,phrase,140,CORONA spy satellites (67%),CIA Reading Room (mirror),
-alias -> stargate,7.9,noforn the protocol,phrase,62,STARGATE / remote viewing (100%),CIA Reading Room (mirror),
-alias -> corona,7.9,miscellaneous non-military,phrase,64,CORONA spy satellites (98%),CIA Reading Room (mirror),
-alias -> corona,7.9,usaf npic,phrase,78,CORONA spy satellites (90%),CIA Reading Room (mirror),
-new topic?,98.2,JPRS,codename,1035,CIA and drug trafficking allegations (5%),CIA Reading Room (mirror),"USSR S&T-BIOMED & BEHAVIORAL SCIENCES, JPRS L/8144, 12-78. Folder: TRANSLATIONS ON USSR SCIENCE AND TECHNOLOGY. BIOMEDICAL "
-new topic?,76.1,CIPC,codename,77,Biological & chemical weapons (26%),CIA Reading Room (mirror),"HUMINT I - C/SIGINT C/IHC - C/SECOM ~a - C/CCIS /1 - D/PBS /:Y- D/NIESO D/PPS C/CIPC 1, - LL PPS Subject l1, - PPS Chrono 8~- ICS Registry DCI/ICS/PPS August 1983 """
-new topic?,71.6,DDCI,codename,2277,U-2 / OXCART / Area 51 (16%),CIA Reading Room (mirror),92) (OCA 1123-92/1) (OCA 1123-92/2) Original - Addressee (w/enclos) 1 - DCI 1 - DDCI 1 - ExDir 1 - ER 1 - D/OCA (w/enclos) 1 - DMPearline Signer (w/enclos) 1 - OCA/
+alias -> corona,8.7,nima dod cia,phrase,75,CORONA spy satellites (100%),CIA Reading Room (mirror),
+alias -> iran_contra,8.7,nsc staff,phrase,341,Iran–Contra (47%),CIA Reading Room (mirror),
+alias -> nuclear_soviet,8.7,single silo,phrase,104,Soviet nuclear & missile programs (86%),CIA Reading Room (mirror),
+alias -> stargate,8.7,skeet channels,phrase,91,STARGATE / remote viewing (91%),CIA Reading Room (mirror),
+alias -> recon_aircraft,8.7,idealist afsso,phrase,75,U-2 / OXCART / Area 51 (100%),CIA Reading Room (mirror),
+alias -> corona,8.7,USSR BELORUSSIAN,codename,81,CORONA spy satellites (96%),CIA Reading Room (mirror),"1 TOP SECRET POSTAVY ARMY BARRACKS (55-07N 026-49E) POSTAVY, VITEBSKAYA OBLAST, USSR BELORUSSIAN MD 25X1, FIGURE 1. LOCATION OF POSTAVY ARMY BARRACKS. TOP SECRET 25X1 TOP SECRE"
+alias -> corona,8.7,system only tcs,phrase,81,CORONA spy satellites (96%),CIA Reading Room (mirror),
+alias -> nuclear_soviet,8.7,icbm sites,phrase,84,Soviet nuclear & missile programs (95%),CIA Reading Room (mirror),
+alias -> iran_contra,8.7,tional security,phrase,363,Iran–Contra (46%),CIA Reading Room (mirror),
+alias -> corona,8.7,cgs from chief,phrase,81,CORONA spy satellites (96%),CIA Reading Room (mirror),
+alias -> corona,8.7,ops npic,phrase,89,CORONA spy satellites (92%),CIA Reading Room (mirror),
+alias -> corona,8.7,CITE NPIC,codename,431,CORONA spy satellites (42%),CIA Reading Room (mirror),"03817A000300020092-9 0 V CONTINUING ANALYSIS OF !MISSION 4035 DATED 11 JAN 1967 CITE NPIC 9545. DEC 1966, Approved For Release 2008/03/18: CIA-RDP78B03817A000300020092-9"
+alias -> corona,8.7,elec radar,phrase,76,CORONA spy satellites (100%),CIA Reading Room (mirror),
+alias -> recon_aircraft,8.7,cite idealist,phrase,75,U-2 / OXCART / Area 51 (100%),CIA Reading Room (mirror),
+alias -> iran_contra,8.7,nicaraguan insurgents,phrase,91,Iran–Contra (91%),CIA Reading Room (mirror),
+alias -> corona,8.6,APPROPRIATE TCOS,codename,173,CORONA spy satellites (65%),CIA Reading Room (mirror),"T 22 :iJJ i,..+ I1 2 0 NOV 1963' EFS RELEASABLE FROM SSO CHANNELS. SSOS PASS TO APPROPRIATE TCOS. CITE NPIC 1491. THE FOLLOWING IS FROM THE NATIONAL PHOTOGRAPHIC INTERPRETATION"
+alias -> corona,8.6,installation series declass,phrase,74,CORONA spy satellites (100%),CIA Reading Room (mirror),
+new topic?,99.0,JPRS,codename,1063,"Martin Luther King, Jr. Assassination (12%)",CIA Reading Room (mirror),"USSR S&T-BIOMED & BEHAVIORAL SCIENCES, JPRS L/8144, 12-78. Folder: TRANSLATIONS ON USSR SCIENCE AND TECHNOLOGY. BIOMEDICAL "
+new topic?,79.1,CIPC,codename,82,Biological & chemical weapons (24%),CIA Reading Room (mirror),"HUMINT I - C/SIGINT C/IHC - C/SECOM ~a - C/CCIS /1 - D/PBS /:Y- D/NIESO D/PPS C/CIPC 1, - LL PPS Subject l1, - PPS Chrono 8~- ICS Registry DCI/ICS/PPS August 1983 """
 new topic?,67.7,PRESIDENT ONLY,codename,2494,Vietnam / Phoenix Program (6%),CIA Reading Room (mirror),"7). The possibility of an Indian military move into Bangladesh is high, FOR THE PRESIDENT ONLY 25X1 Declassified in Part - Sanitized Copy Approved for Release 2016/07/14 : CI"
-new topic?,63.8,PPJPRS,codename,61,U-2 / OXCART / Area 51 (3%),CIA Reading Room (mirror),".011,- PP 0082-0092ELEVENTH CONGRESS OF THE HUNGARIAN SOCIALISTWORKERS PARTY 14 PPJPRS 65875PULLAI, ARPADI/TARSADALMI SZEMLE/l00111/1975,V----,NO011, PP 0043-0056TOPI"
+new topic?,63.4,PPJPRS,codename,62,"Martin Luther King, Jr. Assassination (6%)",CIA Reading Room (mirror),".011,- PP 0082-0092ELEVENTH CONGRESS OF THE HUNGARIAN SOCIALISTWORKERS PARTY 14 PPJPRS 65875PULLAI, ARPADI/TARSADALMI SZEMLE/l00111/1975,V----,NO011, PP 0043-0056TOPI"
+new topic?,61.9,USIB,codename,980,CORONA spy satellites (30%),CIA Reading Room (mirror),"hnson, 23 Nov. 63 - 28 Apr. 65 A. Further Reorganization and Heavy Workload for USIB 1. John McCone with the knowledge and experience gained as DCI during the prece"
 new topic?,59.5,NKRF,codename,53,,CIA Reading Room (mirror),together in a camp and receiving training there. (3) The following report of an NKRF office at Kujbyshev shows how strained the personnel situation is: Personnel on
-new topic?,58.4,SSSR,codename,474,U-2 / OXCART / Area 51 (3%),CIA Reading Room (mirror),". Leiki% R. M. Osokina, and B. S. Ratner,2 pp. --------RUSSL42 per Dok Ah. Hauk SSSR, Vol CII., 1955,pp 493:494- ""AEC Tr 23o6Consultants Bureau-10SSci - Nuclear Phy"
-new topic?,57.1,FBIS,codename,538,Vietnam / Phoenix Program (8%),CIA Reading Room (mirror),FOR: Staff Personnel SUBJECT: Letter of Information GENERAL 1. Mid-East Crisis: FBIS provided the intelligence com-munity with the first word on the (*break of host
-new topic?,52.4,USIB,codename,822,U-2 / OXCART / Area 51 (29%),CIA Reading Room (mirror),"hnson, 23 Nov. 63 - 28 Apr. 65 A. Further Reorganization and Heavy Workload for USIB 1. John McCone with the knowledge and experience gained as DCI during the prece"
-new topic?,51.2,SSCI,codename,353,CIA and drug trafficking allegations (10%),CIA Reading Room (mirror),norable Samuel Devine Honorable Richardson Preyer :.Distribution: 1 - HPSCI 1 - SSCI 1 PA 1 - D/Sec 1 Executive Committee - FBI Cong. Liaison 0 -Orig - Add'e 1 -- R
+new topic?,58.6,SSSR,codename,493,U-2 / OXCART / Area 51 (3%),CIA Reading Room (mirror),". Leiki% R. M. Osokina, and B. S. Ratner,2 pp. --------RUSSL42 per Dok Ah. Hauk SSSR, Vol CII., 1955,pp 493:494- ""AEC Tr 23o6Consultants Bureau-10SSci - Nuclear Phy"
+new topic?,58.1,STATINTL,codename,801,CORONA spy satellites (24%),CIA Reading Room (mirror),"FROM: Acting Deputy Director cit EXTENSION NO. Room 4-E-60 7 y DATE 15 May 1967 STATINTL TO: (Officer designation, room number, and building) DATE OFFICER'S COMMENTS (N"
+new topic?,52.5,SSCI,codename,379,"Martin Luther King, Jr. Assassination (12%)",CIA Reading Room (mirror),norable Samuel Devine Honorable Richardson Preyer :.Distribution: 1 - HPSCI 1 - SSCI 1 PA 1 - D/Sec 1 Executive Committee - FBI Cong. Liaison 0 -Orig - Add'e 1 -- R
 new topic?,50.7,ASIA-AFRICA,codename,610,Soviet nuclear & missile programs (8%),CIA Reading Room (mirror),"4 N ;:\T _ Approved for Release: 2020/03/13 C03177894 I. THE COMMUNIST BLOC IL ASIA-AFRICA Communist Strength in Laos Increasing The British, French, and American embassi"
-new topic?,42.1,NESA,codename,254,Biological & chemical weapons (14%),CIA Reading Room (mirror)," following DDI analysts led those groups: Latin America: East Asia: Europe 25X1 NESA: 25X1 Africa : 25X1 -- On the second day, N ti l 25X1 gave a one-hour briefing "
-new topic?,42.1,NARA,codename,288,Kennedy assassination (11%),CIA Reading Room (mirror)," Legal Advisor and a DO specialist on the Kennedy assassination papers, visited NARA to perform the ten-year review of approximately 64 classified documents that CI"
-new topic?,40.3,STATINTL,codename,549,MKULTRA / mind control (15%),CIA Reading Room (mirror),"FROM: Acting Deputy Director cit EXTENSION NO. Room 4-E-60 7 y DATE 15 May 1967 STATINTL TO: (Officer designation, room number, and building) DATE OFFICER'S COMMENTS (N"
-new topic?,38.6,CHIGOE,codename,42,U-2 / OXCART / Area 51 (7%),CIA Reading Room (mirror),"PROGRAM APPROVAL RD-O-617 (CHIGOE). Approved for Release: 2021/01/11 C05751380 r hl,Kh I ,e,, NTROL NO. ,e/4--REF"
-new topic?,37.5,NFAC,codename,240,Kennedy assassination (17%),CIA Reading Room (mirror),ter half of November 1978. Mr. Johnson also asked some more questions about the NFAC Senior Review Panel and other questions an the regulation governing CIA's relat
+new topic?,43.1,NESA,codename,262,Biological & chemical weapons (13%),CIA Reading Room (mirror)," following DDI analysts led those groups: Latin America: East Asia: Europe 25X1 NESA: 25X1 Africa : 25X1 -- On the second day, N ti l 25X1 gave a one-hour briefing "
+new topic?,42.2,NARA,codename,290,Kennedy assassination (11%),CIA Reading Room (mirror)," Legal Advisor and a DO specialist on the Kennedy assassination papers, visited NARA to perform the ten-year review of approximately 64 classified documents that CI"
+new topic?,38.8,NFAC,codename,254,Kennedy assassination (16%),CIA Reading Room (mirror),ter half of November 1978. Mr. Johnson also asked some more questions about the NFAC Senior Review Panel and other questions an the regulation governing CIA's relat
 new topic?,37.2,PIPD,codename,488,"""Neither confirm nor deny"" (11%)",CIA Reading Room (mirror),lease: 2021/10/22 C05959106 Approved for Release: 2021/10/22 C05959106 IMS/1RRG/PIPD 30Jan13 Distribution: Orig - Adse 1 - PIPD/F-2013-00522 GIF Finals 00522 Vance 
-new topic?,36.0,FOUO,codename,303,CIA and drug trafficking allegations (17%),CIA Reading Room (mirror),20-1 JPR5 L/9400 = 18 November 1980 - EAST EUROPE REPORT $CIENTIFIC AFFAIRS - (FOUO 10/80) ~ CONTENTS - CZECHOSLOVAKIA - CSSR Communications Analysis 1960 to 1978 
-new topic?,34.7,HPSCI,codename,266,Iran–Contra (14%),CIA Reading Room (mirror), Stokes Honorable Samuel Devine Honorable Richardson Preyer :.Distribution: 1 - HPSCI 1 - SSCI 1 PA 1 - D/Sec 1 Executive Committee - FBI Cong. Liaison 0 -Orig - Add
-new topic?,33.6,S-E-C-R-E-T,codename,195,Vietnam / Phoenix Program (7%),CIA Reading Room (mirror),lone was registered on 12 June. (CONFIDENTIAL) G Excluded from l automatic down-S-E-C-R-E-T grading and declassification Declassified in Part - Sanitized Copy Approved for
-new topic?,32.5,FOREIGN DISSEM,codename,183,CORONA spy satellites (17%),CIA Reading Room (mirror),"With the US ships. The Soviet ship had no such difficulty. (TOP SECRET TRINE/NO FOREIGN DISSEM, DIA flit Sum 136-68; 7 Jun) Prepared by: Bob English, x7441 NOTE: THE VIEWS EX"
-new topic?,31.6,ISCAP,codename,216,MKULTRA / mind control (5%),CIA Reading Room (mirror),"C. (U/PATUO) 10 March 2005: Inte'ragency Security Classification Appeals Panel (ISCAP): Next Principals' meeting at EEOB in Washington, DC. (U//A+130.) 31 December 2"
-new topic?,31.0,ACSI,codename,353,STARGATE / remote viewing (28%),CIA Reading Room (mirror),"an HealthServicea, 4 pp. (ID 2107606POLISH, per, Sluzba-Zdrowia, No 4, Feb 1959.ACSI, H-3253Rur - PolandmilSep 59SEEST( _9 z - -~-e 3 17)Statistics on and Scientifi"
-new topic?,30.1,QUANG,codename,237,Vietnam / Phoenix Program (38%),CIA Reading Room (mirror),"1/4?44/,/, ,t; . A-..,....2gg . . CORPS . .. ,Pmu, DA NANG 1 ....... -.... ( .. QUANG .? ?."" .J1r Bo.nva4 .???? THAILAN.D . Saravrrie?' -C-- ', - \ .., ) . nigsr-- /"
-new topic?,27.9,NTIS,codename,181,Animal Partners (4%),CIA Reading Room (mirror)," and press items, etc., released to the public through the facilities DOCEX/LC, NTIS/Cornerce, or the GPO. ., . .. rr+rs r o ~1u3iil~ii1. Za'Ai i Approved For Ref6s"
-new topic?,27.9,TASS,codename,328,Vietnam / Phoenix Program (8%),CIA Reading Room (mirror),"ary World Broadcasts, Second series SU/W501, 3 Jan) Comment: A first account in TASS of P. Gulyayev's electroaurogram was reported in mid-September 1967. At that ti"
-new topic?,27.3,PFIAB,codename,245,U-2 / OXCART / Area 51 (27%),CIA Reading Room (mirror),rvice. The reasons are still unclear to me as to why the FBI chose to brief the PFIAB to the (b)(1) effect that CIA was planning (b)(3) to greatly increase the Agenc
-new topic?,26.2,SOVA,codename,175,Soviet nuclear & missile programs (18%),CIA Reading Room (mirror),87T01145R000300340004-4 DATE 81 OCT SOVA ROUTING SLIP Action Info Initial VA DD/SOVA EO ES/AB ES/ PBB SIG SIG/SED SIG/SPD NIG/EPD NIG/DPD RIG RIG/EAD R IG/TWAD DEIG
-new topic?,25.9,USIA,codename,298,Vietnam / Phoenix Program (19%),CIA Reading Room (mirror), for a world reaction report prepared for President' Johnson by noon of 6 June. USIA requested special alerts in regard to disturbances against American installatio
-new topic?,24.9,SIGINT,codename,272,CORONA spy satellites (23%),CIA Reading Room (mirror),"e; but used or evaluated in conjunction with other proven data sources (HUMINT, SIGINT, IMAGERY, OPEN SOURCE, and/or MASINT). Generic data (e.g., general shapes) are "
-new topic?,24.8,NFIB,codename,191,CIA and drug trafficking allegations (16%),CIA Reading Room (mirror),"following organizations were processed: (S) a. CIA IC Hdq. Bldg. 25X1A c. Other NFIB Members Naval Intelligence Support Center Alexandria, Virginia Goodfellow AFB S"
-new topic?,24.4,OEOB,codename,48,Watergate (27%),CIA Reading Room (mirror),speaking engagement. It has been set up for 0815 to 0915 on 12 April in Rm. 450 OEOB. Mr. Rustand is an old friend of Bob's from the days Bob worked at the NSC. The
-new topic?,24.2,DESCRIPTORS,codename,222,Biological & chemical weapons (4%),CIA Reading Room (mirror),"8263 Trans. of Zelt[schrLftl fUr Physlk (West Germany) 19S6, v- 1"". p- 2S6-262. DESCRIPTORS: ""remperature sensitive elements, 0'rhermocouples, Crystals, *Rhenlum, 01ridiur"
-new topic?,24.1,DCID,codename,170,Kennedy assassination (11%),CIA Reading Room (mirror),h the SSCI and that was the oniisrsion of0:tiy reference to the requirements of DCID 1/14 in the procedures relating to security clearances. I reviewed with Sprague
-new topic?,23.6,OSWR,codename,213,Biological & chemical weapons (28%),CIA Reading Room (mirror),"al offices, six were from OGI, one was from OIA, and two each were from OCR and OSWR. The NAC is intended to enable new DI analysts to understand the analytical pro"
-new topic?,23.5,HUMINT,codename,140,STARGATE / remote viewing (33%),CIA Reading Room (mirror),"SESSION: C-60, VIEWER : 29, (7903). TARGET: HUMINT, TAPE 151 D & E. GRILL FLAME. Folder: INSCOM, GRILL FLAME, PROJECT SESSION REPO"
-new topic?,23.2,FOU0,codename,60,STARGATE / remote viewing (2%),CIA Reading Room (mirror),"sfield on CIA and the Media cENTE,FoR THE , STUDY or INTELLIGENCE UNCLASc!Fh:Dj/FOU0 pproved for Release: 2023/07/19 C06863733 Approved for Release: 2023/07/19 C068"
-new topic?,23.2,ERWG,codename,44,STARGATE / remote viewing (9%),CIA Reading Room (mirror),"5) CIA Declassification Center (U//711110) Director of 'SOO Addresses September ERWG Meeting (UHAIU ) On 25 September 2001, Steven Garfinkel, Director of the Inform"
-new topic?,23.0,CPSU,codename,127,Hitler survival reports (6%),CIA Reading Room (mirror),"Y/RED FLAG series on the USSR-CPR polemic; two others comprised material on the CPSU Central Committee plenum which opened 9 December, including Khrushchev's openin"
-new topic?,22.4,IAEA,codename,78,Soviet nuclear & missile programs (18%),CIA Reading Room (mirror),tional Atomic Energy Agency's statute signed at UN by 70 governments (29 Jul 57 IAEA established). 29 OCT. Israel invades Egypt's Sinai Peninsula; 31 Oct. France an
-new topic?,22.3,PAVN,codename,57,Vietnam / Phoenix Program (37%),CIA Reading Room (mirror),1966 Adams of OCI gave a background briefing on the morale of the Viet Cong and PAVN elements in South Vietnam. ADD/I submitted a report by the group established to
-new topic?,21.8,CURRENT INTELLIGENCE BULLETIN,codename,2168,1953 Iran coup (5%),CIA Reading Room (mirror),"CURRENT INTELLIGENCE BULLETIN - 1951/03/20. "". Approved for Release: 2-6-19/03/14 CO2733106 t I Nine 20 Mar"
-new topic?,21.6,ACDA,codename,140,Biological & chemical weapons (26%),CIA Reading Room (mirror),"ed For Release 2004 McGeorge Bundy (on behalf of JFX) to State; DOD, CIA, NASA, ACDA, AEC, OST The President desires that the space program of the US be forcefully "
-new topic?,21.4,IEEW,codename,49,Soviet nuclear & missile programs (4%),CIA Reading Room (mirror),"980s, dealing with the Middle East, the Soviet Union, China, Latin America, and IEEW serials. NCS material reviewed consisted of 2011 and later documents and the DI"
-new topic?,21.3,FARC,codename,42,CIA and drug trafficking allegations (26%),CIA Reading Room (mirror),E OF KIDNAPPED PEOPLE IN THE HANDS OF COLUMBIAN GUERRILLA MOVEMENT KNOWN AS THE FARC. TIME FRAME: JAN 2006 TO PROCESSING INITIATES 1/22/08 F-2008-00741 RANDALL D. C
-new topic?,21.1,BINH,codename,185,Vietnam / Phoenix Program (36%),CIA Reading Room (mirror),",HltN A XI.t ....... i - LIEUIviniu. A ' t IV XU EN Phu nh IA 1,?,,, VINH 4*,-; BINH SO. EN 1-.&gt; CORPS ? ? . .. NW BAI BUPIG er Son (Pouto Condore) ON SON 0 , . "
-new topic?,20.6,UNRRA,codename,75,Soviet nuclear & missile programs (3%),CIA Reading Room (mirror),"elf of opposition but hold honest elections.,"" 4, Czechoslovaks ma plan Mort of UNRRA food--.Accord to US Ambassa- dor Steinhardt, reports of current negotiations re"
-new topic?,20.4,CEMA,codename,101,Soviet nuclear & missile programs (6%),CIA Reading Room (mirror),"nting operations, respectively, were considered for adoption during 1965 by the CEMA Group for Algorithmic Languages for the Processing of Economic Information. The"
-new topic?,20.4,RESTON,codename,114,Biological & chemical weapons (2%),CIA Reading Room (mirror),TON DC RUEANAT/NASA HQ WASHINGTON DC//FOR CODE LD// RUEBHAA/STORAGE CENTER FBIS RESTON VA RUEHC/SECSTATE WASHINGTON DC//INR/ISD/DC// RUEHIA/USIA WASHINGTON DC//P/RLS/
-new topic?,20.4,PATHET,codename,139,Soviet nuclear & missile programs (6%),CIA Reading Room (mirror), Heup Pak Sane p. Vientiane I ti A NORTHERN LAOS GOVERNMENT Forces in KONG LE - PATHET LAO Contact KONG LE - PATHET LAO AREAS --ROAD I ....1-- -TRAIL P 0 ROUTE NUMBER
-new topic?,20.0,COCOM,codename,91,Soviet nuclear & missile programs (5%),CIA Reading Room (mirror), hope to achieve their long-range objectives in FMSs. The United States and its COCOM partners over the last five years have embargoed the sale of machine tools capa
-new topic?,19.9,UNITA,codename,77,Iran–Contra (34%),CIA Reading Room (mirror),ves that there are several signs pointing to a new government offensive against UNITA territory: Fred argues that the MPLA will likely move on UNITA within the next 
-new topic?,19.7,MIG-15,codename,135,1953 Iran coup (7%),CIA Reading Room (mirror),"BE ERUIPPE 1: WITH EITHER AIR-TO-AIR ROCKETS OR AIR-TO-AIR GUIDED MISSILES. (A) MIG-15 .,- NO INTERCEPT CAPABILITY ABOVE 53, 000 FEET, 59, 000 FEET. 60, 000 FEET. SEC"
-new topic?,19.7,UHAIU0,codename,114,UFOs (5%),CIA Reading Room (mirror),ere forwarded to NARA for public release. (UHAlreerComposition of Collection: (UHAIU0) Documents reflecting Kirkpatrick's role as Inspector General and Executive Dir
-new topic?,19.3,MIG-,codename,163,U-2 / OXCART / Area 51 (9%),CIA Reading Room (mirror),"fense system consisting of advanced radars, 24 SA-2 sites, and a regiment of 42 MIG-21s. --A naval and coastal defense force consisting of four coastal defense crui"
-new topic?,18.9,ARGO,codename,71,CORONA spy satellites (25%),CIA Reading Room (mirror),"e. 22 January 1970 - Attended a PIM meeting on th 28 January 1970 - Attended an ARGO meeting, Executive Office Building. participated in the following meetings: 25X"
-new topic?,18.8,AIUO,codename,83,Kennedy assassination (40%),CIA Reading Room (mirror),rity SUBJECT: House Select Committee on Assassinations Requests'(U) only. 1. (U/AIUO) Action Requested: None; for information 2. (C) Background: Reference is made t
-new topic?,18.6,COSVN,codename,111,Vietnam / Phoenix Program (39%),CIA Reading Room (mirror),"UKJE""T Contents (Information as of noon EDT, 21 May 1970) Page Vietnam ambodia, COSVN, Buddhists est ............. 2 Communists ab Much of Cambodia's Northeast ....."
-new topic?,18.6,NSCID,codename,75,Biological & chemical weapons (15%),CIA Reading Room (mirror)," BOARD COMMITTEE ON DOCUMENTATION SALMrt ft_ftm_ Mssiad Functions . Pursuant to NSCID No. 1, pares. 3 b (2) and 6 a (3); DCID No. 1/4; and USIB-D-39.7/6, Attachment,"
-new topic?,18.6,ISOO,codename,63,STARGATE / remote viewing (5%),CIA Reading Room (mirror),"val process. Thirty-five agencies have no, or few, records older than 25 years; ISOO will conduct audit visits to the remaining agencies. The visiting ISO() team wi"
-new topic?,18.5,USAFE,codename,58,U-2 / OXCART / Area 51 (40%),CIA Reading Room (mirror),"55-6-0 21712 Isur914.16 ??? ...Maw a*. eiskINIIINVIC.????????????? D 20720 AIR, USAFE, 7050TH AISsii. 56r5.15.55.251 THRu 211-D USSR 8M.R55 AR REPORTS RE: AREA DESCR"
-new topic?,18.0,BISI,codename,110,Animal Partners (5%),CIA Reading Room (mirror),"3/1970, V----, N----Corrosion caused by vibration and frettingcorrosionpp 29-41 BISI Trans 9521##McchmAu-1 nnd Physica-l Properties of Soils and TheirEffect U-pon L"
-new topic?,17.9,PRAVDA,codename,68,Space race (9%),CIA Reading Room (mirror),"s and poems in praise of the slain President. Now a long poem by Yevtushenko in PRAVDA attacks the United States as a land where there is ""freedom to murder."" Moscow "
-new topic?,17.9,MBFR,codename,108,Soviet nuclear & missile programs (8%),CIA Reading Room (mirror),"N AND ANALYSIS RESULTS IN CHANGING THE STATISTICAL BASIS FOR TrE US POSITION IN MBFR, SUBSTANTIALLY ELEVATING ESTIMATES OF NORTH KOREAN FORCES AT A TIME WHEN THE PR"
+new topic?,36.3,FOUO,codename,311,"Martin Luther King, Jr. Assassination (35%)",CIA Reading Room (mirror),20-1 JPR5 L/9400 = 18 November 1980 - EAST EUROPE REPORT $CIENTIFIC AFFAIRS - (FOUO 10/80) ~ CONTENTS - CZECHOSLOVAKIA - CSSR Communications Analysis 1960 to 1978 
+new topic?,35.8,FOREIGN DISSEM,codename,238,CORONA spy satellites (33%),CIA Reading Room (mirror),"With the US ships. The Soviet ship had no such difficulty. (TOP SECRET TRINE/NO FOREIGN DISSEM, DIA flit Sum 136-68; 7 Jun) Prepared by: Bob English, x7441 NOTE: THE VIEWS EX"
+new topic?,35.8,HPSCI,codename,289,Iran–Contra (16%),CIA Reading Room (mirror), Stokes Honorable Samuel Devine Honorable Richardson Preyer :.Distribution: 1 - HPSCI 1 - SSCI 1 PA 1 - D/Sec 1 Executive Committee - FBI Cong. Liaison 0 -Orig - Add
+new topic?,35.7,SNIE,codename,553,Soviet nuclear & missile programs (15%),CIA Reading Room (mirror),"tnamese coast. Rostow appeared satisfied. The Director requested that a copy of SNIE 11-11, Soviet Attitudes and Intentions Toward the War in Vietnam, be sent to hi"
+new topic?,35.1,S-E-C-R-E-T,codename,226,"Martin Luther King, Jr. Assassination (23%)",CIA Reading Room (mirror),lone was registered on 12 June. (CONFIDENTIAL) G Excluded from l automatic down-S-E-C-R-E-T grading and declassification Declassified in Part - Sanitized Copy Approved for
+new topic?,32.2,ACSI,codename,397,STARGATE / remote viewing (28%),CIA Reading Room (mirror),"an HealthServicea, 4 pp. (ID 2107606POLISH, per, Sluzba-Zdrowia, No 4, Feb 1959.ACSI, H-3253Rur - PolandmilSep 59SEEST( _9 z - -~-e 3 17)Statistics on and Scientifi"
+new topic?,32.1,QUANG,codename,258,Vietnam / Phoenix Program (35%),CIA Reading Room (mirror),"1/4?44/,/, ,t; . A-..,....2gg . . CORPS . .. ,Pmu, DA NANG 1 ....... -.... ( .. QUANG .? ?."" .J1r Bo.nva4 .???? THAILAN.D . Saravrrie?' -C-- ', - \ .., ) . nigsr-- /"
+new topic?,31.6,ISCAP,codename,216,"Martin Luther King, Jr. Assassination (12%)",CIA Reading Room (mirror),"C. (U/PATUO) 10 March 2005: Inte'ragency Security Classification Appeals Panel (ISCAP): Next Principals' meeting at EEOB in Washington, DC. (U//A+130.) 31 December 2"
+new topic?,30.0,PFIAB,codename,276,U-2 / OXCART / Area 51 (25%),CIA Reading Room (mirror),rvice. The reasons are still unclear to me as to why the FBI chose to brief the PFIAB to the (b)(1) effect that CIA was planning (b)(3) to greatly increase the Agenc
+new topic?,29.2,DCID,codename,185,"Martin Luther King, Jr. Assassination (18%)",CIA Reading Room (mirror),h the SSCI and that was the oniisrsion of0:tiy reference to the requirements of DCID 1/14 in the procedures relating to security clearances. I reviewed with Sprague
+new topic?,29.0,OBLIQUITY,codename,60,CORONA spy satellites (23%),CIA Reading Room (mirror),"0010-5 25X1A I') 69486 25X1 A 67 SECRET T4OFORN (B) MOM DATA BASE (OBLI-OUITY) (OBLIQUITY) (IAZE, OBLIQUITY) (OBLIQUITY) (PARTIAL COVERAGE, OBLI +UITY) (POOR INTERPRETAB"
+new topic?,28.3,TASS,codename,337,"Martin Luther King, Jr. Assassination (9%)",CIA Reading Room (mirror),"ary World Broadcasts, Second series SU/W501, 3 Jan) Comment: A first account in TASS of P. Gulyayev's electroaurogram was reported in mid-September 1967. At that ti"
+new topic?,28.0,NTIS,codename,183,Animal Partners (4%),CIA Reading Room (mirror)," and press items, etc., released to the public through the facilities DOCEX/LC, NTIS/Cornerce, or the GPO. ., . .. rr+rs r o ~1u3iil~ii1. Za'Ai i Approved For Ref6s"
+new topic?,27.6,USIA,codename,328,"Martin Luther King, Jr. Assassination (23%)",CIA Reading Room (mirror), for a world reaction report prepared for President' Johnson by noon of 6 June. USIA requested special alerts in regard to disturbances against American installatio
+new topic?,27.5,SIGINT,codename,323,CORONA spy satellites (31%),CIA Reading Room (mirror),"e; but used or evaluated in conjunction with other proven data sources (HUMINT, SIGINT, IMAGERY, OPEN SOURCE, and/or MASINT). Generic data (e.g., general shapes) are "
+new topic?,27.5,SOVA,codename,184,Soviet nuclear & missile programs (17%),CIA Reading Room (mirror),87T01145R000300340004-4 DATE 81 OCT SOVA ROUTING SLIP Action Info Initial VA DD/SOVA EO ES/AB ES/ PBB SIG SIG/SED SIG/SPD NIG/EPD NIG/DPD RIG RIG/EAD R IG/TWAD DEIG
+new topic?,26.4,NFIB,codename,212,CIA and drug trafficking allegations (15%),CIA Reading Room (mirror),"following organizations were processed: (S) a. CIA IC Hdq. Bldg. 25X1A c. Other NFIB Members Naval Intelligence Support Center Alexandria, Virginia Goodfellow AFB S"
+new topic?,24.6,ACDA,codename,158,Biological & chemical weapons (23%),CIA Reading Room (mirror),"ed For Release 2004 McGeorge Bundy (on behalf of JFX) to State; DOD, CIA, NASA, ACDA, AEC, OST The President desires that the space program of the US be forcefully "
+new topic?,24.3,ASST,codename,156,CORONA spy satellites (30%),CIA Reading Room (mirror),FROM: C/CSD DATE: 3 Nov ? 196)4 TO INITIALS DATE REMARKS DIR DEP/DIR EXEC/DIR X ASST FOR ADMIN ASST FOR OPS ASST FOR PA ASST FOR P&D CH/CSD CH/IPD CH/PD CH/PSD CH/T
+new topic?,24.2,OSWR,codename,219,Biological & chemical weapons (27%),CIA Reading Room (mirror),"al offices, six were from OGI, one was from OIA, and two each were from OCR and OSWR. The NAC is intended to enable new DI analysts to understand the analytical pro"
+new topic?,24.2,DESCRIPTORS,codename,226,Biological & chemical weapons (4%),CIA Reading Room (mirror),"8263 Trans. of Zelt[schrLftl fUr Physlk (West Germany) 19S6, v- 1"". p- 2S6-262. DESCRIPTORS: ""remperature sensitive elements, 0'rhermocouples, Crystals, *Rhenlum, 01ridiur"
+new topic?,23.8,PAVN,codename,58,Vietnam / Phoenix Program (36%),CIA Reading Room (mirror),1966 Adams of OCI gave a background briefing on the morale of the Viet Cong and PAVN elements in South Vietnam. ADD/I submitted a report by the group established to
+new topic?,23.8,OEOB,codename,54,Watergate (24%),CIA Reading Room (mirror),speaking engagement. It has been set up for 0815 to 0915 on 12 April in Rm. 450 OEOB. Mr. Rustand is an old friend of Bob's from the days Bob worked at the NSC. The
+new topic?,23.6,HUMINT,codename,145,STARGATE / remote viewing (32%),CIA Reading Room (mirror),"SESSION: C-60, VIEWER : 29, (7903). TARGET: HUMINT, TAPE 151 D & E. GRILL FLAME. Folder: INSCOM, GRILL FLAME, PROJECT SESSION REPO"
+new topic?,23.4,BINH,codename,202,Vietnam / Phoenix Program (33%),CIA Reading Room (mirror),",HltN A XI.t ....... i - LIEUIviniu. A ' t IV XU EN Phu nh IA 1,?,,, VINH 4*,-; BINH SO. EN 1-.&gt; CORPS ? ? . .. NW BAI BUPIG er Son (Pouto Condore) ON SON 0 , . "
+new topic?,23.2,FOU0,codename,60,"Martin Luther King, Jr. Assassination (3%)",CIA Reading Room (mirror),"sfield on CIA and the Media cENTE,FoR THE , STUDY or INTELLIGENCE UNCLASc!Fh:Dj/FOU0 pproved for Release: 2023/07/19 C06863733 Approved for Release: 2023/07/19 C068"
+new topic?,23.1,CPSU,codename,131,"Martin Luther King, Jr. Assassination (24%)",CIA Reading Room (mirror),"Y/RED FLAG series on the USSR-CPR polemic; two others comprised material on the CPSU Central Committee plenum which opened 9 December, including Khrushchev's openin"
+new topic?,22.6,IAEA,codename,79,Soviet nuclear & missile programs (18%),CIA Reading Room (mirror),tional Atomic Energy Agency's statute signed at UN by 70 governments (29 Jul 57 IAEA established). 29 OCT. Israel invades Egypt's Sinai Peninsula; 31 Oct. France an
+new topic?,22.3,BISI,codename,114,Animal Partners (5%),CIA Reading Room (mirror),"3/1970, V----, N----Corrosion caused by vibration and frettingcorrosionpp 29-41 BISI Trans 9521##McchmAu-1 nnd Physica-l Properties of Soils and TheirEffect U-pon L"
+new topic?,22.3,MIG-15,codename,146,"Martin Luther King, Jr. Assassination (7%)",CIA Reading Room (mirror),"BE ERUIPPE 1: WITH EITHER AIR-TO-AIR ROCKETS OR AIR-TO-AIR GUIDED MISSILES. (A) MIG-15 .,- NO INTERCEPT CAPABILITY ABOVE 53, 000 FEET, 59, 000 FEET. 60, 000 FEET. SEC"
+new topic?,21.8,CURRENT INTELLIGENCE BULLETIN,codename,2169,1953 Iran coup (5%),CIA Reading Room (mirror),"CURRENT INTELLIGENCE BULLETIN - 1951/03/20. "". Approved for Release: 2-6-19/03/14 CO2733106 t I Nine 20 Mar"
+new topic?,21.4,IEEW,codename,50,Soviet nuclear & missile programs (4%),CIA Reading Room (mirror),"980s, dealing with the Middle East, the Soviet Union, China, Latin America, and IEEW serials. NCS material reviewed consisted of 2011 and later documents and the DI"
+new topic?,20.7,NSCID,codename,95,"Martin Luther King, Jr. Assassination (19%)",CIA Reading Room (mirror)," BOARD COMMITTEE ON DOCUMENTATION SALMrt ft_ftm_ Mssiad Functions . Pursuant to NSCID No. 1, pares. 3 b (2) and 6 a (3); DCID No. 1/4; and USIB-D-39.7/6, Attachment,"
+new topic?,20.6,UNRRA,codename,76,Soviet nuclear & missile programs (3%),CIA Reading Room (mirror),"elf of opposition but hold honest elections.,"" 4, Czechoslovaks ma plan Mort of UNRRA food--.Accord to US Ambassa- dor Steinhardt, reports of current negotiations re"
+new topic?,20.4,CEMA,codename,104,Soviet nuclear & missile programs (7%),CIA Reading Room (mirror),"nting operations, respectively, were considered for adoption during 1965 by the CEMA Group for Algorithmic Languages for the Processing of Economic Information. The"
+new topic?,20.4,PATHET,codename,141,Soviet nuclear & missile programs (6%),CIA Reading Room (mirror), Heup Pak Sane p. Vientiane I ti A NORTHERN LAOS GOVERNMENT Forces in KONG LE - PATHET LAO Contact KONG LE - PATHET LAO AREAS --ROAD I ....1-- -TRAIL P 0 ROUTE NUMBER
+new topic?,20.3,UNITA,codename,81,Iran–Contra (37%),CIA Reading Room (mirror),ves that there are several signs pointing to a new government offensive against UNITA territory: Fred argues that the MPLA will likely move on UNITA within the next 
+new topic?,20.0,COCOM,codename,94,Soviet nuclear & missile programs (5%),CIA Reading Room (mirror), hope to achieve their long-range objectives in FMSs. The United States and its COCOM partners over the last five years have embargoed the sale of machine tools capa
+new topic?,19.7,MIG-,codename,171,U-2 / OXCART / Area 51 (8%),CIA Reading Room (mirror),"fense system consisting of advanced radars, 24 SA-2 sites, and a regiment of 42 MIG-21s. --A naval and coastal defense force consisting of four coastal defense crui"
+new topic?,19.7,UHAIU0,codename,114,"Martin Luther King, Jr. Assassination (9%)",CIA Reading Room (mirror),ere forwarded to NARA for public release. (UHAlreerComposition of Collection: (UHAIU0) Documents reflecting Kirkpatrick's role as Inspector General and Executive Dir
+new topic?,19.6,NSDD,codename,97,Iran–Contra (25%),CIA Reading Room (mirror),"uary/early March--ESA, 26-27 February; Japan, 12-13 March; Canada, 17-18 March. NSDD 257, Guidance to the US Delegation for Negotiations with Western Europe, Japan,"
+new topic?,19.5,ISOO,codename,68,"Martin Luther King, Jr. Assassination (7%)",CIA Reading Room (mirror),"val process. Thirty-five agencies have no, or few, records older than 25 years; ISOO will conduct audit visits to the remaining agencies. The visiting ISO() team wi"
+new topic?,19.3,FMSAC,codename,119,CORONA spy satellites (35%),CIA Reading Room (mirror),Y NO. TYPE 01 OCI Q3 OSR 05 SRS 07 OS1 _ (1.6) (7.81 x 02 OER 04 OBOI 06 CRS 08 FMSAC Q 2 JOINT OFFICE (specify): (~ _ ) TOPICAL CATEGORY GEOGRAPHIC AREA CATEGORY Do
+new topic?,19.1,AIUO,codename,85,Kennedy assassination (39%),CIA Reading Room (mirror),rity SUBJECT: House Select Committee on Assassinations Requests'(U) only. 1. (U/AIUO) Action Requested: None; for information 2. (C) Background: Reference is made t
+new topic?,19.0,PRAVDA,codename,72,"Martin Luther King, Jr. Assassination (25%)",CIA Reading Room (mirror),"s and poems in praise of the slain President. Now a long poem by Yevtushenko in PRAVDA attacks the United States as a land where there is ""freedom to murder."" Moscow "
+new topic?,18.9,THANH,codename,87,Vietnam / Phoenix Program (9%),CIA Reading Room (mirror),"E SITES ON ANY GIVEN DAY. THEY ARE LARGELY CONCENTRATED IN THE HANOI, HAIPHONG, THANH HOA AREA. THERE ARE SEVEN MIG-21 JET FIGHTERS 25X1D IN NORTH VIETNAM BUT THEY A"
+new topic?,18.9,ARGO,codename,72,CORONA spy satellites (28%),CIA Reading Room (mirror),"e. 22 January 1970 - Attended a PIM meeting on th 28 January 1970 - Attended an ARGO meeting, Executive Office Building. participated in the following meetings: 25X"
+new topic?,18.6,COSVN,codename,112,Vietnam / Phoenix Program (38%),CIA Reading Room (mirror),"UKJE""T Contents (Information as of noon EDT, 21 May 1970) Page Vietnam ambodia, COSVN, Buddhists est ............. 2 Communists ab Much of Cambodia's Northeast ....."
+new topic?,18.5,STATOTHR,codename,121,CIA and drug trafficking allegations (23%),CIA Reading Room (mirror),74. cIA Approved For Release 200 / R7 p038OR000800030012-2 NTCRNA~. SSE ON - LY STATOTHR Journal - Office of Legislative Counsel Page 4 Wednesday - 20 March 1974 10. (U
+new topic?,18.5,MBFR,codename,118,CORONA spy satellites (11%),CIA Reading Room (mirror),"N AND ANALYSIS RESULTS IN CHANGING THE STATISTICAL BASIS FOR TrE US POSITION IN MBFR, SUBSTANTIALLY ELEVATING ESTIMATES OF NORTH KOREAN FORCES AT A TIME WHEN THE PR"
+new topic?,18.4,USAFE,codename,68,U-2 / OXCART / Area 51 (34%),CIA Reading Room (mirror),"55-6-0 21712 Isur914.16 ??? ...Maw a*. eiskINIIINVIC.????????????? D 20720 AIR, USAFE, 7050TH AISsii. 56r5.15.55.251 THRu 211-D USSR 8M.R55 AR REPORTS RE: AREA DESCR"
+new topic?,18.2,WAC-BE,codename,54,CORONA spy satellites (30%),CIA Reading Room (mirror),"ains lists of all targets in China arranged by COMOR number, by coordinates, by WAC-BE number, alphabetically by country, and by activity status, country and COMOR nu"
+new topic?,18.2,PHONG,codename,111,Vietnam / Phoenix Program (27%),CIA Reading Room (mirror),"010009-6 25X1 W''' ' c''~ may rr rr~ NZ, dl ? NG gP6 ""'MUONG KHIM61 800 3609 14 PHONG S P SECRET OXCART rt~\r~~~~?o~ ~ ~ ?o '~~? .~rf~ ""'Vi'i Approved For Release 20"
 new topic?,17.7,ILLEGIBLE,codename,90,MKULTRA / mind control (2%),UFO Files,DOC IS PHOTO FROM THE LEE HARVEY OSWALD PERSONALITY FILE - DOC IS ILLEGIBLE - (DOC UNDATED - PUB DATE EST). 5/11/21 C00026494 pproved for Release: 2025/11
-new topic?,17.5,PFLP,codename,44,Soviet nuclear & missile programs (2%),CIA Reading Room (mirror),"red terrorism, for example, attacks by such groups as the PLO, Al-Jihad and the PFLP. It also includes ""supporting internal insurgencies"" within countries friendly "
-new topic?,17.5,WAC-BE,codename,52,CORONA spy satellites (31%),CIA Reading Room (mirror),"ains lists of all targets in China arranged by COMOR number, by coordinates, by WAC-BE number, alphabetically by country, and by activity status, country and COMOR nu"
+new topic?,17.6,EURA,codename,115,Biological & chemical weapons (10%),CIA Reading Room (mirror),"I (7E44) 1 - DDI Registry (7E47) 1 - John McMahon, Exec. (7E12) 25X1 25X1 u DDI/EURA/WE (9Apr82) EUR M 82-10038 25X1 NIO OD/EURA EURA Production Staff OCO/IDCD/CB ("
+new topic?,17.4,UNOCCUPIED,codename,108,CORONA spy satellites (34%),CIA Reading Room (mirror),. NAME 25X1A CHUC SON DONG LAI/PHUC YEN DONG NGOAI COORD. STATUS 205620/1054255 UNOCCUPIED 211230/1054805 UNOCCUPIED 210020/1060840 UNOCCUPIED SECRET Approved For Release
 new topic?,17.3,DCIA,codename,77,CIA and drug trafficking allegations (4%),CIA Reading Room (mirror),"ATE HIGHLIGHTS UPDATE UPDATE TWO NEW BOOKS ABOUT he 22 May issue of PUBLISHER'S DCIA Agency. Among the contributors are Victor Marchetti, John Marks, and L. Fletche"
-new topic?,17.2,EURA,codename,105,Biological & chemical weapons (11%),CIA Reading Room (mirror),"I (7E44) 1 - DDI Registry (7E47) 1 - John McMahon, Exec. (7E12) 25X1 25X1 u DDI/EURA/WE (9Apr82) EUR M 82-10038 25X1 NIO OD/EURA EURA Production Staff OCO/IDCD/CB ("
-new topic?,16.8,SEATO,codename,111,Vietnam / Phoenix Program (5%),CIA Reading Room (mirror), communist clandestine Voice of the People of Thailand are also provided to the SEATO Secretariat. Program summaries of the Laotian clandestine Pathet Lao radio are 
-new topic?,16.8,NSDD,codename,85,Biological & chemical weapons (18%),CIA Reading Room (mirror),"uary/early March--ESA, 26-27 February; Japan, 12-13 March; Canada, 17-18 March. NSDD 257, Guidance to the US Delegation for Negotiations with Western Europe, Japan,"
-new topic?,16.7,FMSAC,codename,89,CORONA spy satellites (26%),CIA Reading Room (mirror),Y NO. TYPE 01 OCI Q3 OSR 05 SRS 07 OS1 _ (1.6) (7.81 x 02 OER 04 OBOI 06 CRS 08 FMSAC Q 2 JOINT OFFICE (specify): (~ _ ) TOPICAL CATEGORY GEOGRAPHIC AREA CATEGORY Do
-new topic?,16.5,ACIS,codename,102,Soviet nuclear & missile programs (25%),CIA Reading Room (mirror),"-12 September with the following components: ICS, OGI, OSWR, FBIS, OIT, OF, DDI/ACIS, OIA, and ORD. With this training completed, 18 of the 26 registries scheduled "
-new topic?,16.4,NFIP,codename,101,STARGATE / remote viewing (32%),CIA Reading Room (mirror),"ittee on Intelligence, office to check on change of date for DCI appearance for NFIP wrapup. Eileen, on the Committee staff, said they were trying for the morning o"
-new topic?,16.4,GORBACHEV,codename,99,Biological & chemical weapons (6%),CIA Reading Room (mirror),"REAGAN AND GORBACHEV TO MEET IN FALL. l ..._--.._._ _ . ' I, Declassified in Part -Sanitized Copy Ap"
-new topic?,16.2,AFCIN,codename,74,CORONA spy satellites (31%),CIA Reading Room (mirror),"4%20 A- M ~0313A0006000t0037-9 Distribution 1 - DNI Rep 2 - IPVIG-5, Rqe, ?' .3 AFCIN 4 > OACSI, TB, CD 5 - State Dept., Dir,, Intel]. & Res 6.- NSA 7 - JCS, CID, J-"
-new topic?,16.1,CENTRAL INTELLIGENCE BULLETIN,codename,1494,Soviet nuclear & missile programs (4%),CIA Reading Room (mirror),"CENTRAL INTELLIGENCE BULLETIN. Approved For Lease 20 11 : fVE4MT975QO5200220001-9 601, ESP 26 July 1960 Copy "
-new topic?,15.6,GATT,codename,63,CIA and drug trafficking allegations (8%),CIA Reading Room (mirror),ncial Gap 11 Summit Issues: The US Initiative on Debt 15 Summit Issues: The New GATT Round 17 US Sanctions Against Libya: Opportunities for Eastern Europe 21 The US
-new topic?,15.5,COTR,codename,74,STARGATE / remote viewing (38%),CIA Reading Room (mirror)," contract, in writing, from the Contracting Officer's Technical Representative (COTR). The cam will maintain records of all such Goverment furnished data to insure "
-new topic?,15.2,CIA-RDP57-0001,codename,71,U-2 / OXCART / Area 51 (39%),CIA Reading Room (mirror),"5 -RMB ,16-- Chrono SECRET Doug Sanitized Copy Approved for Release 2010/12/08: CIA-RDP57-0001 lAO01000150121-6"
-new topic?,15.2,ASST,codename,84,U-2 / OXCART / Area 51 (31%),CIA Reading Room (mirror),FROM: C/CSD DATE: 3 Nov ? 196)4 TO INITIALS DATE REMARKS DIR DEP/DIR EXEC/DIR X ASST FOR ADMIN ASST FOR OPS ASST FOR PA ASST FOR P&D CH/CSD CH/IPD CH/PD CH/PSD CH/T
-new topic?,15.1,ATS-,codename,80,U-2 / OXCART / Area 51 (2%),CIA Reading Room (mirror),"Kraft , H.MWARATIVE S=IES ON ANALGESICS, Fr. 2.11960] 16P.Order from ATS $25.95 ATS-07N48GTrans. of Amneimittel-Forschfung] (West Germany)1954, v. 4, no. 2, p, 249-"
-new topic?,15.1,ASSR,codename,66,Soviet nuclear & missile programs (8%),CIA Reading Room (mirror),CASPIAN SEA \\ Atukhaaori~ TaY eraA~$ Sverdlovsk ~.A;ekandrov Gay 13ASHKIRSKAYA ASSR 1220/1000 Orenburg Mangyshlak Beynee :en 1020123.7 Cherepovets ~ologda Shsim Kh
-new topic?,14.5,AEC-,codename,65,Kennedy assassination (5%),CIA Reading Room (mirror),"J-j jCITOW-rET "":,KT'ilu, c NIf-EN N (11 R A D LKHJ UJl~ UTf85-Ty16-Now-73Uncl (AEC-tr--7474) ComplexIng trivalent americium,curiuv, californium, promethlum, and yt"
-new topic?,14.5,OCHOA,codename,42,"""Neither confirm nor deny"" (2%)",CIA Reading Room (mirror),"OCHOA, LUCAS; FINAL RESPONSE. (b)(3) Mr. Lucas Ochoa Many Rivers Films The Kennington"
-new topic?,14.4,UNCLAS,codename,74,UFOs (24%),CIA Reading Room (mirror),"I)?11-3 COURT IN ISTANBUL, SLAVII{ AtMITTEED THAT KE HIMSELF. PAGE ,2 RUFXVA 15 UNCLAS HAD SET UP A NGB BRANCH IN VIENNA. THIS IS AN OFFICE AT ONE HUNDRED FIVE MARIAH"
-new topic?,14.3,AMMAN,codename,78,Soviet nuclear & missile programs (3%),CIA Reading Room (mirror),L-USIU' IN ARAIIC 8 AMMAN AL-IUSTIIR IN RRRRI.C 9268 NMI AL-RA'Y IN ARAIIC 7140 AMMAN THE JERUSALEM STAR IN ENGLISH 1278 AMMAN JORDAN TIMES IN ENGLISH 5599 AMMAN SAN
-new topic?,13.9,NORAD,codename,67,U-2 / OXCART / Area 51 (24%),CIA Reading Room (mirror),"27 May 1963 Rendezvous at Antlers Hotel, Colorado Springs at 8:15 AM, travel to NORAD Hq. Command and Operational briefings on NORAD and ADC in the morning and visit"
-new topic?,13.6,NKVD,codename,51,Hitler survival reports (6%),CIA Reading Room (mirror)," Oswald was ,assigned to a team of three-a"" troika"" -made. up along traditional NKVD .lines. One man is the chief, ' another is the technician who operates - as a '"
-new topic?,13.5,CHAU,codename,62,Vietnam / Phoenix Program (35%),CIA Reading Room (mirror),g ? QUANG DUC TUYEN CAM ANN BINH LONG PHUOC LONG NiNH THUAN LAM DONG BINH OUDNG CHAU DOC KILN PHONG KILN TUONG HAU NCHIA LONG AN BIEN HOA *Sag on GIA DINH LONG KHAN
-new topic?,13.4,RSFSR,codename,51,U-2 / OXCART / Area 51 (4%),CIA Reading Room (mirror),"ept.Dept of Navy APL/JW T-2508k - 0 'S w 14-~ . --~ Z. c ~April 71NJ,Froblms of RSFSR land Reolmtion Discumoed,by N. Om7chkin . 5 pp.RUSSM, np. Z(ale~M Z_hiW . Mosco"
+new topic?,17.1,ACIS,codename,107,Soviet nuclear & missile programs (23%),CIA Reading Room (mirror),"-12 September with the following components: ICS, OGI, OSWR, FBIS, OIT, OF, DDI/ACIS, OIA, and ORD. With this training completed, 18 of the 26 registries scheduled "
+new topic?,16.8,NFIP,codename,107,STARGATE / remote viewing (30%),CIA Reading Room (mirror),"ittee on Intelligence, office to check on change of date for DCI appearance for NFIP wrapup. Eileen, on the Committee staff, said they were trying for the morning o"
+new topic?,16.8,SEATO,codename,112,Vietnam / Phoenix Program (4%),CIA Reading Room (mirror), communist clandestine Voice of the People of Thailand are also provided to the SEATO Secretariat. Program summaries of the Laotian clandestine Pathet Lao radio are 
+new topic?,16.4,GORBACHEV,codename,101,Biological & chemical weapons (6%),CIA Reading Room (mirror),"REAGAN AND GORBACHEV TO MEET IN FALL. l ..._--.._._ _ . ' I, Declassified in Part -Sanitized Copy Ap"
+new topic?,16.2,VINH,codename,107,Vietnam / Phoenix Program (21%),CIA Reading Room (mirror)," ON en..., ,HltN A XI.t ....... i - LIEUIviniu. A ' t IV XU EN Phu nh IA 1,?,,, VINH 4*,-; BINH SO. EN 1-.&gt; CORPS ? ? . .. NW BAI BUPIG er Son (Pouto Condore) ON"
+new topic?,16.1,CENTRAL INTELLIGENCE BULLETIN,codename,1500,Soviet nuclear & missile programs (4%),CIA Reading Room (mirror),"CENTRAL INTELLIGENCE BULLETIN. Approved For Lease 20 11 : fVE4MT975QO5200220001-9 601, ESP 26 July 1960 Copy "
+new topic?,15.7,ASSR,codename,76,"Martin Luther King, Jr. Assassination (32%)",CIA Reading Room (mirror),CASPIAN SEA \\ Atukhaaori~ TaY eraA~$ Sverdlovsk ~.A;ekandrov Gay 13ASHKIRSKAYA ASSR 1220/1000 Orenburg Mangyshlak Beynee :en 1020123.7 Cherepovets ~ologda Shsim Kh
+new topic?,15.6,COTR,codename,75,STARGATE / remote viewing (37%),CIA Reading Room (mirror)," contract, in writing, from the Contracting Officer's Technical Representative (COTR). The cam will maintain records of all such Goverment furnished data to insure "
+new topic?,15.6,GATT,codename,64,CIA and drug trafficking allegations (8%),CIA Reading Room (mirror),ncial Gap 11 Summit Issues: The US Initiative on Debt 15 Summit Issues: The New GATT Round 17 US Sanctions Against Libya: Opportunities for Eastern Europe 21 The US
+new topic?,15.3,CHAU,codename,71,Vietnam / Phoenix Program (31%),CIA Reading Room (mirror),g ? QUANG DUC TUYEN CAM ANN BINH LONG PHUOC LONG NiNH THUAN LAM DONG BINH OUDNG CHAU DOC KILN PHONG KILN TUONG HAU NCHIA LONG AN BIEN HOA *Sag on GIA DINH LONG KHAN
+new topic?,15.1,T-34,codename,97,Hitler survival reports (18%),CIA Reading Room (mirror),"ed by another consisting of boxcars with troo ? s On the morning of 30 March, 6 T-34 tanks and about 20 trucks oved -toward 25X1 Jena for the direction of Gerao In "
+new topic?,15.1,ATS-,codename,81,U-2 / OXCART / Area 51 (2%),CIA Reading Room (mirror),"Kraft , H.MWARATIVE S=IES ON ANALGESICS, Fr. 2.11960] 16P.Order from ATS $25.95 ATS-07N48GTrans. of Amneimittel-Forschfung] (West Germany)1954, v. 4, no. 2, p, 249-"
+new topic?,14.8,AEC-,codename,67,Kennedy assassination (4%),CIA Reading Room (mirror),"J-j jCITOW-rET "":,KT'ilu, c NIf-EN N (11 R A D LKHJ UJl~ UTf85-Ty16-Now-73Uncl (AEC-tr--7474) ComplexIng trivalent americium,curiuv, californium, promethlum, and yt"
+new topic?,14.5,UNCLAS,codename,76,"Martin Luther King, Jr. Assassination (32%)",CIA Reading Room (mirror),"I)?11-3 COURT IN ISTANBUL, SLAVII{ AtMITTEED THAT KE HIMSELF. PAGE ,2 RUFXVA 15 UNCLAS HAD SET UP A NGB BRANCH IN VIENNA. THIS IS AN OFFICE AT ONE HUNDRED FIVE MARIAH"
+new topic?,14.0,NORAD,codename,71,U-2 / OXCART / Area 51 (23%),CIA Reading Room (mirror),"27 May 1963 Rendezvous at Antlers Hotel, Colorado Springs at 8:15 AM, travel to NORAD Hq. Command and Operational briefings on NORAD and ADC in the morning and visit"
+new topic?,13.9,CIARDS,codename,66,Soviet nuclear & missile programs (14%),CIA Reading Room (mirror),he Office of the Comptroller submits a quarterly report on Budget Execution for CIARDS to the Chairman of the House Appropriations Committee in compliance with paragr
+new topic?,13.6,A-DD,codename,60,U-2 / OXCART / Area 51 (25%),CIA Reading Room (mirror),g for alerts on nuclear events may be answered prior to the 11 January session. A-DD/S&T said that he thought a response could be made prior to the meeting. A-DD/S&
+new topic?,13.6,NKVD,codename,52,"Martin Luther King, Jr. Assassination (8%)",CIA Reading Room (mirror)," Oswald was ,assigned to a team of three-a"" troika"" -made. up along traditional NKVD .lines. One man is the chief, ' another is the technician who operates - as a '"
+new topic?,13.5,NORTH VIETNAM,codename,1058,Vietnam / Phoenix Program (10%),CIA Reading Room (mirror),REQUIREMENT FOR(Sanitized) (Sanitized) PHOTOGRAPHIC COVERAGE OF SOUTH CHINA AND NORTH VIETNAM. 25X1 Approved For Releas - 020011-4 2uA ?9*1A Copy No. of 60 25X1A USIB-D-41. 
+new topic?,13.5,RSFSR,codename,57,"Martin Luther King, Jr. Assassination (18%)",CIA Reading Room (mirror),"ept.Dept of Navy APL/JW T-2508k - 0 'S w 14-~ . --~ Z. c ~April 71NJ,Froblms of RSFSR land Reolmtion Discumoed,by N. Om7chkin . 5 pp.RUSSM, np. Z(ale~M Z_hiW . Mosco"
 new topic?,13.3,USAID,codename,70,CIA and drug trafficking allegations (23%),CIA Reading Room (mirror),"sing, the electric power supply, and the telephone system. Projects financed by USAID and the World Bank 3 25X1 25X1 Declassified in Part - Sanitized Copy Approved f"
-new topic?,13.1,A-DD,codename,49,U-2 / OXCART / Area 51 (31%),CIA Reading Room (mirror),g for alerts on nuclear events may be answered prior to the 11 January session. A-DD/S&T said that he thought a response could be made prior to the meeting. A-DD/S&
 new topic?,13.1,CSCE,codename,69,CIA and drug trafficking allegations (3%),CIA Reading Room (mirror),"ed North Korea: Raising the Ante in thc Dialogue 2 3 Notes Europe: Crises Spark CSCE Institution Building 4 Balkan Crisis: Panic Survives, Weakened 4 5 5 (b)(1) Arm"
-new topic?,13.1,CIARDS,codename,57,Watergate (14%),CIA Reading Room (mirror),he Office of the Comptroller submits a quarterly report on Budget Execution for CIARDS to the Chairman of the House Appropriations Committee in compliance with paragr
-new topic?,12.5,ORPA,codename,46,MKULTRA / mind control (13%),CIA Reading Room (mirror)," I told him that I would forward a copy to him, 32. I lIAISON Accompanie 25X1 C/ORPA/AF, to a briefing of Senator S. I. Hayakawa (R., Calif.). The briefing had been"
-new topic?,12.5,AWACS,codename,52,Iran–Contra (38%),CIA Reading Room (mirror)," Ultra Light in Flight Z,,28. Viking I Lander 124. Soviet HOKUM helicopter 20 . AWACS Personalities: /31. Babe Ruth 132. Maya Plisetskaya -33. Uri Geller #'34. Mothe"
-new topic?,12.4,CCCCC,codename,53,CIA and drug trafficking allegations (15%),CIA Reading Room (mirror),"8713 MCO NC 3108713 TOR: 132303Z JAN 84 00 RUEAIIA DE,RUEKJCS 10590 0132303 ZNY CCCCC 0 132303Z JAN 84 FM JCS WASHINGTON DC INFO RUEADWD/CSA WASHINGTON DC RUEAKIA/CS"
-new topic?,12.2,IDEN,codename,44,U-2 / OXCART / Area 51 (11%),CIA Reading Room (mirror),"CY: ""TWO DEFECTORS FROM U.S. A MY 'TNT77 1 TrTnrr>c ?lfhlrrc ,., ...,--_----- S IDEN I JOHN F. KENNEDY. IN DISCUSSING SOVIET DEFECTION PROCEDURES -- LEE HARVEY OSWA"
+new topic?,12.7,CCCCC,codename,56,CIA and drug trafficking allegations (14%),CIA Reading Room (mirror),"8713 MCO NC 3108713 TOR: 132303Z JAN 84 00 RUEAIIA DE,RUEKJCS 10590 0132303 ZNY CCCCC 0 132303Z JAN 84 FM JCS WASHINGTON DC INFO RUEADWD/CSA WASHINGTON DC RUEAKIA/CS"
+new topic?,12.6,ORPA,codename,48,"Martin Luther King, Jr. Assassination (15%)",CIA Reading Room (mirror)," I told him that I would forward a copy to him, 32. I lIAISON Accompanie 25X1 C/ORPA/AF, to a briefing of Senator S. I. Hayakawa (R., Calif.). The briefing had been"
+new topic?,12.3,IDEN,codename,49,U-2 / OXCART / Area 51 (10%),CIA Reading Room (mirror),"CY: ""TWO DEFECTORS FROM U.S. A MY 'TNT77 1 TrTnrr>c ?lfhlrrc ,., ...,--_----- S IDEN I JOHN F. KENNEDY. IN DISCUSSING SOVIET DEFECTION PROCEDURES -- LEE HARVEY OSWA"
 new topic?,12.0,AIOC,codename,55,1953 Iran coup (29%),CIA Reading Room (mirror),stallation of lube facilities was nearly complete at time of nationalization of AIOC properties in 1951; facilities reportedly completed and placed in limited opera
-new topic?,11.9,FRUS,codename,44,U-2 / OXCART / Area 51 (7%),CIA Reading Room (mirror),W EXTERNAL REQUESTS: DOD AIR FORCE ARMY DIA JCS NAVY NSA OSD NARA STATE CDC/SR (FRUS) CDC/MR OTHER SUB TOTALS INTERNAL REQUESTS: PRB IPD OLL OGC SAE OTHER SUB TOTAL
-new topic?,11.5,AFSC,codename,52,U-2 / OXCART / Area 51 (31%),CIA Reading Room (mirror),- 18 H-21 - 20 T-38 - 4 No tests. Testing will be resumed at the request of the AFSC project office. 21. DATE 22. OFFICE SYMBOL AND TELEPHONE EXT 28. SIGNATURE OF P
-new topic?,11.5,NEAR EAST,codename,1217,1953 Iran coup (9%),CIA Reading Room (mirror),JPRS ID: 74854 NEAR EAST/NORTH AFRICA REPORT. APPROVEE3 FOR RELEASE: 2007102108: CIA-RE3P82-00850R000200
+new topic?,11.8,AFSC,codename,56,CORONA spy satellites (30%),CIA Reading Room (mirror),- 18 H-21 - 20 T-38 - 4 No tests. Testing will be resumed at the request of the AFSC project office. 21. DATE 22. OFFICE SYMBOL AND TELEPHONE EXT 28. SIGNATURE OF P
+new topic?,11.7,PRONG,codename,59,Vietnam / Phoenix Program (12%),CIA Reading Room (mirror),"- TO IOM t URF A f_ MEET BOAR),),, tJ C E RT .A I N AT 1=3 O MEkT ? E C R E.: 1 PRONG r4.'1t CF.D FIT a', t:I. IN 10 t="
+new topic?,11.5,NEAR EAST,codename,1221,1953 Iran coup (9%),CIA Reading Room (mirror),JPRS ID: 74854 NEAR EAST/NORTH AFRICA REPORT. APPROVEE3 FOR RELEASE: 2007102108: CIA-RE3P82-00850R000200
+new topic?,11.5,NAUK SSSR,codename,51,"Martin Luther King, Jr. Assassination (6%)",CIA Reading Room (mirror),"A FR: DOK AK NAUK SSSR TO: DOK AK NAUK SSSR. ""orCX,""'.777 ~'il.A~ --c v: D) cBlufi9scAmides on Strepto"
+new topic?,11.4,UUUUU,codename,58,"Martin Luther King, Jr. Assassination (29%)",CIA Reading Room (mirror),2013/12/12 : CIA-RDP81-00770R000100070006-7 RR RUABSG DE RUEPSE 14A 2231356 ZNR UUUUU S-k) R 111355 Z FM FBI S WA SHDC TO F213 SA ICON VIETNAM . FEDMON BT UNCLAS OW 
 new topic?,11.4,FORMOSA STRAITS,codename,54,U-2 / OXCART / Area 51 (4%),CIA Reading Room (mirror),"age 6). WESTERN EUROPE 7. Italian view of British policy reported (page 7), THE FORMOSA STRAITS (page 8) * * * * 31 Mar 55 CURRENT INTELLIGENCE BULLETIN Page 2 -TOP SECRET App"
-new topic?,11.4,UUUUU,codename,57,CIA and drug trafficking allegations (14%),CIA Reading Room (mirror),2013/12/12 : CIA-RDP81-00770R000100070006-7 RR RUABSG DE RUEPSE 14A 2231356 ZNR UUUUU S-k) R 111355 Z FM FBI S WA SHDC TO F213 SA ICON VIETNAM . FEDMON BT UNCLAS OW 
-new topic?,11.4,NAUK SSSR,codename,49,U-2 / OXCART / Area 51 (6%),CIA Reading Room (mirror),"A FR: DOK AK NAUK SSSR TO: DOK AK NAUK SSSR. ""orCX,""'.777 ~'il.A~ --c v: D) cBlufi9scAmides on Strepto"
-new topic?,11.1,GS-12,codename,52,MKULTRA / mind control (12%),CIA Reading Room (mirror),"STAT STAT GS-09 Economist in the Office of Economic Research. He is currently a GS-12 Economist in the Domestic Policy Branch, China Division, responsible for report"
-new topic?,11.0,MIG-19,codename,54,U-2 / OXCART / Area 51 (19%),CIA Reading Room (mirror), I. THE COMMUNIST BLOC II. ASIA-AFRICA UAR--Nasir claims USSR ready to de-liver MIG-19 jet fighter aircraft imme-diately. Communist capability to disrupt internal sec
+new topic?,10.7,BROKAW,codename,48,Iran–Contra (33%),CIA Reading Room (mirror),"ork September 8, 1981 7:00 AM CITY Washington, DC Interview with Henry Hurt TOM BROKAW: A real spy story in the October issue of Reader's Digest. Henry Hurt, who's th"
 new topic?,10.4,KONTUM,codename,47,Vietnam / Phoenix Program (38%),CIA Reading Room (mirror),"EAVE THE CAMP AND RETURN' TO THEIR VILLAGES. 2. BINH DINH, PHU YEN, BINH THUAN, KONTUM AND DARLAC PROVINCES CONTINUE TO RECEIVED REPORTS OF-VC/NVA UNITS MANEUVERING A"
-new topic?,10.2,MALAYA,codename,46,Soviet nuclear & missile programs (15%),CIA Reading Room (mirror),"ot included) STATUTE MILES 400 nga Bondo Buta Luputa Ake! Basoko GIZENGA 7 000 MALAYA 470 LIBERIA ETHIOPIA 1,500 tanleyville Bukavu Kindu ETHIOPIA MALAYA 300 INDIA K"
-new topic?,10.1,AIU0,codename,45,STARGATE / remote viewing (9%),CIA Reading Room (mirror),"and Accomplishments atic Declassificatioii Date is 17 ADril 2 Production Staff (AIU0) As of 7 January 1998, only 830 days until D-Day. Although a slow period due to"
-new topic?,10.0,WESTERN EUROPE,codename,999,1953 Iran coup (9%),CIA Reading Room (mirror),NED STRONG ON THE FRANKFURT FOREIGN CURRENCY MARKET TODAY AS MAJOR EXCHANGES IN WESTERN EUROPE AND JAPAN REOPENED FOR THE FIRST TIME SINCE THE DEVALUATION OF THE DOLLAR. HOWE
+new topic?,10.0,WESTERN EUROPE,codename,1000,1953 Iran coup (9%),CIA Reading Room (mirror),NED STRONG ON THE FRANKFURT FOREIGN CURRENCY MARKET TODAY AS MAJOR EXCHANGES IN WESTERN EUROPE AND JAPAN REOPENED FOR THE FIRST TIME SINCE THE DEVALUATION OF THE DOLLAR. HOWE
 new topic?,9.9,COMMUNIST BLOC,codename,584,Soviet nuclear & missile programs (8%),CIA Reading Room (mirror),"894 Approved for Release: 2020/03/13 C03177894 E.t.IL, I law 14 MAY 1960 I. THE COMMUNIST BLOC II. ASIA-AFRICA UAR--Nasir claims USSR ready to de-liver MIG-19 jet fighter air"
-new topic?,9.2,WEEKLY SUMMARY,codename,346,Vietnam / Phoenix Program (11%),CIA Reading Room (mirror),"F SECTION ""REVOLUTIONARY PLOTTING IN CENTRAL AMERICA"" FROM CURRENT INTELLIGENCE WEEKLY SUMMARY, 12/15/1955, CIA-RDP79-00927A000700050001-1 4/4/2019 F-2019-01280 RECORDS ON AL"
-new topic?,9.1,SOUTHEAST ASIA,codename,750,1953 Iran coup (5%),CIA Reading Room (mirror),"in myth has found respectable support. In a new book, THE POLITICS OF HEROIN IN SOUTHEAST ASIA, a young Yale student and anti-war activist named Alfred W. McCoy, suggests tha"
-new topic?,8.9,SECURITY INFORMATION,codename,412,1953 Iran coup (8%),CIA Reading Room (mirror),onsiders to be an even more serious offense. Anyone who corresponds with SECRET/SECURITY INFORMATION Sanitized Copy Approved for Release 2011/02/23: CIA-RDP80-00809A000600020151-8 
-new topic?,7.7,SOVIET UNION,codename,602,Soviet nuclear & missile programs (5%),CIA Reading Room (mirror),"AR, WHICH I WILL CALL THE PSYCHOLOGICAL WAR WAGED AGAINST THE FREE WORLD BY THE SOVIET UNION AND ITS ALLIES. THE WEAPONS IN THIS WAR ARE DOCUMENTS, DISTORTIONS, AND FORGERI"
+new topic?,9.3,WEEKLY SUMMARY,codename,347,Vietnam / Phoenix Program (11%),CIA Reading Room (mirror),"F SECTION ""REVOLUTIONARY PLOTTING IN CENTRAL AMERICA"" FROM CURRENT INTELLIGENCE WEEKLY SUMMARY, 12/15/1955, CIA-RDP79-00927A000700050001-1 4/4/2019 F-2019-01280 RECORDS ON AL"
+new topic?,9.1,SOUTHEAST ASIA,codename,761,1953 Iran coup (5%),CIA Reading Room (mirror),"in myth has found respectable support. In a new book, THE POLITICS OF HEROIN IN SOUTHEAST ASIA, a young Yale student and anti-war activist named Alfred W. McCoy, suggests tha"
+new topic?,9.0,SECURITY INFORMATION,codename,433,"Martin Luther King, Jr. Assassination (8%)",CIA Reading Room (mirror),onsiders to be an even more serious offense. Anyone who corresponds with SECRET/SECURITY INFORMATION Sanitized Copy Approved for Release 2011/02/23: CIA-RDP80-00809A000600020151-8 
+new topic?,7.7,SOVIET UNION,codename,626,Soviet nuclear & missile programs (4%),CIA Reading Room (mirror),"AR, WHICH I WILL CALL THE PSYCHOLOGICAL WAR WAGED AGAINST THE FREE WORLD BY THE SOVIET UNION AND ITS ALLIES. THE WEAPONS IN THIS WAR ARE DOCUMENTS, DISTORTIONS, AND FORGERI"
 new topic?,7.5,EASTERN EUROPE,codename,604,1953 Iran coup (6%),CIA Reading Room (mirror),MISC. INFORMATION REPORTS. Folder: ESP IN EASTERN EUROPE AND RUSSIA; STAR GATE was an umbrella term for the Intelligence Community effor
 new topic?,6.6,CURRENT INTELLIGENCE WEEKLY,codename,332,Vietnam / Phoenix Program (4%),CIA Reading Room (mirror),CURRENT INTELLIGENCE WEEKLY SUMMARY. Approved For Release 2008/07/28: CIA-RDP79-00927AO03700110002-0 *ftw S
 new topic?,6.2,SOUTH ASIA,codename,335,1953 Iran coup (6%),CIA Reading Room (mirror),"WORK PROGRAM PURSUANT TO NSDD-99, U.S. STRATEGY FOR THE NEAR EAST AND SOUTH ASIA. Declassified in Part -Sanitized Copy Approved for Release 2012/05/14 :CIA-RDP9"
-new topic?,6.0,OFFICIALS ONLY,codename,295,Biological & chemical weapons (14%),CIA Reading Room (mirror),Length of fuselage m 14 18 m. Wing length (not span) 6 ruo SECRET. CONTROL U.S. OFFICIALS ONLY f Elevators Approved For Release 2006/03/03 : CIA-RDP83-00415R001100020025-9
-new topic?,5.3,CONTROLS STATED,codename,88,Biological & chemical weapons (8%),CIA Reading Room (mirror),75A FURTHER DISSEMINATION AND USE OF THIS INFORMATION SUBJECT TOPAGE 001 OF 005 CONTROLS STATED AT BEGINNING AND END OF REPORT. . STATE/INR JCS/MC(01A) CIA/NMCC SS NSA TREAS O
+new topic?,5.3,CONTROLS STATED,codename,88,"Martin Luther King, Jr. Assassination (12%)",CIA Reading Room (mirror),75A FURTHER DISSEMINATION AND USE OF THIS INFORMATION SUBJECT TOPAGE 001 OF 005 CONTROLS STATED AT BEGINNING AND END OF REPORT. . STATE/INR JCS/MC(01A) CIA/NMCC SS NSA TREAS O
 new topic?,5.0,PERSONNEL ACTION,codename,174,UFOs (1%),CIA Reading Room (mirror),"REQUEST FOR PERSONNEL ACTION - HARVEY, WILLIAM K.. LIMB - FANDARD FORM 5Z- --. .-.:.,? -- ..... __._'.._ ..."
-new topic?,4.8,PRESIDING OFFICER,codename,57,Hitler survival reports (5%),CIA Reading Room (mirror)," on the open market. The bill amends the act of 1958 to make this possible. The PRESIDING OFFICER,. The bill is open to amendment. If there is no amendment to be proposed, the q"
-new topic?,4.7,THIS INFORMATION SUBJECT,codename,86,Biological & chemical weapons (8%),CIA Reading Room (mirror), ET Intelligence Information Cable IN 3622575A FURTHER DISSEMINATION AND USE OF THIS INFORMATION SUBJECT TOPAGE 001 OF 005 CONTROLS STATED AT BEGINNING AND END OF REPORT. . STATE/INR J
-new topic?,3.9,ARMED FORCES,codename,139,1954 Guatemala coup (3%),CIA Reading Room (mirror),"ATION, TO PLAY A PROMINENT. ROLE IN NATO AND THE WORLD, WHILE MAINTAINING THEIR ARMED FORCES AT A LEVEL.CONSIDERABLY LCWER THAN HOLLAND',S. ALTHOUGH IT IS; SELDOM IF EVER S"
+new topic?,4.8,PRESIDING OFFICER,codename,58,Hitler survival reports (5%),CIA Reading Room (mirror)," on the open market. The bill amends the act of 1958 to make this possible. The PRESIDING OFFICER,. The bill is open to amendment. If there is no amendment to be proposed, the q"
+new topic?,4.7,THIS INFORMATION SUBJECT,codename,86,"Martin Luther King, Jr. Assassination (13%)",CIA Reading Room (mirror), ET Intelligence Information Cable IN 3622575A FURTHER DISSEMINATION AND USE OF THIS INFORMATION SUBJECT TOPAGE 001 OF 005 CONTROLS STATED AT BEGINNING AND END OF REPORT. . STATE/INR J
+new topic?,3.9,ARMED FORCES,codename,141,"Martin Luther King, Jr. Assassination (9%)",CIA Reading Room (mirror),"ATION, TO PLAY A PROMINENT. ROLE IN NATO AND THE WORLD, WHILE MAINTAINING THEIR ARMED FORCES AT A LEVEL.CONSIDERABLY LCWER THAN HOLLAND',S. ALTHOUGH IT IS; SELDOM IF EVER S"
 new topic?,3.8,WEEKLY REVIEW,codename,126,Space race (2%),CIA Reading Room (mirror),"om New York. His public remarks there on 24 October, however, contained no s 1r WEEKLY REVIEW Page 2 of 13 Approved for Release: 2017/01/24 C06516304 Approved for Release: 2"
-new topic?,3.5,COVERT ACTION,codename,81,Iran–Contra (22%),CIA Reading Room (mirror),"D I WILL SPEAK OF IT ONLY SUMMARILY. SECOND, CIA IS CHARGED WITH THE CONDUCT OF COVERT ACTION, THE ONE AREA WHERE WE IMPLEMENT POLICY. THIS IS A SUBJECT SO COMPLEX AND SO CO"
-new topic?,3.3,BUENOS AIRES,codename,107,Kennedy assassination (8%),CIA Reading Room (mirror)," BARCELONA, _ BEIRUT, BERLIN, BERN, BOGOTA, C:A_RACAS . BRASIL-1""A , BRUSSELS, BUENOS AIRES, (71:1-1= , COPENHAGEN, GENEVA, GEORCETOWT-T, GUATEMALA CITY, GUAYAQUIL, THE HA"
-new topic?,3.2,SECRET SECURITY INFORMATION,codename,84,Biological & chemical weapons (10%),CIA Reading Room (mirror),"anitized Copy Approved for Release 2014/04/04: CIA-RDP81-01030R000100090002-9 ? SECRET SECURITY INFORMATION COUNTRY. t COSR/Germany(SovZone) ,SUBJECT I Activities at the Ministry for Ship"
-new topic?,3.1,IRAQI COMMANDER MEMOIRS,codename,49,Operation PAPERCLIP (4%),CIA Reading Room (mirror),IRAQI COMMANDER MEMOIRS ON MISSILES (8). (U) IRAQI COMMANDERAp-p-rc7fed -6054-571) Identifiers: Documen
-new topic?,2.8,WEBSTER DIRECTOR,codename,68,Biological & chemical weapons (9%),CIA Reading Room (mirror),"3/11/12 : CIA-RDP91B01306R001500080008-0 PROPOSED TALKING POINTS FOR WILLIAM H. WEBSTER DIRECTOR OF CENTRAL INTELLIGENCE TO THE WHITE HOUSE FELLOWS WASHINGTON, D.C. MARCH 13, 1"
-new topic?,2.8,WARNING NOTICE SENSITIVE,codename,70,Kennedy assassination (6%),CIA Reading Room (mirror)," , tO _ = 8 11 e a 12 TO: IMMEDIATE WHITE HOUSE//SITUATION ROOM FOR MR. FAZIO.Y WARNING NOTICE SENSITIVE INTELLIGENCE SOURCES AND METHODS INVOLVED "" ITEM NOVIWH-1 DATE: JUNE 29, 1974 S"
-new topic?,2.8,THIRD WORLD,codename,58,Biological & chemical weapons (10%),CIA Reading Room (mirror),"ION PROGRAMME NOT ONLY IN THE CONTEXT OF CUBA'S NEEDS BUT ALSO THE NEEDS OF THE THIRD WORLD,"" DR MAX FIGUEROA ARAUJO, HEAD OF THE CULTURAL INSTITUTE OF PEDAGOGICAL STUDIES"
+new topic?,3.5,COVERT ACTION,codename,83,Iran–Contra (22%),CIA Reading Room (mirror),"D I WILL SPEAK OF IT ONLY SUMMARILY. SECOND, CIA IS CHARGED WITH THE CONDUCT OF COVERT ACTION, THE ONE AREA WHERE WE IMPLEMENT POLICY. THIS IS A SUBJECT SO COMPLEX AND SO CO"
+new topic?,3.4,SECRET SECURITY INFORMATION,codename,111,"Martin Luther King, Jr. Assassination (37%)",CIA Reading Room (mirror),"anitized Copy Approved for Release 2014/04/04: CIA-RDP81-01030R000100090002-9 ? SECRET SECURITY INFORMATION COUNTRY. t COSR/Germany(SovZone) ,SUBJECT I Activities at the Ministry for Ship"
+new topic?,3.3,BUENOS AIRES,codename,108,Kennedy assassination (8%),CIA Reading Room (mirror)," BARCELONA, _ BEIRUT, BERLIN, BERN, BOGOTA, C:A_RACAS . BRASIL-1""A , BRUSSELS, BUENOS AIRES, (71:1-1= , COPENHAGEN, GENEVA, GEORCETOWT-T, GUATEMALA CITY, GUAYAQUIL, THE HA"
+new topic?,2.9,WEBSTER DIRECTOR,codename,72,"Martin Luther King, Jr. Assassination (31%)",CIA Reading Room (mirror),"3/11/12 : CIA-RDP91B01306R001500080008-0 PROPOSED TALKING POINTS FOR WILLIAM H. WEBSTER DIRECTOR OF CENTRAL INTELLIGENCE TO THE WHITE HOUSE FELLOWS WASHINGTON, D.C. MARCH 13, 1"
+new topic?,2.8,WARNING NOTICE SENSITIVE,codename,72,"Martin Luther King, Jr. Assassination (17%)",CIA Reading Room (mirror)," , tO _ = 8 11 e a 12 TO: IMMEDIATE WHITE HOUSE//SITUATION ROOM FOR MR. FAZIO.Y WARNING NOTICE SENSITIVE INTELLIGENCE SOURCES AND METHODS INVOLVED "" ITEM NOVIWH-1 DATE: JUNE 29, 1974 S"
+new topic?,2.8,THIRD WORLD,codename,59,Biological & chemical weapons (10%),CIA Reading Room (mirror),"ION PROGRAMME NOT ONLY IN THE CONTEXT OF CUBA'S NEEDS BUT ALSO THE NEEDS OF THE THIRD WORLD,"" DR MAX FIGUEROA ARAUJO, HEAD OF THE CULTURAL INSTITUTE OF PEDAGOGICAL STUDIES"
 new topic?,2.7,DATE SIGNED,codename,61,Biological & chemical weapons (2%),CIA Reading Room (mirror),2c. DATE REC'D (YY/MM/DD) PAPERWORK BURDEN STATEMENT 42d. TOTAL CONTAINERS 31c. DATE SIGNED 1a Zz1e 35. AMOUNT VERIFIED CORRECT FOR UNCLASSIFIED For any questions pertaini
-new topic?,2.5,COMMUNICATIONS INTELLIGENCE,codename,67,CORONA spy satellites (16%),CIA Reading Room (mirror), TALENT-KEYHOLE information. Its security must be maintained in accordance with COMMUNICATIONS INTELLIGENCE and KEYHOLE and TALENT regulations. No action is to be taken on any communicati
-new topic?,2.5,HOUSE ARMED SERVICES,codename,43,U-2 / OXCART / Area 51 (35%),CIA Reading Room (mirror),CIA SUBCOMMITTEE OF HOUSE ARMED SERVICES COMMITTEE. Approved For Release 2003/06/26 : CIA-RDP90-0061 OR000200080006-2 Z 
-new topic?,2.4,REPORTING PERIOD,codename,45,STARGATE / remote viewing (13%),CIA Reading Room (mirror),lates and basic mechanisms involved in such functioning. II PROGRESS DURING THE REPORTING PERIOD A. Applied Research 1. Remote Viewing A number of efforts were begun with respe
-new topic?,2.4,LIMITED OFFICIAL,codename,44,Family Jewels / Church Committee (7%),CIA Reading Room (mirror),ied and Approved For Release 2012/11/13: CIA-RDP08CO1297R000400020002-6 A -37 1 LIMITED OFFICIAL USE TO NO. DEPARTMENT OF STATE IFU /b i /a 0$0 Enclosed is the Note from the Fo
-new topic?,2.2,THIS COPY PROHIBITED,codename,48,Kennedy assassination (40%),CIA Reading Room (mirror),"11,4 DECL154VICA110% RCOIG 1 A /OR INITIALS - EEts1 BY.. /0 2 6 REPRODUCTION OF THIS COPY PROHIBITED 3 INDEX: 0 YES 0 NO CLASSIFY TO FILE NO X-REF TO FILE NO FILE RIO LRET. TO RID "
+new topic?,2.6,CARGO TRUCKS,codename,72,CORONA spy satellites (28%),CIA Reading Room (mirror)," METERS (4,000 FEET) NE THE INSTALLATION. GFW:SIX POSSIBLE 160MM MORTARS AND 14 CARGO TRUCKS AAA:3 MEDIUM AAA PIECES IMR:AL 73, 75 MPR:SERIES L752, SHEET 3222-I EOM S E C R"
+new topic?,2.5,HOUSE ARMED SERVICES,codename,50,U-2 / OXCART / Area 51 (30%),CIA Reading Room (mirror),CIA SUBCOMMITTEE OF HOUSE ARMED SERVICES COMMITTEE. Approved For Release 2003/06/26 : CIA-RDP90-0061 OR000200080006-2 Z 
+new topic?,2.4,REPORTING PERIOD,codename,48,STARGATE / remote viewing (12%),CIA Reading Room (mirror),lates and basic mechanisms involved in such functioning. II PROGRESS DURING THE REPORTING PERIOD A. Applied Research 1. Remote Viewing A number of efforts were begun with respe
