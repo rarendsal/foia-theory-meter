@@ -1,7 +1,7 @@
 {
  "_help": "Each topic: name, short description, aliases, see_also. ALL-CAPS aliases match case-sensitively (code names like CHAOS, CORONA); others match case-insensitively. Spaces/hyphens/slashes inside an alias match any of space, hyphen, slash or nothing, and a trailing plural 's' is optional, so 'psycho energetic' also matches 'psychoenergetics'. Edit freely, then rerun build_index.py. Optional 'query_aliases' are used ONLY to recognize the topic in a user's question (too broad for tagging documents, e.g. 'Kennedy').",
  "topics": {
-   "mlk": {
+  "mlk": {
    "name": "Martin Luther King, Jr. Assassination",
    "desc": "Conspiracy theory about the FBI conspiring to kill MLK, Jr..",
    "aliases": [
@@ -9,7 +9,7 @@
     "james earle ray",
     "fbi",
     "martin luther king",
-    "martin luther king jr",    
+    "martin luther king jr",
     "civil rights movement"
    ],
    "see_also": [
@@ -18,7 +18,7 @@
     "lone gunman"
    ]
   },
-   "BLUEBEAM": {
+  "BLUEBEAM": {
    "name": "Project BLUEBEAM",
    "desc": "Conspiracy theory about NASA and the UN faking a second coming, or alien invasion, or both.",
    "aliases": [
@@ -48,7 +48,8 @@
     "House Select Committee on Assassinations",
     "Dealey Plaza",
     "Jack Ruby",
-    "grassy knoll"
+    "grassy knoll",
+    "assassinations hsca"
    ],
    "see_also": [
     "mongoose",
@@ -87,7 +88,9 @@
     "Russell Targ",
     "Harold Puthoff",
     "Uri Geller",
-    "psychic"
+    "psychic",
+    "inscom grill",
+    "inscom grill flame"
    ],
    "see_also": [
     "mkultra",
@@ -136,7 +139,8 @@
     "IDEALIST",
     "Area 51",
     "Groom Lake",
-    "SR 71"
+    "SR 71",
+    "project aquatone"
    ],
    "see_also": [
     "ufo",
@@ -154,7 +158,16 @@
     "CORONA",
     "KEYHOLE",
     "KH 4",
-    "Discoverer satellite"
+    "Discoverer satellite",
+    "especially indoctrinated",
+    "personnel especially indoctrinated",
+    "talent keyhole",
+    "via talent-keyhole",
+    "keyhole control",
+    "NIMA",
+    "kh- mission",
+    "keyhole photography",
+    "division npic"
    ],
    "see_also": [
     "recon_aircraft"
@@ -179,7 +192,8 @@
     "mind control",
     "brainwashing",
     "truth drug",
-    "unwitting subjects"
+    "unwitting subjects",
+    "mkultra subproject"
    ],
    "see_also": [
     "stargate"
@@ -403,7 +417,10 @@
     "Iran Contra",
     "Contras",
     "Oliver North",
-    "arms for hostages"
+    "arms for hostages",
+    "nicaraguan rebels",
+    "john poindexter",
+    "richard secord"
    ],
    "see_also": [
     "drugs"
@@ -497,7 +514,15 @@
     "Semipalatinsk",
     "Kapustin Yar",
     "Tyuratam",
-    "Baikonur"
+    "Baikonur",
+    "icbm complex",
+    "soviet icbm",
+    "KAPUSTIN",
+    "icbm launch",
+    "yar vladimirovka",
+    "yar vladimirovka missile",
+    "vladimirovka missile",
+    "vladimirovka missile test"
    ],
    "see_also": [
     "corona",
